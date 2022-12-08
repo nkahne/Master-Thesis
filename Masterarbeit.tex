@@ -6,7 +6,11 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \renewcommand{\baselinestretch}{1.4}
-%\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{ifthen}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{pdflscape}
 %\usepackage[locale=DE]{siunitx}
 
 
@@ -14,16 +18,18 @@
 
 {
 	\pagestyle{headings}	
+	\renewcommand{\baselinestretch}{1.4}	
 	\pagenumbering{roman}
 	\normalsize
 	\tableofcontents
 	\vfill\eject 
+	\ifthenelse{\isodd{\value{page}}}{}{\rule{0cm}{15cm}\vfill\eject}
 }
 
 \pagenumbering{arabic}
-\pagestyle{headings}
+%\pagestyle{headings}
 \input{Kapitel/theorie}
-\pagestyle{empty}
+%\pagestyle{empty}
 \input{Kapitel/MMCs}
 
 
