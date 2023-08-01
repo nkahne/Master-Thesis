@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.28)  28 JUL 2023 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.28)  31 JUL 2023 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,21 +662,36 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 0.
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [1
+)
+Underfull \vbox (badness 3657) has occurred while \output is active []
 
-] [2] [3])
-(./Kapitel/MMCs.tex [4]
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+(./Kapitel/MMCs.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5] [6
+
+]
 Kapitel 2.
-) [5
-
-] (./Masterarbeit.aux)
+) [7] (./Masterarbeit.aux)
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 7A5C4B3FBFDC2A712354E4D1003A1EA3;2093.
  ) 
 Here is how much of TeX's memory you used:
- 18512 strings out of 477985
- 368213 string characters out of 5840058
- 1860388 words of memory out of 5000000
+ 18514 strings out of 477985
+ 368225 string characters out of 5840058
+ 1861388 words of memory out of 5000000
  38412 multiletter control sequences out of 15000+600000
  528785 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -693,10 +708,10 @@ per/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfti1200.pfb>
-Output written on Masterarbeit.pdf (7 pages, 206567 bytes).
+Output written on Masterarbeit.pdf (9 pages, 209652 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
