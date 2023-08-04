@@ -54,10 +54,10 @@
 % für SIUNITX
 %\DeclareSIUnit\ph0{\text{\Phi$_{0}$}}
 \DeclareSIUnit\percent{\text{\%}}
-\DeclareSIUnit{\sqrthz}{\ensuremath{\sqrt{\text{\hertz}}}}
+\DeclareSIUnit{\sqrthz}{\ensuremath{\sqrt{\unit{\hertz}}}}
 \DeclareSIUnit{\inch}{\text{in}}
-\DeclareSIUnit{\fq}{$\Phi_0$}	% Flussquant
-
+\DeclareSIUnit{\fq}{\Phi_0}	% Flussquant
+\sisetup{per-mode=fraction}
 % für die Bilder in der Tabelle
 %\newcommand{\minifig}[2]{\raggedright #1 \newline \raisebox{-0.9\totalheight}{\includegraphics[width=1.5cm]{#2}}}	 %für Hochformat
 \newcommand{\minifig}[2]{ #1 & \raisebox{-0.7\totalheight}{\includegraphics[width=1.5cm]{#2}}}	 %für Querformat

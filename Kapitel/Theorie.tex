@@ -33,6 +33,7 @@ Das Strom- und Spannungsverhalten in einem SIS-Kontakt wird über die \textit{Jo
  
 
 \begin{equation}
+\label{1.JE}
 I_\mathrm{s} = I_\mathrm{c}\sin(\varphi)
 \end{equation}
 
@@ -42,7 +43,7 @@ resultiert. $I_\mathrm{c}$ ist dabei proportional zur Kopplungsstärke $\kappa$,
 I_\mathrm{c} = \frac{4e\kappa V n_\mathrm{s}}{\hbar} \ \ ,
 \end{equation}
 
-wobei \textit{V} das Volumen der Supraleiterelektrode und \textit{e} die Elektronenladung bezeichnet. Es wurde zudem angenommen, dass die Cooper-Paardichte $n_\mathrm{s}$ der beiden Supraleiter $S_1$ und $S_2$ identisch ist. \\
+wobei \textit{V} das Volumen der Supraleiterelektrode und \textit{e} die Elektronenladung bezeichnet. Es wurde zudem angenommen, dass die Cooper-Paardichte $n_\mathrm{s}$ der beiden Supraleiter $S_1$ und $S_2$ identisch ist, d.h. $n_{\mathrm{s}1} = n_{\mathrm{s}2} = n_\mathrm{s}$. \\
 Die eichinvariante Phasendifferenz bezieht sich auf die Phasen $\theta_1$ und $\theta_2$ der jeweiligen Elektroden an der Grenze zur Isolationsschicht (Position 1 und 2, siehe Abb. ?). Unter Berücksichtigung von möglichen externen elektromagnetischen Feldern innerhalb der Barriere erhält man mit dem Vektorpotential \textbf{A} die allgemeine Form
 
 \begin{equation}
@@ -61,10 +62,16 @@ Der erste Betriebsmodus beschreibt den Fall für $I<I_\mathrm{c}$. Hier wird der
 Für $I>I_\mathrm{c}$ fangen jedoch Cooper-Paare an aufzubrechen und ein Teil des Stroms wird von Quasiteilchen getragen, welcher folglich zu einem Spannungsabfall führt. Laut der 2. Josephson-Gleichung wird die Phase $\varphi$ zeitabhängig, sodass nach Integrieren 
 
 \begin{equation}
-\varphi = \frac{2\pi}{\Phi_0}Ut + \varphi_0 = w_\mathrm{J}t + \varphi_0 \ \ \  \mathrm{mit} \ \ \ \frac{2\pi}{\Phi_0}U = w_\mathrm{J}
+\label{phi(t)}
+\varphi = \frac{2\pi}{\Phi_0}Ut + \varphi_0 = w_\mathrm{J}t + \varphi_0 \ \ \  \mathrm{mit} \ \ \ w_\mathrm{J} = \frac{2\pi}{\Phi_0}U
 \end{equation}
 
-folgt. Demnach oszilliert der Strom $I_\mathrm{s}$ mit der \textit{Josephson-Frequenz} $f_\mathrm{J} = \frac{w_\mathrm{J}}{2\pi U} = \frac{1}{\Phi_0} \approx 483.6 \ \frac{\mathrm{MHz}}{\mu V}  
+folgt. Demnach oszilliert der Strom $I_\mathrm{s}$ nach Einsetzen von Gleichung \eqref{phi(t)} in Gleichung \eqref{1.JE} mit der \textit{Josephson-Frequenz} $f_\mathrm{J} = \frac{w_\mathrm{J}}{2\pi U} = \frac{1}{\Phi_0} \approx \SI{483.6}{\MHz\per\uV}$. Entsprechend wird dieses Phänomen  \textit{Josephson-Wechselstromeffekt} genannt. 
+\SI{3}{\fq}
+\ensuremath{\sqrt{2}}
+\text{\ensuremath{\sqrt{\unit{\hertz}}}}
+\SI{}{\sqrthz\fq}
+\SI{483.6}{\MHz\per\uV}
 
 \subsection{Josephson Kontakte im Magnetfeld}
 
