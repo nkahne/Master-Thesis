@@ -3,11 +3,13 @@
 
 \section{Josephson-Kontakte}
 Die nach \textit{Brain D. Josephson} benannten \textit{Josephson-Kontakte} (engl. \textit{Josephson junctions}) bestehen aus zwei identischen Supraleitern, die schwach miteinander gekoppelt sind. Im Falle der in dieser Arbeitsgruppe hergestellten Kontakte wird eine solche Kopplung durch eine wenige \r{A}ngström dünne Isolationsschicht zwischen den supraleitenden Elektroden realisiert. Aufgrund dessen werden diese auch SIS (Supraleiter-Isolator-Supraleiter) Kontakte genannt. Die so entstehende Dreischichtstruktur besteht typischerweise aus Nb/Al-Al$O_x$/Nb, wobei das Niob für die Supraleiter verwendet wird und die Isoationsschicht durch das Aluminiumoxid gegeben ist. Ein schematischer Aufbau ist in Abb. ? dargestellt. 
-Wird der Kontakt nun bei sehr kalten Temperaturen ($\leq 4 \ \mathrm{K}$) gehalten und an eine Stromquelle angeschlossen, ist entgegen der Erwartungen ein Suprastrom messbar.
+Wird der Kontakt nun bei sehr kalten Temperaturen ($\leq \qty{4}{\kelvin}$) gehalten und an eine Stromquelle angeschlossen, ist entgegen der Erwartungen ein Suprastrom messbar.
+
+%The \textit{Josephson junctions} named after Brain D. Josephson consist of two identical superconductors weakly coupled to each other. In the case of the junctions produced in this working group, such coupling is realized through a few \r{A}ngström thin insulating layer between the superconducting electrodes. Consequently, they are referred to as SIS (Superconductor-Insulator-Superconductor) junctions. The resulting trilayer structure typically consists of Nb/Al-Al$O_x$/Nb, with niobium being used for the superconductors and the insulating layer being provided by the aluminum oxide. A schematic structure is shown in Fig. ?. When the junction is maintained at very cold temperatures ($\leq \qty{4}{\kelvin}$) and connected to a current source, contrary to expectations, a supercurrent is measurable.
         
 \subsection{Josephson-Effekt}
 
-Der Stromfluss impliziert das Tunneln von Cooper-Paaren, da bei diesen Temperaturen Niob überwiegend supraleitend ist  (${T_\mathrm{c}} = 9.3 \ \mathrm{K}$). Da die Tunnelwahrscheinlichkeit eines einzelnen Elektrons näherungsweise \textit{p} = $10^{-4}$ beträgt, ist bei einem Cooper-Paar bestehend aus zwei Elektronen von einer wesentlich geringeren Wahrscheinlichkeit auszugehen. Josephson sagte jedoch voraus, dass das Tunnelverhalten von Cooper-Paaren und einzelnen Leitungselektronen das gleiche sein muss. Begründet wird dies über das sogenannte \textit{Makroskopische Quantenmodell}, welches im Jahre 1953 von Fritz London formuliert wurde. \\
+Der Stromfluss impliziert das Tunneln von Cooper-Paaren, da bei diesen Temperaturen Niob überwiegend supraleitend ist  (${T_\mathrm{c}} = \qty{9.3}{\kelvin}$). Da die Tunnelwahrscheinlichkeit eines einzelnen Elektrons näherungsweise \textit{p} = \num{e-4} beträgt, ist bei einem Cooper-Paar bestehend aus zwei Elektronen von einer wesentlich geringeren Wahrscheinlichkeit auszugehen. Josephson sagte jedoch voraus, dass das Tunnelverhalten von Cooper-Paaren und einzelnen Leitungselektronen das gleiche sein muss. Begründet wird dies über das sogenannte \textit{Makroskopische Quantenmodell}, welches im Jahre 1953 von Fritz London formuliert wurde. \\
 Hierbei liegt das Hauptaugenmerk auf der quantenmechanischen Phase $\theta$. Zum einen sind die Abstände zwischen beiden Elektronen eines Cooper-Paares einige nm und damit erheblich größer als der Abstand der Cooper-Paare untereinander, wodurch die Wellenfunktionen stark überlappen. Zum anderen unterliegen Cooper-Paare aufgrund ihres Gesamtspins von 0 der Bose-Einstein Statistik. Somit teilen sich alle Cooper-Paare den gleichen Grundzustand und als Konsequenz sind auch die Energien bzw. Zeitentwicklungen der Phasen gleich. Diese beiden Effekte führen zu dem sogenannten \textit{phase-lock}. Die Phasen benachbarter Paare gleichen sich derart an, dass diese quantenmechanische Eigenschaft nun auf makroskopischer Skala gilt. Dies hat eine makroskopische Wellenfunktion 
 
 \begin{equation}
@@ -24,7 +26,7 @@ Die Flussquantisierung wird über das Einfangen eines externen magnetischen Flus
 \Phi = \frac{h}{q_\mathrm{s}}n = \frac{h}{2e}n \equiv \Phi_0n \ \ .
 \end{equation}
 
-Hierbei ist $n\in\mathbb{Z}$ und $\Phi_0 = 2\cdot 10^{-15} \ \mathrm{Tm}^2$ das sogenannte magnetische Flussquant. Der eingefangene Fluss ist damit quantisiert, was allein aus der makroskopischen Natur der Phase resultiert. Diese Größe spielt eine entscheidende Rolle bei der theoretischen Beschreibung von Josephson-Kontakten. \\
+Hierbei ist $n\in\mathbb{Z}$ und \unit{\fq} = \qty{2.07d-15}{\tesla\metre\squared} das sogenannte magnetische Flussquant. Der eingefangene Fluss ist damit quantisiert, was allein aus der makroskopischen Natur der Phase resultiert. Diese Größe spielt eine entscheidende Rolle bei der theoretischen Beschreibung von Josephson-Kontakten. \\
 
 Das Strom- und Spannungsverhalten in einem SIS-Kontakt wird über die \textit{Josephson-Gleichungen} beschrieben. Entscheidend ist hierbei ein zum eingespeisten Strom \textit{I} linear proportionaler kritischer Strom \textit{$I_\mathrm{c}$}, welcher den Grenzfall zweier Betriebsmodi bildet. \textit{I} oszilliert zudem aufgrund der makroskopischen Natur der Phase mit der eichinvarianten Phasendifferenz $\varphi$, woraus die \textbf{1. Josephson-Gleichung}
 
@@ -67,11 +69,6 @@ Für $I>I_\mathrm{c}$ fangen jedoch Cooper-Paare an aufzubrechen und ein Teil de
 \end{equation}
 
 folgt. Demnach oszilliert der Strom $I_\mathrm{s}$ nach Einsetzen von Gleichung \eqref{phi(t)} in Gleichung \eqref{1.JE} mit der \textit{Josephson-Frequenz} $f_\mathrm{J} = \frac{w_\mathrm{J}}{2\pi U} = \frac{1}{\Phi_0} \approx \SI{483.6}{\MHz\per\uV}$. Entsprechend wird dieses Phänomen  \textit{Josephson-Wechselstromeffekt} genannt. 
-\SI{3}{\fq}
-\ensuremath{\sqrt{2}}
-\text{\ensuremath{\sqrt{\unit{\hertz}}}}
-\SI{}{\sqrthz\fq}
-\SI{483.6}{\MHz\per\uV}
 
 \subsection{Josephson Kontakte im Magnetfeld}
 
