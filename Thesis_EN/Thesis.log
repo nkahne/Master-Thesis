@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  16 AUG 2023 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  18 AUG 2023 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,19 +641,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/kahne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (../Chap
 ter_EN/Theory.tex
 Chapter 1.
-[1
+<../Figures/jj_schematic.pdf, id=81, 845.0471pt x 597.51233pt>
+File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
+<use ../Figures/jj_schematic.pdf>
+Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 10.
+(pdftex.def)             Requested size: 429.63678pt x 303.78816pt.
 
-] [2] [3] [4]) (../Chapter_EN/MMCs.tex [5] [6
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [1
+
+ <../Figures/jj_schematic.pdf>] [2] [3] [4] [5]) (../Chapter_EN/MMCs.tex [6]
 Chapter 2.
-) [7] (Thesis.aux)
+) [7
+
+] (Thesis.aux)
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8B60733BFBE19088568FC374BF35A6C6;2093.
  ) 
 Here is how much of TeX's memory you used:
- 18643 strings out of 476410
- 372693 string characters out of 5797990
+ 18645 strings out of 476410
+ 372852 string characters out of 5797990
  1861845 words of memory out of 5000000
  38697 multiletter control sequences out of 15000+600000
  529486 words of font info for 68 fonts, out of 8000000 for 9000
@@ -661,8 +669,8 @@ Here is how much of TeX's memory you used:
  75i,9n,78p,873b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1095.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+0\ecbx0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm1095.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecti1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fon
@@ -676,9 +684,9 @@ Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
 s/MikTeK20/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTeK20
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTeK20/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (9 pages, 202056 bytes).
+Output written on Thesis.pdf (9 pages, 448905 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
+ 501 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

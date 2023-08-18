@@ -1,14 +1,14 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Theoretical Background}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Josephson junctions}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Josephson effect}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Josephson Kontakte im Magnetfeld}{3}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}RCSJ Modell}{4}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}dc-SQUIDs}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Spannungszustand}{5}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Rauschen}{5}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Inbetriebnahme eines dc-SQUIDs}{5}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Resonanzen eines dc-SQUIDs}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Parasitäre Resonanzen}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Dämpfungsmethoden}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.1.1}Josephson effect}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Josephson Kontakte im Magnetfeld}{4}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}RCSJ Modell}{5}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}dc-SQUIDs}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Spannungszustand}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Rauschen}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Inbetriebnahme eines dc-SQUIDs}{6}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Resonanzen eines dc-SQUIDs}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Parasitäre Resonanzen}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Dämpfungsmethoden}{6}{subsection.1.3.2}%
 \contentsline {chapter}{\numberline {2}Metallisch Magnetische Kalorimeter}{7}{chapter.2}%
