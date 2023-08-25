@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+The style file: bibstyle_andi_english.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: library.bib
+Repeated entry---line 1539 of file library.bib
+ : @article{Josephson1962
+ :                       ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2843 of file library.bib
+ : 
+ : pages = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 4 entries,
+            2496 wiz_defined-function locations,
+            588 strings with 5141 characters,
+and the built_in function-call counts, 1523 in all, are:
+= -- 148
+> -- 55
+< -- 4
++ -- 18
+- -- 18
+* -- 128
+:= -- 258
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 24
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 64
+empty$ -- 117
+format.name$ -- 26
+if$ -- 300
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 29
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 96
+swap$ -- 7
+text.length$ -- 4
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 28
+warning$ -- 0
+while$ -- 13
+width$ -- 6
+write$ -- 54
+(There were 2 error messages)

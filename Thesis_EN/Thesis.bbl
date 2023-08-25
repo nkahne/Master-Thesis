@@ -1,0 +1,25 @@
+\begin{thebibliography}{Gro16}
+
+\bibitem[Gro16]{Gross2016}
+R.~Gross, A.~Marx, and F.~Deppe,
+\newblock {\em Applied Superconductivity: Josephson Effect and Superconducting
+  Electronics},
+\newblock De Gruyter Textbook Series, Walter De Gruyter Incorporated, 2016.
+
+\bibitem[Jos62]{Josephson1962}
+B.~D. Josephson,
+\newblock {Possible new effects in superconductive tunnelling},
+\newblock {\em Physics Letters}, {\bf 1}(7), 251--253, 1962.
+
+\bibitem[Jos65]{Josephson1965}
+B.~D. Josephson,
+\newblock {Supercurrents through barriers},
+\newblock {\em Advances in Physics}, {\bf 14}(56), 419--451, 1965.
+
+\bibitem[Tie21]{CODATA2018}
+Eite Tiesinga, Peter~J. Mohr, David~B. Newell, and Barry~N. Taylor,
+\newblock Codata recommended values of the fundamental physical constants:
+  2018,
+\newblock {\em Rev. Mod. Phys.}, {\bf 93}, 025010, 2021.
+
+\end{thebibliography}

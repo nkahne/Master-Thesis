@@ -12,7 +12,7 @@
 \usepackage[rightcaption]{sidecap}
 \usepackage{ifthen}
 %\usepackage[small,normal,bf]{caption2}
-\usepackage{dipl_new}
+\usepackage{dipl2}
 \usepackage{footmisc}	% für mehrere identische Fußnoten, muss vor hyperref kommen, sonst passen die Fußnoten-Links nicht
 \usepackage[linkcolor=black,
 	citecolor=black,
@@ -20,10 +20,10 @@
 	menucolor=black,
 	urlcolor=black,
 	colorlinks=true,
-	pdftitle={Titel Diss D.H.},
-	pdfsubject={Dissertation},
+	pdftitle={Titel MA N.K.},
+	pdfsubject={Master Thesis},
 	pdfkeywords={},
-	pdfauthor={Daniel Hengstler},
+	pdfauthor={Nicolas Kahne},
 	]
 {hyperref}
 \usepackage[intlimits]{amsmath}
@@ -50,6 +50,11 @@
 
 %\usepackage{caption}
 %\captionsetup{width=0.9\linewidth}
+
+%\usepackage{caption}
+%\usepackage{fontspec}
+
+%\newfontfamily\arial{Arial}
 
 % für SIUNITX
 %\DeclareSIUnit\ph0{\text{\Phi$_{0}$}}
@@ -102,14 +107,8 @@
 \input{../Chapter_EN/MMCs}
 
 
-
-
-
-
-
-
-
-
+\bibliographystyle{bibstyle_andi_english} 
+\bibliography{library}
 
 
 
