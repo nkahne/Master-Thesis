@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  25 AUG 2023 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  27 AUG 2023 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,7 @@ Chapter 1.
 <../Figures/jj_schematic.pdf, id=87, 569.055pt x 184.94295pt>
 File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
 <use ../Figures/jj_schematic.pdf>
-Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 17.
+Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 19.
 (pdftex.def)             Requested size: 429.63678pt x 139.63528pt.
 [1
 
@@ -660,13 +660,13 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3910F80FBA3610123189F46F72DB45B2;2123.
  ) 
 Here is how much of TeX's memory you used:
- 18606 strings out of 476410
- 372892 string characters out of 5797990
- 1861845 words of memory out of 5000000
- 38643 multiletter control sequences out of 15000+600000
+ 18608 strings out of 476410
+ 372921 string characters out of 5797990
+ 1860845 words of memory out of 5000000
+ 38644 multiletter control sequences out of 15000+600000
  531581 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,78p,884b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,78p,860b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbi1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -685,9 +685,9 @@ b><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
 m Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
 kTeK20/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTeK20/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (11 pages, 462670 bytes).
+Output written on Thesis.pdf (11 pages, 463726 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
