@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  27 AUG 2023 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  6 SEP 2023 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,6 +526,16 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
+(C:\Program Files\MikTeK20\tex/latex/tools\bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
 (C:\Program Files\MikTeK20\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
@@ -639,7 +649,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/kahne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (../Chap
-ter_EN/Theory.tex
+ter/Theory.tex
 Chapter 1.
 <../Figures/jj_schematic.pdf, id=87, 569.055pt x 184.94295pt>
 File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
@@ -648,7 +658,7 @@ Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 19.
 (pdftex.def)             Requested size: 429.63678pt x 139.63528pt.
 [1
 
-] [2 <../Figures/jj_schematic.pdf>] [3] [4] [5]) (../Chapter_EN/MMCs.tex
+ <../Figures/jj_schematic.pdf>] [2] [3] [4] [5]) (../Chapter/MMCs.tex
 [6]
 Chapter 2.
 ) (Thesis.bbl [7
@@ -660,34 +670,36 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3910F80FBA3610123189F46F72DB45B2;2123.
  ) 
 Here is how much of TeX's memory you used:
- 18608 strings out of 476410
- 372921 string characters out of 5797990
- 1860845 words of memory out of 5000000
- 38644 multiletter control sequences out of 15000+600000
- 531581 words of font info for 71 fonts, out of 8000000 for 9000
+ 18719 strings out of 476410
+ 374271 string characters out of 5797990
+ 1861845 words of memory out of 5000000
+ 38741 multiletter control sequences out of 15000+600000
+ 534350 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,78p,860b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,78p,906b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbi1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+0\ecrm1095.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecbx0800.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm1095.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour
+pen/ec/dpi600\ecbi1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecti1200.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kahne\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kahne\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kahne\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Program Files/MikTe
-K20/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MikTeK20/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MikTeK20/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
-m Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-kTeK20/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTeK20/font
-s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (11 pages, 463726 bytes).
+K20/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MikTeK20/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MikTeK20/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmmib10
+.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/
+MikTeK20/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MikTeK20/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTeK20/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (11 pages, 487114 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 588 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
