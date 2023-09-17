@@ -17,21 +17,22 @@
 [31C[0m[32m[1mOS[0m[0m:[0m Manjaro Linux x86_64[0m 
 [31C[0m[32m[1mLe Laptop[0m[0m:[0m 80V0 Lenovo ideapad 510S-13IKB[0m 
 [31C[0m[32m[1mKernel[0m[0m:[0m 6.1.49-1-MANJARO[0m 
-[31C[0m[32m[1mUptime[0m[0m:[0m 1 hour, 53 mins[0m 
+[31C[0m[32m[1mUptime[0m[0m:[0m 5 mins[0m 
 [31C[0m[32m[1mPackages[0m[0m:[0m 1418 (pacman), 6 (snap)[0m 
 [31C[0m[32m[1mShell[0m[0m:[0m bash 5.1.16[0m 
-[31C[0m[32m[1mResolution[0m[0m:[0m 1920x1080, 1920x1080[0m 
+[31C[0m[32m[1mResolution[0m[0m:[0m 1920x1080[0m 
 [31C[0m[32m[1mDE[0m[0m:[0m Xfce 4.18[0m 
 [31C[0m[32m[1mWM[0m[0m:[0m Xfwm4[0m 
 [31C[0m[32m[1mWM Theme[0m[0m:[0m Nordic-standard-buttons-v40[0m 
 [31C[0m[32m[1mTheme[0m[0m:[0m Nordic-standard-buttons-v40 [GTK2/3][0m 
 [31C[0m[32m[1mIcons[0m[0m:[0m Nordic [GTK2/3][0m 
-[31C[0m[32m[1mTerminal[0m[0m:[0m alacritty[0m 
+[31C[0m[32m[1mTerminal[0m[0m:[0m xfce4-terminal[0m 
+[31C[0m[32m[1mTerminal Font[0m[0m:[0m Monospace 12[0m 
 [31C[0m[32m[1mCPU[0m[0m:[0m Intel i7-7500U (4) @ 3.500GHz[0m 
 [31C[0m[32m[1mGPU[0m[0m:[0m Intel HD Graphics 620[0m 
-[31C[0m[32m[1mMemory[0m[0m:[0m 5511MiB / 7788MiB[0m 
-[31C[0m[32m[1mCPU Usage[0m[0m:[0m 35%[0m 
-[31C[0m[32m[1mDisk (/)[0m[0m:[0m 65G / 225G (31%)[0m 
+[31C[0m[32m[1mMemory[0m[0m:[0m 1947MiB / 7788MiB[0m 
+[31C[0m[32m[1mCPU Usage[0m[0m:[0m 42%[0m 
+[31C[0m[32m[1mDisk (/)[0m[0m:[0m 66G / 225G (31%)[0m 
 [31C[0m[32m[1mFont[0m[0m:[0m Noto Sans 10 [GTK2], Cantarell 11 [GTK3][0m 
 
 [31C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
