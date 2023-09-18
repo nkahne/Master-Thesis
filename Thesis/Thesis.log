@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.1)  17 SEP 2023 17:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.1)  18 SEP 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,14 +676,19 @@ File: ../Figures/quantized_flux.pdf Graphic file (type pdf)
 <use ../Figures/quantized_flux.pdf>
 Package pdftex.def Info: ../Figures/quantized_flux.pdf  used on input line 42.
 (pdftex.def)             Requested size: 199.16928pt x 199.17233pt.
- [3 <../Figures/quantized_flux.pdf>]
-<../Figures/shortjj_mag.pdf, id=239, 590.205pt x 454.69875pt>
+
+Underfull \hbox (badness 1769) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 Figure 1.2: []Superconducting ring-shaped
+ []
+
+[3 <../Figures/quantized_flux.pdf>]
+<../Figures/shortjj_mag.pdf, id=240, 590.205pt x 454.69875pt>
 File: ../Figures/shortjj_mag.pdf Graphic file (type pdf)
 <use ../Figures/shortjj_mag.pdf>
 Package pdftex.def Info: ../Figures/shortjj_mag.pdf  used on input line 103.
 (pdftex.def)             Requested size: 343.71072pt x 264.80086pt.
-
-[4] [5 <../Figures/shortjj_mag.pdf>]) (../Chapter/MMCs.tex [6]
+ [4] [5 <../Figures/shortjj_mag.pdf>])
+(../Chapter/MMCs.tex [6]
 Chapter 2.
 ) (Thesis.bbl [7
 
@@ -694,6 +699,10 @@ Chapter 2.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3910F80FBA3610123189F46F72DB45B2;2123.
  ) 
@@ -733,9 +742,9 @@ ers/nico-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Users/nico-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb><C:/Users/nico-/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (11 pages, 979170 bytes).
+Output written on Thesis.pdf (11 pages, 980254 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
+ 724 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
