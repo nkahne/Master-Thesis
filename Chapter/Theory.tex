@@ -117,8 +117,37 @@ To analyze the current and phase distribution of such a junction we consider the
 \frac{\del\varphi}{\del z} = \frac{2\pi}{\unit{\fq}}B_{\rm y}t_{\rm B} \ \ \ \mathrm{and} \ \ \ \frac{\del\varphi}{\del y} = -\frac{2\pi}{\unit{\fq}}B_{\rm z}t_{\rm B} \ \ .
 }{phi(z,y)}
 
+In this experiment, however, the magnetic field points in y-direction only, meaning $\varphi$ will only vary along the z-axis. Integrating the first expression in equation \ref{phi(z,y)} then leads to
+
+\gl{
+\varphi(z) = \frac{2\pi}{\unit{\fq}}B_{\rm y}t_{\rm B}z + \varphi_0 \ \ .
+}{phi(z)} 
+
+Here, the integration constant $\varphi_0$ represents the phase difference for the case $z=0$. Inserting equation \ref{phi(z)} into the first Josephson equation and using $J_{\rm s} = \frac{I_{\rm s}}{WL}$ gives 
+
+\gl{
+J_{\rm s}(y,z,t) = J_{\rm c}(y,z)\sin(kz + \varphi_0) \ \ \ \mathrm{with} \ \ \ k = \frac{2\pi}{\unit{\fq}}B_{\rm y}t_{\rm B} \ \ .
+}{Js(y,z,t)}
+
+If we now assume the critical current density $J_{\rm c}$ to be constant across the junction area, we can integrate equation \ref{Js(y,z,t)} to get a flux-dependent maximum Josephson current
+
+\gl{
+I_{\rm s}^{\rm m}(\Phi)	= I_{\rm c}\left|\frac{\sin(\frac{kL}{2})}{\frac{kL}{2}}\right| = I_{\rm c}\left|\frac{\sin(\frac{\pi\Phi}{\unit{\fq}})}{\frac{\pi\Phi}{\unit{\fq}}}\right| \ \ .
+}{Ismax}
+
+This expression describes the so-called Fraunhofer diffraction pattern, shown in figure ?. The result resembles the single slit experiment, where the same pattern is found for the light intensity behind the slit. Here, the analogy works by considering the integral of the critical current density $J_{\rm c}$ as a transmission function which is constant inside the junction and zero outside. 
+
+\figurecenter {t!}
+{width=0.8\textwidth}
+{../Figures/fraunhofer}
+{0cm}
+{caption} 
+{fig:fraunhofer}
+
 
 \subsection{RCSJ Model}
+
+\blindtext[1]
 
 \section{dc-SQUIDs}
 
