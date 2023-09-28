@@ -137,11 +137,12 @@ I_{\rm s}^{\rm m}(\Phi)	= I_{\rm c}\left|\frac{\sin(\frac{kL}{2})}{\frac{kL}{2}}
 
 This expression describes the so-called Fraunhofer diffraction pattern, shown in figure \ref{abb:fig:fraunhofer}. The result resembles the single slit experiment, where the same pattern is found for the light intensity behind the slit. Here, the analogy works by considering the integral of the critical current density $J_{\rm c}$ as a transmission function which is constant inside the junction and zero outside. 
 
-\figurecenter {t!}
-{width=0.8\textwidth}
+\figureleft {t!}
+{width=\textwidth}
 {../Figures/fraunhofer}
+{9cm}
 {0cm}
-{Normalized flux-dependent maximum Josephson current $I_{\rm s}^{\rm m}(\Phi)$ showing a Fraunhofer pattern. It modulates with the flux quantum $\unit{\fq}$, peaking at $\Phi=0$ and $\Phi=\pm(\frac{3}{2}+n)\unit{\fq}$ with $n\in\mathbb{Z}$. For $\Phi=\pm(n+1)\unit{\fq}$ the total net current is zero.} 
+{Normalized flux-dependent maximum Josephson current $I_{\rm s}^{\rm m}(\Phi)$ showing a Fraunhofer pattern. It modulates with the flux quantum $\unit{\fq}$, peaking at $\Phi=0$ with subsequent maxima at $\Phi=\pm(\frac{3}{2}+n)\unit{\fq}$ with $n\in\mathbb{N}_0$. For $\Phi=\pm(n+1)\unit{\fq}$ the total net current is zero.} 
 {fig:fraunhofer}
 
 
@@ -154,9 +155,29 @@ V_{\rm g} = \frac{\Delta_1(T)+\Delta_2(T)}{e}
 }{Vgap}
 
 quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm N}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm N}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates according to the ac Josephson effect. Therefore, the voltage oscillates with the Josephson frequency $f_{\rm J}$. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be cosidered in the following discussion. \\
-Further increasing the energy of the quasiparticles ($T>T_{\rm c}$ or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. A typical current-voltage-characteristic (IVC) is depicted in figure ???(jj kurve von Alex oder selber messen?). \\ 
+Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure ???(jj kurve von Alex oder selber messen?). \\ 
 
-Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represents a parallel plate capacitor with the Al-Al$\rm O_x$ being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm D}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal noise 
+Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm D}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm F}$. All these current channels were defined in the so-called \textit{Resistively and Capacitively Shunted Junction $\mathrm{(RCSJ)}$ model} ???, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure ???. Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as
+
+\gl{
+I=I_{\rm s}+I_{\rm N}+I_{\rm D}+I_{\rm F}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}\varphi}{\mathrm{d}t}+C\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}^2\varphi}{\mathrm{d}t^2}+I_{\rm F} \ \ .
+}{BJE}
+
+By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}$ and the normalized currents $i=\frac{I}{I_{\rm c}}$ and $i_{\rm F}(t)=\frac{I_{\rm F}(t)}{I_{\rm c}}$, equation \ref{BJE} can be rewritten to 
+
+\gl{
+\left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R???} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm F}(t) \varphi\right]\right\}=0 
+}{BJE2} \ \ . 
+
+The expression in the curly brackets represents the potential energy in the system $U_{\rm J}$, allowing equation \ref{BJE} to be compared to 
+
+\gl{
+M\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} + \eta\frac{\mathrm{d} x}{\mathrm{d}t} + \nabla U = 0
+}{} \ \ .
+
+This equation describes a particle with mass \textit{M} and damping $\eta$ moving inside the potential \textit{U}. The mechanical analogue therefore allows us to interpret a \textit{phase particle}, where it's motion corresponds to a change of the gauge-invariant phase difference $\varphi$ within a potential $U_{\rm J}$. Consequently, it is attributed with a mass $M=\left(\frac{\hbar}{2 e}\right)^2C$ and damping $\eta=\left(\frac{\hbar}{2 e}\right)^2\frac{1}{R}$. Figure \ref{washboard} visualizes how this phase particle behaves for different currents \textit{I}. Given the shape of $U_{\rm J}(\varphi)$, the potential is referred to as the \textit{tilted washboard potential}. \\
+
+
 
 \section{dc-SQUIDs}
 
