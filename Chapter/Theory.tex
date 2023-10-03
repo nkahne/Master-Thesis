@@ -148,26 +148,26 @@ This expression describes the so-called Fraunhofer diffraction pattern, shown in
 
 \subsection{RCSJ Model}
 
-Until now, we investigated the current-voltage behavior under the assumption of $I<I_{\rm c}$, staying in the so-called zero-voltage state. In this regime, only the dc Josephson effect applies as discussed in subchapter \ref{subchap_Jeffect}. Switching to the voltage stage, i.e. $I>I_{\rm c}$, Cooper pairs start breaking up into quasiparticles if the electric energy $eV$ or thermal energy $k_{\rm B}T$ exceeds the sum of both electrodes' gap energies $\Delta_1 + \Delta_2$. Consequently, at the \textit{gap-voltage} 
+Until now, we investigated the current-voltage behavior under the assumption of $I<I_{\rm c}$, staying in the so-called zero-voltage state. In this regime, only the dc Josephson effect applies as discussed in subchapter \ref{subchap_Jeffect}. Switching to the voltage stage, i.e. $I>I_{\rm c}$, Cooper pairs start breaking up into quasiparticles if the electric energy $eV$ and/or thermal energy $k_{\rm B}T$ exceeds the sum of both electrodes' gap energies $\Delta_1 + \Delta_2$. Consequently, at the \textit{gap-voltage} 
 
 \gl{
 V_{\rm g} = \frac{\Delta_1(T)+\Delta_2(T)}{e}
 }{Vgap}
 
-quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm N}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm N}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates according to the ac Josephson effect. Therefore, the voltage oscillates with the Josephson frequency $f_{\rm J}$. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be considered in the following discussion. \\
-Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure ???(jj kurve von Alex oder selber messen?). \\ 
+quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm n}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm n}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates according to the ac Josephson effect. Therefore, the voltage oscillates with the Josephson frequency $f_{\rm J}$. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be considered in the following discussion. \\
+Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure \ref{abb:fig:IVCs}. \\ 
 
-\twofigurescenter {b!}
+\twofigurescenter {t!}
 {width=0.48\textwidth}
-{../Figures/RCSJ-Modell}
+{../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex}
 {0.02\textwidth} %hspace b/w figures
 {width=0.48\textwidth}
-{../Figures/washboard}
+{../Figures/JJ_IVC_BetaC_smaller_1_Alex}
 {0.5cm} %vspace
-{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm N}$ is realized with a resistance $R$, while the displacement current $I_{\rm D}$ and the noise $I_{\rm F}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
-{rcsj}
+{Platzhalter Plots von Alex -> eigene Messung vornehmen?... Measured IVCs from cross-type junctions manufactured in this working group. Left: Underdamped junction showing the typical hysteresis. Right: Overdamped junction with a current-voltage shape that is independent of the current sweep direction. }
+{fig:IVCs}
 
-Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm D}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm F}$. All these current channels were defined in the so-called \textit{Resistively and Capacitively Shunted Junction $\mathrm{(RCSJ)}$ model} ???, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure ???. Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as
+Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ layer being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm d}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm f}$. All these current channels were defined in the so-called Resistively and Capacitively Shunted Junction (RCSJ) model \cite{Cumber1968}, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure ???. Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as
 
 \gl{
 I=I_{\rm s}+I_{\rm N}+I_{\rm D}+I_{\rm F}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}\varphi}{\mathrm{d}t}+C\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}^2\varphi}{\mathrm{d}t^2}+I_{\rm F} \ \ .
@@ -178,6 +178,16 @@ By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}
 \gl{
 \left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R???} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm F}(t) \varphi\right]\right\}=0 
 }{BJE2} \ \ . 
+
+\twofigurescenter {t!}
+{width=0.48\textwidth}
+{../Figures/RCSJ-Modell}
+{0.02\textwidth} %hspace b/w figures
+{width=0.48\textwidth}
+{../Figures/washboard}
+{0.5cm} %vspace
+{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm N}$ is realized with a resistance $R$, while the displacement current $I_{\rm D}$ and the noise $I_{\rm F}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
+{rcsj}
 
 The expression in the curly brackets represents the potential energy in the system $U_{\rm J}$, allowing equation \ref{BJE} to be compared to 
 
