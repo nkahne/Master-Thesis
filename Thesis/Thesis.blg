@@ -1,64 +1,70 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
 The style file: bibstyle_andi_english.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: library.bib
-Repeated entry---line 1539 of file library.bib
+Repeated entry---line 1081 of file library.bib
+ : @article{Stewart1968
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3085 of file library.bib
  : @article{Josephson1962
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2181 of file library.bib
+Repeated entry---line 4369 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2843 of file library.bib
+I was expecting a `,' or a `}'---line 5693 of file library.bib
  : 
  : pages = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2869 of file library.bib
+Repeated entry---line 5745 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 8 entries,
+You've used 10 entries,
             2496 wiz_defined-function locations,
-            622 strings with 5669 characters,
-and the built_in function-call counts, 3041 in all, are:
-= -- 300
-> -- 106
-< -- 8
-+ -- 34
-- -- 34
-* -- 254
-:= -- 501
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 47
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 128
-empty$ -- 238
-format.name$ -- 50
-if$ -- 603
+            638 strings with 5973 characters,
+and the built_in function-call counts, 3769 in all, are:
+= -- 375
+> -- 120
+< -- 10
++ -- 38
+- -- 38
+* -- 317
+:= -- 614
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 57
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 160
+empty$ -- 302
+format.name$ -- 58
+if$ -- 751
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 43
-num.names$ -- 24
-pop$ -- 43
+missing$ -- 12
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 49
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 69
 quote$ -- 0
-skip$ -- 87
+skip$ -- 109
 stack$ -- 0
-substring$ -- 211
-swap$ -- 14
-text.length$ -- 8
-text.prefix$ -- 8
+substring$ -- 277
+swap$ -- 18
+text.length$ -- 10
+text.prefix$ -- 10
 top$ -- 0
-type$ -- 56
+type$ -- 72
 warning$ -- 0
-while$ -- 27
-width$ -- 11
-write$ -- 105
-(There were 4 error messages)
+while$ -- 34
+width$ -- 13
+write$ -- 131
+(There were 5 error messages)

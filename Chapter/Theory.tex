@@ -155,7 +155,7 @@ V_{\rm g} = \frac{\Delta_1(T)+\Delta_2(T)}{e}
 }{Vgap}
 
 quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm n}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm n}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates according to the ac Josephson effect. Therefore, the voltage oscillates with the Josephson frequency $f_{\rm J}$. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be considered in the following discussion. \\
-Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure \ref{abb:fig:IVCs}. \\ 
+Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure \ref{abb:IVCs}. \\ 
 
 \twofigurescenter {t!}
 {width=0.48\textwidth}
@@ -165,18 +165,18 @@ Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $
 {../Figures/JJ_IVC_BetaC_smaller_1_Alex}
 {0.5cm} %vspace
 {Platzhalter Plots von Alex -> eigene Messung vornehmen?... Measured IVCs from cross-type junctions manufactured in this working group. Left: Underdamped junction showing the typical hysteresis. Right: Overdamped junction with a current-voltage shape that is independent of the current sweep direction. }
-{fig:IVCs}
+{IVCs}
 
-Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ layer being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm d}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm f}$. All these current channels were defined in the so-called Resistively and Capacitively Shunted Junction (RCSJ) model \cite{Cumber1968}, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure ???. Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as
+Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ layer being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm d}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm f}$. All these current channels were defined in the so-called Resistively and Capacitively Shunted Junction (RCSJ) model \cite{Cumber1968}, \cite{Stewart1968}, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure \ref{abb:fig:rcsj} (left). Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as
 
 \gl{
-I=I_{\rm s}+I_{\rm N}+I_{\rm D}+I_{\rm F}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}\varphi}{\mathrm{d}t}+C\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}^2\varphi}{\mathrm{d}t^2}+I_{\rm F} \ \ .
+I=I_{\rm s}+I_{\rm n}+I_{\rm d}+I_{\rm f}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}\varphi}{\mathrm{d}t}+C\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}^2\varphi}{\mathrm{d}t^2}+I_{\rm f} \ \ .
 }{BJE}
 
-By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}$ and the normalized currents $i=\frac{I}{I_{\rm c}}$ and $i_{\rm F}(t)=\frac{I_{\rm F}(t)}{I_{\rm c}}$, equation \ref{BJE} can be rewritten to 
+By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}$ and the normalized currents $i=\frac{I}{I_{\rm c}}$ and $i_{\rm f}(t)=\frac{I_{\rm f}(t)}{I_{\rm c}}$, equation \ref{BJE} can be rewritten to 
 
 \gl{
-\left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R???} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm F}(t) \varphi\right]\right\}=0 
+\left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R(V)} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm f}(t) \varphi\right]\right\}=0 
 }{BJE2} \ \ . 
 
 \twofigurescenter {t!}
@@ -186,8 +186,8 @@ By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}
 {width=0.48\textwidth}
 {../Figures/washboard}
 {0.5cm} %vspace
-{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm N}$ is realized with a resistance $R$, while the displacement current $I_{\rm D}$ and the noise $I_{\rm F}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
-{rcsj}
+{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm n}$ is realized with a resistance $R$, while the displacement current $I_{\rm d}$ and the noise $I_{\rm f}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
+{fig:rcsj}
 
 The expression in the curly brackets represents the potential energy in the system $U_{\rm J}$, allowing equation \ref{BJE} to be compared to 
 
@@ -195,17 +195,17 @@ The expression in the curly brackets represents the potential energy in the syst
 M\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} + \eta\frac{\mathrm{d} x}{\mathrm{d}t} + \nabla U = 0
 }{} \ \ .
 
-This equation describes a particle with mass \textit{M} and damping $\eta$ moving inside the potential \textit{U}. The mechanical analogue therefore allows us to interpret a \textit{phase particle}, where it's motion corresponds to a change of the gauge-invariant phase difference $\varphi$ within a potential $U_{\rm J}$. Consequently, it is attributed with a mass $M=\left(\frac{\hbar}{2 e}\right)^2C$ and damping $\eta=\left(\frac{\hbar}{2 e}\right)^2\frac{1}{R}$. Figure \ref{washboard} visualizes how this phase particle behaves for different currents \textit{I}. Given the shape of $U_{\rm J}(\varphi)$, the potential is referred to as the \textit{tilted washboard potential}. \\
+This equation describes a particle with mass \textit{M} and damping $\eta$ moving inside the potential \textit{U}. The mechanical analogue therefore allows us to interpret a \textit{phase particle}, where it's motion corresponds to a change of the gauge-invariant phase difference $\varphi$ within a potential $U_{\rm J}$. Consequently, it is attributed with a mass $M=\left(\frac{\hbar}{2 e}\right)^2C$ and damping $\eta=\left(\frac{\hbar}{2 e}\right)^2\frac{1}{R(V)}$. Figure \ref{abb:fig:rcsj} (right) visualizes how this phase particle behaves for different currents \textit{I}. Given the shape of $U_{\rm J}(\varphi)$, the potential is referred to as the \textit{tilted washboard potential}. \\
 For $I=0$, the phase particle will remain within one of the potential minima. As the current increases, however, the potential starts to tilt such that the depth of the minima reduces until it vanishes for $I=I_{\rm c}$, thus becoming a saddle point. Up until this point, the phase particle can't overcome the potential barrier to move downward, which confirms the second Josephson equation as the phase difference $\varphi$ should remain constant for $I<I_{\rm c}$. Further increasing the current and therefore the tilt of the potential causes the phase particle to fall along the potential, resulting in a voltage drop across the junction ($\frac{\del\varphi}{\del t}>0$). \\
 
-Reversing the current sweep showcases the importance of the particle's mass $M$ and damping $\eta$, as they determine if the return path equals the above described current shape or not. For the case of a small mass (small $C$) and large damping (small $R$), the phase particle will, due to a lack of momentum, come to a halt as soon as minima reappear in the washboard potential by reducing the current below $I_{\rm c}$. The current path will therefore remain unchanged as $I$ is reduced back to 0, as shown in figure ???. Such a junction is consequently called an \textit{overdamped} junction. \\
-The other case describes an \textit{underdamped} junction (figure ???) and involves a large mass (large $C$) and small damping (large $R$). This allows the phase particle to continue to move downward as it now carries enough momentum to overcome the arising maxima and minima. The finite voltage drop despite the current being below $I_{\rm c}$ is displayed as the steep quasiparticle current curve, which ends with a return current $I_{\rm R}$ that arises with the recapture of the particle in a minimum. This leads to a hysteretic IVC, as depicted in figure ???. $I_{\rm R}$ can be calculated via \cite{Likharev1986}
+Reversing the current sweep showcases the importance of the particle's mass $M$ and damping $\eta$, as they determine if the return path equals the above described current shape or not. For the case of a small mass (small $C$) and large damping (small $R$), the phase particle will, due to a lack of momentum, come to a halt as soon as minima reappear in the washboard potential by reducing the current below $I_{\rm c}$. The current path will therefore remain unchanged as $I$ is reduced back to 0, as shown in figure \ref{abb:IVCs} (right). Such a junction is consequently called an \textit{overdamped} junction. \\
+The other case describes an \textit{underdamped} junction (figure \ref{abb:IVCs} (left)) and involves a large mass (large $C$) and small damping (large $R$). This allows the phase particle to continue to move downward as it now carries enough momentum to overcome the arising maxima and minima. The finite voltage drop despite the current being below $I_{\rm c}$ is displayed as the steep quasiparticle current curve, which ends with a return current $I_{\rm R}$ that arises with the recapture of the particle in a minimum. This leads to a hysteretic IVC, as depicted in figure \ref{abb:IVCs} (left). $I_{\rm R}$ can be calculated via \cite{Likharev1986}
 
 \gl{
 I_{\rm R} = \frac{4}{\pi\sqrt{\beta_{\rm C}}}I_{\rm c} \ \ ,
 }{IR}
 
-with $\beta_{\rm C}$ being the dimensionless Stewart-McCumber parameter ref???, that is used to quantitatively distinguish between both junction types. It is given by 
+with $\beta_{\rm C}$ being the dimensionless Stewart-McCumber parameter, that is used to quantitatively distinguish between both junction types. It is given by 
 
 \gl{
 \beta_{\rm C} = \frac{2\pi}{\unit{\fq}}I_{\rm c}R^2C
