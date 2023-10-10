@@ -219,14 +219,56 @@ with $\beta_{\rm C}\gg 1$ corresponding to a strongly underdamped junction, wher
 
 \section{dc-SQUIDs}
 
+We have now covered the theoretical framework necessary to understand the working principle of a dc-SQUID, which consists of a superconducting ring intersected by two identical Josephson junctions with critical Josephson currents $I_{\rm c}$, as depicted in figure ???. Both junctions are shunted with shunt resistors $R_{\rm s}$ to avoid hysteretic behavior in the respective IVCs. If the loop is then biased with a bias current $I_{\rm b}$ while being threaded by an external magnetic flux $\Phi_{\rm e}$, it is possible to convert small flux variations into a measurable voltage change. SQUIDs are therefore used as highly sensitive flux-to-voltage transducers.
+
+\subsection{Zero Voltage State}
+
+\gl{
+I_{\mathrm{s}}=I_{\mathrm{c}} \sin \varphi_1+I_{\mathrm{c}} \sin \varphi_2=2 I_{\mathrm{c}} \cos \left(\frac{\varphi_1-\varphi_2}{2}\right) \sin \left(\frac{\varphi_1+\varphi_2}{2}\right)
+}{}
+
+\gl{
+\varphi_2-\varphi_1=\frac{2 \pi \Phi}{\Phi_0}
+}{}
+
+\gl{
+I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+}{}
+
+\gl{
+I_{\mathrm{s}}^{\mathrm{m}}(\Phi)=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi}{\Phi_0}\right)\right|
+}{}
+
+\gl{
+\Phi=\Phi_{\rm e} + \Phi_{\rm L} =
+ \Phi_{\rm e} - L I_{\rm  c} \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+}{}
+
+\gl{
+\Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+}{}
+
+\gl{
+I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right)\right|
+}{}
+
+\gl{
+\frac{I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}}
+}{}
+
+\figureleft {t!}
+{width=\textwidth}
+{../Figures/Phi_betaL}
+{9cm}
+{0cm}
+{Caption} 
+{Phi_betaL}
+
 \subsection{Voltage State}
 
 \subsection{Noise}
 
-\section{dc-SQUID Resonances}
-
 \subsection{Parasitic Resonances}
 
-\subsection{Damping Methods}
 
 
