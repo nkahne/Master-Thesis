@@ -92,7 +92,7 @@ Thus, if we insert equation \eqref{phi(t)} into equation \eqref{1.JE}, we observ
 
 
 
-\subsection{Josephson Junctions in a Magnetic Field}
+\subsection{Josephson Junctions in a Magnetic Field}\label{subsec_jjmag}
 
 \figurecenter {b!}
 {width=0.8\textwidth}
@@ -219,20 +219,35 @@ with $\beta_{\rm C}\gg 1$ corresponding to a strongly underdamped junction, wher
 
 \section{dc-SQUIDs}
 
-We have now covered the theoretical framework necessary to understand the working principle of a dc-SQUID, which consists of a superconducting ring intersected by two identical Josephson junctions with critical Josephson currents $I_{\rm c}$, as depicted in figure ???. Both junctions are shunted with shunt resistors $R_{\rm s}$ to avoid hysteretic behavior in the respective IVCs. If the loop is then biased with a bias current $I_{\rm b}$ while being threaded by an external magnetic flux $\Phi_{\rm e}$, it is possible to convert small flux variations into a measurable voltage change. SQUIDs are therefore used as highly sensitive flux-to-voltage transducers.
+We have now covered the theoretical framework necessary to understand the working principle of a dc-SQUID, which consists of a superconducting ring intersected by two identical Josephson junctions with critical Josephson currents $I_{\rm c}$, as depicted in figure \ref{abb:dcSQUID}. Both junctions are shunted with shunt resistors $R_{\rm s}$ to avoid hysteretic behavior in the respective IVCs. If the loop is then biased with a bias current $I_{\rm b}$ while being threaded by an external magnetic flux $\Phi_{\rm e}$, it is possible to convert small flux variations into a measurable voltage change. dc-SQUIDs are therefore used as highly sensitive flux-to-voltage transducers.
 
 \subsection{Zero Voltage State}
 
+\figureleft {b!}
+{width=\textwidth} %sets how much of the fig space is used
+{../Figures/dc-SQUID}
+{9cm} %sets width of the fig space
+{0cm}
+{Schematic circuit diagram of a shunted dc-SQUID. A superconducting loop with inductance $L_{\rm s}$ is interrupted by two lumped Josephson junctions such that they form a parallel connection. Operation requires a bias current $I_{\rm b}$ and an external magnetic flux $\Phi$. To avoid hysteresis effects, a shunt resistance $R_{\rm s}$ is connected to each junction.} 
+{dcSQUID}
+
+In order to fully understand the working principle of a dc-SQUID it is again necessary to first cover the zero voltage stage as we did for a single junction. 
+The parallel connection of the two junctions allows the bias current to split into two supercurrents $I_{\rm s1}$, $I_{\rm s2}$ with identical critical currents, i.e. $I_{\rm c,1}=I_{\rm c,2}=I_{\rm c}$. Here we assume $I_{\rm b}<2I_{\rm c}$ to ensure that no voltage drop across both junctions occurs ($V_{\rm s}=0$). Applying Kirchhoff's law we then obtain the following expression 
+
 \gl{
-I_{\mathrm{s}}=I_{\mathrm{c}} \sin \varphi_1+I_{\mathrm{c}} \sin \varphi_2=2 I_{\mathrm{c}} \cos \left(\frac{\varphi_1-\varphi_2}{2}\right) \sin \left(\frac{\varphi_1+\varphi_2}{2}\right)
-}{}
+I_{\rm b} = I_{\mathrm{s}}=I_{\mathrm{c}} \sin \varphi_1+I_{\mathrm{c}} \sin \varphi_2=2 I_{\mathrm{c}} \cos \left(\frac{\varphi_1-\varphi_2}{2}\right) \sin \left(\frac{\varphi_1+\varphi_2}{2}\right) \ \ .
+}{squid_Is_tot}
+
+In chapter \ref{subsec_jjmag} we concluded that a magnetic flux $\Phi$ causes the supercurrent to modulate with $\unit{\fq}$. A dc-SQUID can be considered as a single junction with a much larger effective area $A_{\rm eff}$ (loop area), that an external magnetic fux can penetrate. It is therefore reasonabe to expect a similar behavior for a dc-SQUID. The same approach as with a single junction is used to determine the flux dependency of the total supercurrent, where a closed loop integral is performed around the SQUID loop. The calculation leads to the relation ref???  
 
 \gl{
 \varphi_2-\varphi_1=\frac{2 \pi \Phi}{\Phi_0}
-}{}
+ \ \ ,}{}
+
+which can be directly inserted into equation \ref{squid_Is_tot} to obtain
 
 \gl{
-I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
 }{}
 
 \gl{
@@ -256,7 +271,7 @@ I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \
 \frac{I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}}
 }{}
 
-\figureleft {t!}
+\figureleft {b!}
 {width=\textwidth}
 {../Figures/Phi_betaL}
 {9cm}

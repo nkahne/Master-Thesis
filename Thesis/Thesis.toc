@@ -9,22 +9,22 @@
 \contentsline {subsection}{\numberline {1.2.2}Voltage State}{12}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Noise}{12}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Parasitic Resonances}{12}{subsection.1.2.4}%
-\contentsline {chapter}{\numberline {2}Experimental Setup}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Operation of a dc-SQUID}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Flux-Locked Loop}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Two-Stage Configuration}{13}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Metallic Magnetic Microcalorimeters}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}dc-SQUID Design}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}dc-SQUID with a Two-Turn Input Coil}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Integrated Two-Stage Chip}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Damping Methods}{13}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Experimental Results}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}dc-SQUID Parameters}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Characteristic Quantities}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Input Coil Inductance}{15}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Noise Performance}{15}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Integrated Two-Stage Measurements}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}General Properties}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Noise Performance}{15}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Summary}{17}{chapter.4}%
-\contentsline {chapter}{{Bibliography}}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {2}Experimental Setup}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Operation of a dc-SQUID}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Flux-Locked Loop}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Two-Stage Configuration}{15}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Metallic Magnetic Microcalorimeters}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}dc-SQUID Design}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}dc-SQUID with a Two-Turn Input Coil}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Integrated Two-Stage Chip}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Damping Methods}{15}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Experimental Results}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}dc-SQUID Parameters}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Characteristic Quantities}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Input Coil Inductance}{17}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Noise Performance}{17}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Integrated Two-Stage Measurements}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}General Properties}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Noise Performance}{17}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Summary}{19}{chapter.4}%
+\contentsline {chapter}{{Bibliography}}{21}{chapter.5}%
