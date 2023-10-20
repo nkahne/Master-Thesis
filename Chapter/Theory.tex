@@ -1,15 +1,20 @@
 \chapter{Theoretical Background}
 
-This chapter provides a short introduction into Josephson junctions and their role in dc-SQUIDs\footnote{\textbf{d}irect \textbf{c}urrent \textbf{S}uperconducting \textbf{QU}antum \textbf{I}nterference \textbf{D}evice}, which will be the main focus of this thesis. We start with a brief overview on macroscopic quantum phenomena such as the Josephson effect and explain the general working principle of superconductor-isolator-superconductor (SIS) tunnel contacts, followed by a summary of their basic properties. They form the theoretical framework to describe SQUIDs, which are developed in this group and optimized within the scope of this thesis. Lastly, we will take a closer look into their resonance behavior and investigate different solution approaches. 
+This chapter provides a short introduction into Josephson junctions and their role in dc-SQUIDs\footnote{\textbf{d}irect \textbf{c}urrent \textbf{S}uperconducting \textbf{QU}antum \textbf{I}nterference \textbf{D}evice}, which will be the main focus of this thesis. We start with a brief overview on macroscopic quantum phenomena such as the Josephson effect and explain the general working principle of superconductor-isolator-superconductor (SIS) tunnel contacts, followed by a summary of their basic properties. They form the theoretical framework to describe the SQUIDs, which are developed in this group and optimized within the scope of this thesis. Lastly, we will take a closer look into their parasitic resonance behavior and investigate in the following chapter different methods to reduce the quality factors.   
 
 \section{Josephson junctions}
 
 
-The \textit{Josephson junctions} named after Brian D. Josephson consist of two identical superconductors weakly coupled to each other. In the case of the junctions produced in this working group, such coupling is realized through a few nm thin insulating layer between the superconducting electrodes. Consequently, they are referred to as SIS (Superconductor-Insulator-Superconductor) junctions. The resulting trilayer structure typically consists of Nb/Al-Al$\rm O_x$/Nb, with niobium being used for the superconductors and the insulating layer being provided by the aluminum oxide. A schematic structure is shown in figure \ref{abb:fig:JJschem}. %When the junction is maintained at cold temperatures ($T\leq \qty{4}{\kelvin}$) and connected to a current source a supercurrent is measurable.
+The \textit{Josephson junction} named after Brian D. Josephson consists of two identical superconductors weakly coupled to each other. In the case of the junctions produced in this working group, such coupling is realized through a few nm thin insulating layer between the superconducting electrodes. Consequently, they are also referred to as SIS junctions. The resulting trilayer structure typically consists of Nb/Al-Al$\rm O_x$/Nb, with niobium being used for the superconductors and the insulating layer being provided by the aluminum oxide. A schematic structure is shown in figure \ref{abb:fig:JJschem}. %When the junction is maintained at cold temperatures ($T\leq \qty{4}{\kelvin}$) and connected to a current source a supercurrent is measurable.
 By connecting the tunnel junction to a current source they exhibit a non-trivial current-voltage behavior, which will be covered in the following. 
 
+%$\theta$ %$\textbf{\textit{\theta}_\textbf{1}}$ and  $\textbf{\textit{\theta}_\textbf{2}}$ represent the macroscopic phases of each superconductor.}
+        
+\subsection{Josephson effect}\label{subchap_Jeffect}
 
-\figurecenter {b!}
+According to the BCS theory developed by Bardeen, Cooper and Schrieffer in 1957 \cite{Bardeen1957}, electrons in a superconductor form pairs below a material dependent critical temperature $T_{\rm c}$. These composite particles are also referred to as \textit{Cooper pairs} and they represent the superconducting charge carriers with twice the mass and charge of a single electron. Their dissipationless flow causes the current to have zero dc-resistance, which is alongside the Meissner-Ochsenfeld effect \cite{Meissner1933} the most characteristic feature of a superconductor. The latter describes magnetic field expulsion below $T_{\rm c}$, provided the external magnetic field is smaller than a critical field $B_{\rm c}$. Further details on the microscopic theory of superconductivity can be found in \cite{Bardeen1957} and \cite{Ginzburg1950}.
+
+\figurecenter {t!}
 {width=\textwidth}
 {../Figures/jj_schematic}
 %{7.8cm}
@@ -17,13 +22,7 @@ By connecting the tunnel junction to a current source they exhibit a non-trivial
 {Schematic of a Josephson (SIS) junction. Both superconducting electrodes $\textbf{\textit{S}}_\textbf{1}$ and $\textbf{\textit{S}}_\textbf{2}$ are weakly coupled with each other through a thin tunnel barrier \textbf{\textit{I}}. \bm{$\theta_{\rm 1}$} and \bm{$\theta_{\rm 2}$} represent the macroscopic phases of each superconductor.} 
 {fig:JJschem}
 
-%$\theta$ %$\textbf{\textit{\theta}_\textbf{1}}$ and  $\textbf{\textit{\theta}_\textbf{2}}$ represent the macroscopic phases of each superconductor.}
-        
-\subsection{Josephson effect}\label{subchap_Jeffect}
-
-According to the BCS theory developed by Bardeen, Cooper and Schrieffer in 1957 \cite{Bardeen1957}, electrons in a superconductor form pairs below a material dependent critical temperature $T_{\rm c}$. These composite particles are also referred to as \textit{Cooper pairs} and they represent the superconducting charge carriers with twice the mass and charge of a single electron. Their dissipationless flow causes the current to have zero resistance, which is alongside the Meissner-Ochsenfeld effect \cite{Meissner1933} the most characteristic feature of a superconductor. The latter describes magnetic field expulsion below $T_{\rm c}$, provided the external magnetic field is smaller than a critical field $B_{\rm c}$. Further details on the microscopic theory of superconductivity can be found in \cite{Bardeen1957} and \cite{Ginzburg1950}.
-
-If at $T < \qty{4}{\kelvin}$ an external current source is connected to a Josephson junction, a supercurrent will flow despite the tunnel barrier, implying the tunneling of Cooper pairs as niobium is predominantly superconducting at these temperatures ($T_\mathrm{c} = \qty{9.3}{\kelvin}$). Since the tunneling probability of an individual electron is approximately $p = \num{e-4}$ \cite{Gross2016}, a much lower probability is to be expected for a Cooper pair consisting of two electrons. However, Josephson predicted that the tunneling behavior of Cooper pairs and individual conduction electrons must be the same. This is justified by the so-called \textit{Macroscopic Quantum Model}, formulated by Fritz London in 1953.
+If at $T < \qty{4}{\kelvin}$ an external current source is connected to a Nb/Al-Al$\rm O_x$/Nb Josephson junction, a supercurrent will flow despite the tunnel barrier, implying the tunneling of Cooper pairs as niobium is predominantly superconducting at these temperatures ($T_\mathrm{c} = \qty{9.3}{\kelvin}$ \cite{Inaba_1980}). Since the tunneling probability of an individual electron is approximately $p \lesssim \num{e-4}$ \cite{Gross2016}, a much lower probability is to be expected for a Cooper pair consisting of two electrons. However, Josephson predicted that the tunneling behavior of Cooper pairs and individual conduction electrons must be the same. This is justified by the so-called \textit{Macroscopic Quantum Model}, formulated by Fritz London in 1953.
 
 The main focus here lies on the quantum mechanical phase $\theta$. On one hand, the distance between both electrons in a Cooper pair is approximately 10 to \qty{1000}{\nm} which is significantly larger than the spacing between Cooper pairs, resulting in strongly overlapping wave functions. On the other hand, Cooper pairs have to obey Bose-Einstein statistics due to their total spin of 0. Thus, all Cooper pairs share the same ground state, and as a consequence, the energies and temporal evolutions of the phases are equal. These two effects lead to what is known as \textit{phase-lock}. The phases of neighboring pairs synchronize such that this quantum mechanical property now holds on a macroscopic scale. This gives rise to a macroscopic wave function
 
@@ -31,7 +30,7 @@ The main focus here lies on the quantum mechanical phase $\theta$. On one hand, 
 \Psi(\textbf{r},t) = \Psi_0(\textbf{r},t)e^{i\theta(\textbf{r},t)} \ \ ,
 \end{equation}
 
-which describes all charge carriers of the superconductor. Here, the charge carrier density is given by $\left|\Psi_0(\textbf{r},t)\right|^2 = n_{\rm s}$. \textit{t} denotes the time and \textbf{r} represents the position of the Cooper pair ensemble. As a result of sharing the same phase, both electrons of a Cooper pair consequently possess the same tunneling probability as an individual electron, enabling the supercurrent. This coherence phenomenon is referred to as the \textit{Josephson effect} \cite{Josephson1962}. Another significant consequence of the macroscopic quantum model is flux quantization. Together with the Josephson effect, this forms the basis for Josephson junctions and their applications. 
+which describes all charge carriers of the superconductor. Here, the charge carrier density is given by $\left|\Psi_0(\textbf{r},t)\right|^2 = n_{\rm s}$. The time is denoted by \textit{t} and \textbf{r} represents the position of the Cooper pair ensemble. As a result of sharing the same phase, both electrons of a Cooper pair consequently possess the same tunneling probability as an individual electron, enabling the supercurrent. This coherence phenomenon is referred to as the \textit{Josephson effect} \cite{Josephson1962}. Another significant consequence of the macroscopic quantum model is flux quantization. Together with the Josephson effect, this forms the basis for Josephson junctions and their applications. In the following
 
 \figureleft {t!}
 {width=\textwidth}
@@ -50,7 +49,7 @@ Flux quantization is derived through the capture of an external magnetic flux wi
 Here, $n\in\mathbb{Z}$ and \unit{\fq} = \qty{2.07e-15}{\tesla\metre\squared} \cite{CODATA2018} represents the so-called magnetic flux quantum. The captured flux is thus quantized, a consequence solely arising from the macroscopic nature of the phase. This quantity plays a crucial role in the theoretical description of Josephson junctions.
 
 
-The current and voltage behavior in a SIS junction is described by the \textit{Josephson equations}. Crucial to this description is a critical current \textit{$I_\mathrm{c}$} that is linearly proportional to the applied current \textit{I}, which marks the boundary between two operational modes. Additionally, due to the macroscopic nature of the phase, \textit{I} oscillates with the gauge-invariant phase difference $\varphi$, leading to the \textbf{first Josephson equation} \cite{Josephson1965}
+The current and voltage behavior in a SIS junction is described by the \textit{Josephson equations}. Crucial to this description is a critical current \textit{$I_\mathrm{c}$} that is linearly proportional to the applied current \textit{I}, which marks the boundary between two operational modes; the zero-voltage state and the voltage state. Additionally, due to the macroscopic nature of the phase, \textit{I} oscillates with the gauge-invariant phase difference $\varphi$, leading to the \textbf{first Josephson equation} \cite{Josephson1965}
 
 \begin{equation}
 \label{1.JE}
@@ -79,7 +78,7 @@ Assuming a constant supercurrent density $J_\mathrm{s}$ across the junction, tak
 \frac{\partial\varphi}{\partial t} = \frac{2\pi}{\Phi_0}V \ \ .
 \end{equation}
 
-The first operating mode describes the case for $I<I_\mathrm{c}$. Here, the entire injected current is carried by Cooper pairs, so $I=I_\mathrm{s}=\mathrm{const}$. As a result, $\varphi$ is temporally constant, which, according to equation \eqref{2.JE}, leads to $V=0$. This voltage-free state is known as the \textit{dc Josephson effect}.
+The first operating mode describes the zero-voltage state, i.e.  $I<I_\mathrm{c}$ (zero-voltage state). Here, the entire injected current is carried by Cooper pairs, so $I=I_\mathrm{s}=\mathrm{const}$. As a result, $\varphi$ is constant over time, which, according to equation \eqref{2.JE}, leads to $V=0$. This is known as the \textit{dc Josephson effect}.
 
 For $I>I_\mathrm{c}$ however, Cooper pairs begin to break up such that a portion of the current needs to be carried by quasiparticles, which will then lead to a voltage drop \textit{V}. According to the second Josephson equation, the phase $\varphi$ becomes time dependent, and after integration one obtains
 
@@ -108,8 +107,8 @@ To motivate the structure of a dc-SQUID, it is essential to first investigate th
 \lambda_{\rm J} = \sqrt{\frac{\unit{\fq}}{2\pi\unit{\micro_0}J_{\rm c}t_{\rm B}}
 } \ \ .}{lamdaJ}
 
-Here, the magnetic thickness is defined as $t_{\rm B} = d + \lambda_{\rm L,1} + \lambda_{\rm L,2}$. It describes how far an external magnetic field penetrates both superconducting electrodes if applied parallel to the junction area, as depicted in figure \ref{abb:fig:JJMag}. $\lambda_{\rm L,1}$ and $\lambda_{\rm L,2}$ are the respective London penetration depths and $J_{\rm c} = \frac{I_{\rm c}}{WL}$ the critical current density.
-This distinction is needed to determine whether the magnetic self-field generated by the supercurrent is negligible in comparison to the external field (short junctions) or not (long junctions). Within the scope of this thesis, only short junctions are used.  
+Here, the magnetic thickness is defined as $t_{\rm B} = d + \lambda_{\rm L,1} + \lambda_{\rm L,2}$. It describes how far an external magnetic field penetrates both superconducting electrodes if applied parallel to the junction area, as depicted in figure \ref{abb:fig:JJMag}. The respective London penetration depths are $\lambda_{\rm L,1}$ and $\lambda_{\rm L,2}$ and $J_{\rm c} = \frac{I_{\rm c}}{WL}$ is the critical current density.
+This distinction is needed to determine whether the magnetic self-field generated by the supercurrent is negligible in comparison to the external field (short junctions) or not (long junctions). Within the scope of this thesis, we only use short junctions.  
 
 To analyze the current and phase distribution of such a junction we consider the setup shown in figure \ref{abb:fig:JJMag}. A short junction is connected to a current source and is penetrated by an external B-field in y-direction, parallel to the junction area. Now, obtaining an expression for the phase requires a similar approach as the calculation for the quantized flux, where we assumed that the phase changes by $2\pi n$ around a closed loop. Here, we again integrate over a closed contour \textit{C}, with the points $P_{\rm 1}-P_{\rm 4}$ marking the transitions between superconductor and isolator. Using equation \ref{EichInv_Phase}, we find 
 

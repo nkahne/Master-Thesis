@@ -30,45 +30,45 @@ Repeated entry---line 5745 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 11 entries,
+You've used 12 entries,
             2496 wiz_defined-function locations,
-            645 strings with 6125 characters,
-and the built_in function-call counts, 4078 in all, are:
-= -- 401
-> -- 134
-< -- 11
-+ -- 42
-- -- 42
-* -- 337
-:= -- 666
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 62
-chr.to.int$ -- 11
-cite$ -- 11
-duplicate$ -- 177
-empty$ -- 329
-format.name$ -- 64
-if$ -- 814
+            653 strings with 6284 characters,
+and the built_in function-call counts, 4398 in all, are:
+= -- 432
+> -- 141
+< -- 12
++ -- 44
+- -- 44
+* -- 364
+:= -- 718
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 67
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 193
+empty$ -- 357
+format.name$ -- 68
+if$ -- 878
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 58
-num.names$ -- 34
-pop$ -- 58
+missing$ -- 14
+newline$ -- 63
+num.names$ -- 37
+pop$ -- 61
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 82
 quote$ -- 0
-skip$ -- 120
+skip$ -- 131
 stack$ -- 0
-substring$ -- 284
-swap$ -- 19
-text.length$ -- 11
-text.prefix$ -- 11
+substring$ -- 303
+swap$ -- 21
+text.length$ -- 12
+text.prefix$ -- 12
 top$ -- 0
-type$ -- 76
+type$ -- 84
 warning$ -- 0
-while$ -- 36
-width$ -- 14
-write$ -- 143
+while$ -- 39
+width$ -- 15
+write$ -- 156
 (There were 6 error messages)

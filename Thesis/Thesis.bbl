@@ -22,6 +22,12 @@ R.~Gross, A.~Marx, and F.~Deppe,
   Electronics},
 \newblock De Gruyter Textbook Series, Walter De Gruyter Incorporated, 2016.
 
+\bibitem[Ina80]{Inaba_1980}
+Akira Inaba,
+\newblock Superconductive transition point of tantalum and niobium as a
+  reference temperature,
+\newblock {\em Japanese Journal of Applied Physics}, {\bf 19}(8), 1553, 1980.
+
 \bibitem[Jos62]{Josephson1962}
 B.~D. Josephson,
 \newblock {Possible new effects in superconductive tunnelling},
