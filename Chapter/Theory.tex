@@ -1,6 +1,6 @@
 \chapter{Theoretical Background}
 
-This chapter provides a short introduction into Josephson junctions and their role in dc-SQUIDs\footnote{\textbf{d}irect \textbf{c}urrent \textbf{S}uperconducting \textbf{QU}antum \textbf{I}nterference \textbf{D}evice}, which will be the main focus of this thesis. We start with a brief overview on macroscopic quantum phenomena such as the Josephson effect and explain the general working principle of superconductor-isolator-superconductor (SIS) tunnel contacts, followed by a summary of their basic properties. They form the theoretical framework to describe the SQUIDs, which are developed in this group and optimized within the scope of this thesis. Lastly, we will take a closer look into their parasitic resonance behavior and investigate in the following chapter different methods to reduce the quality factors.   
+This chapter provides a short introduction into Josephson junctions and their role in dc-SQUIDs\footnote{\textbf{d}irect \textbf{c}urrent \textbf{S}uperconducting \textbf{QU}antum \textbf{I}nterference \textbf{D}evice}, which will be the main focus of this thesis. We start with a brief overview on macroscopic quantum phenomena such as the Josephson effect and explain the general working principle of superconductor-isolator-superconductor (SIS) tunnel contacts, followed by a summary of their basic properties. They form the theoretical framework to describe the SQUIDs, which are developed in this group and optimized within the scope of this thesis. Lastly, we will take a closer look into their parasitic resonance behavior and investigate in the following chapter different methods to reduce the quality factors.   The derivations of most equations were taken from the textbooks \cite{Clarke2004} and \cite{Gross2016}.
 
 \section{Josephson junctions}
 
@@ -30,7 +30,7 @@ The main focus here lies on the quantum mechanical phase $\theta$. On one hand, 
 \Psi(\textbf{r},t) = \Psi_0(\textbf{r},t)e^{i\theta(\textbf{r},t)} \ \ ,
 \end{equation}
 
-which describes all charge carriers of the superconductor. Here, the charge carrier density is given by $\left|\Psi_0(\textbf{r},t)\right|^2 = n_{\rm s}$. The time is denoted by \textit{t} and \textbf{r} represents the position of the Cooper pair ensemble. As a result of sharing the same phase, both electrons of a Cooper pair consequently possess the same tunneling probability as an individual electron, enabling the supercurrent. This coherence phenomenon is referred to as the \textit{Josephson effect} \cite{Josephson1962}. Another significant consequence of the macroscopic quantum model is flux quantization. Together with the Josephson effect, this forms the basis for Josephson junctions and their applications. In the following
+which describes all charge carriers of the superconductor. Here, the charge carrier density is given by $\left|\Psi_0(\textbf{r},t)\right|^2 = n_{\rm s}$. The time is denoted by \textit{t} and \textbf{r} represents the position of the Cooper pair ensemble. As a result of sharing the same phase, both electrons of a Cooper pair consequently possess the same tunneling probability as an individual electron, enabling the supercurrent. This coherence phenomenon is referred to as the \textit{Josephson effect} \cite{Josephson1962}. Another significant consequence of the macroscopic quantum model is flux quantization. Together with the Josephson effect, this forms the basis for Josephson junctions and their applications.
 
 \figureleft {t!}
 {width=\textwidth}
@@ -147,13 +147,13 @@ This expression describes the so-called Fraunhofer diffraction pattern, shown in
 
 \subsection{RCSJ Model}
 
-Until now, we investigated the current-voltage behavior under the assumption of $I<I_{\rm c}$, staying in the so-called zero-voltage state. In this regime, only the dc Josephson effect applies as discussed in subchapter \ref{subchap_Jeffect}. Switching to the voltage stage, i.e. $I>I_{\rm c}$, Cooper pairs start breaking up into quasiparticles if the electric energy $eV$ and/or thermal energy $k_{\rm B}T$ exceeds the sum of both electrodes' gap energies $\Delta_1 + \Delta_2$. Consequently, at the \textit{gap-voltage} 
+Until now, we investigated the current-voltage behavior under the assumption of $I<I_{\rm c}$, staying in the so-called zero-voltage state. In this regime, only the dc Josephson effect applies as discussed in subsection \ref{subchap_Jeffect}. Switching to the voltage stage, i.e. $I>I_{\rm c}$, Cooper pairs start breaking up into quasiparticles if the electric energy $eV$ exceeds the sum of both electrodes' gap energies $\Delta_1(T) + \Delta_2(T)$. Consequently, at the \textit{gap-voltage} 
 
 \gl{
 V_{\rm g} = \frac{\Delta_1(T)+\Delta_2(T)}{e}
 }{Vgap}
 
-quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm n}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm n}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates with $f_{\rm J}$ according to the ac Josephson effect. $\frac{\mathrm{d}\varphi}{\mathrm{d}t}$ will therefore vary sinusoidally, causing both $I_{\rm s}$ and $I_{\rm n}$ and the resulting voltage to oscillate in a complex manner. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be considered in the following discussion. \\
+quasiparticles start to cross the tunnel barrier resulting in a steep rise of a resistive normal current $I_{\rm n}$. This process also occurs at finite temperatures for $k_{\rm B}T>\Delta_1(T) + \Delta_2(T)$, leading to a reduction of $I_{\rm c}$ as well as $V_{\rm g}$. Under a current source, the condition $I=I_{\rm s}+I_{\rm n}$ must be constantly fulfilled. This results in an oscillating normal current, since $I_{\rm s}$ oscillates with $f_{\rm J}$ according to the ac Josephson effect. The time evolution  of the phase difference $\frac{\mathrm{d}\varphi}{\mathrm{d}t}$ will therefore vary sinusoidally, causing both $I_{\rm s}$ and $I_{\rm n}$ and the resulting voltage to oscillate in a complex manner. As a voltage with such a high frequency cannot be measured, only the time-averaged voltage will be considered in the following discussion. \\
 Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $V>V_{\rm g}$) leads to a transition into normal-conducting electrons, which exhibit an ohmic dependence. This behavior can be seen in the typical current-voltage-characteristic (IVC) depicted in figure \ref{abb:IVCs}. \\ 
 
 \twofigurescenter {t!}
@@ -166,7 +166,7 @@ Now, further increasing the energy of the quasiparticles ($T>T_{\rm c}$ and/or $
 {Platzhalter Plots von Alex -> eigene Messung vornehmen?... Measured IVCs from cross-type junctions manufactured in this working group. Left: Underdamped junction showing the typical hysteresis. Right: Overdamped junction with a current-voltage shape that is independent of the current sweep direction. }
 {IVCs}
 
-Real junctions, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ layer being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm d}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm f}$. All these current channels were defined in the so-called Resistively and Capacitively Shunted Junction (RCSJ) model \cite{Cumber1968}, \cite{Stewart1968}, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure \ref{abb:fig:rcsj} (left). Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as \cite{Gross2016}
+The junctions produced in this working group, however, are comprised of two electrodes separated by a thin insulating layer, which represent a parallel plate capacitor with the Al-Al$\rm O_x$ layer being the dielectric material. Therefore, a junction capacitance \textit{C} needs to be taken into account. A displacement current $I_{\rm d}$ will flow as a consequence, given we are in the voltage state. Lastly, thermal and 1/f noise cause a small fluctuating current $I_{\rm f}$. All these current channels were defined in the so-called Resistively and Capacitively Shunted Junction (RCSJ) model \cite{Cumber1968}, \cite{Stewart1968}, which models the total current of a lumped (0-dimensional) junction to a sufficiently high accuracy. A schematic of an effective circuit diagram is shown in figure \ref{abb:fig:rcsj} (left). Combining every current channel leads to the \textit{Basic Junction Equation}, which is defined as \cite{Gross2016}
 
 \gl{
 I=I_{\rm s}+I_{\rm n}+I_{\rm d}+I_{\rm f}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}\varphi}{\mathrm{d}t}+C\frac{\unit{\fq}}{2\pi}\frac{\mathrm{d}^2\varphi}{\mathrm{d}t^2}+I_{\rm f} \ \ .
@@ -175,8 +175,8 @@ I=I_{\rm s}+I_{\rm n}+I_{\rm d}+I_{\rm f}=I_{\rm c}\sin(\varphi)+\frac{1}{R(V)}\
 By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}$ and the normalized currents $i=\frac{I}{I_{\rm c}}$ and $i_{\rm f}(t)=\frac{I_{\rm f}(t)}{I_{\rm c}}$, equation \ref{BJE} can be rewritten to 
 
 \gl{
-\left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R(V)} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm f}(t) \varphi\right]\right\}=0 
-}{BJE2} \ \ . 
+\left(\frac{\hbar}{2 e}\right)^2 C \frac{\mathrm{d}^2 \varphi}{\mathrm{d} t^2}+\left(\frac{\hbar}{2 e}\right)^2 \frac{1}{R(V)} \frac{\mathrm{d} \varphi}{\mathrm{d} t}+\frac{\mathrm{d}}{\mathrm{d} \varphi}\left\{U_{\rm J 0}\left[1-\cos \varphi-i \varphi+i_{\rm f}(t) \varphi\right]\right\}=0 \ \ . 
+}{BJE2} 
 
 \twofigurescenter {t!}
 {width=0.48\textwidth}
@@ -185,17 +185,17 @@ By defining the Josephson coupling energy $U_{\rm J0}=\frac{\hbar I_{\rm c}}{2e}
 {width=0.48\textwidth}
 {../Figures/washboard}
 {0.5cm} %vspace
-{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm n}$ is realized with a resistance $R$, while the displacement current $I_{\rm d}$ and the noise $I_{\rm f}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
+{Left: Schematic circuit of a lumped Josephson junction with all four current channels connected in parallel, according to the RCSJ model. The junction is represented by the cross symbol on the left, marking the supercurrent $I_{\rm s}$. The normal current $I_{\rm n}$ is realized with a resistance $R$, while the displacement current $I_{\rm d}$ and the noise $I_{\rm f}$ need a capacitor $C$ and a current source, respectively. Right: Tilted washboard potential for different currents, ranging from 0 to $1.5I_{\rm c}$. The tilt increases with the injected current $I$.}
 {fig:rcsj}
 
 The expression in the curly brackets represents the potential energy in the system $U_{\rm J}$, allowing equation \ref{BJE} to be compared to 
 
 \gl{
-M\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} + \eta\frac{\mathrm{d} x}{\mathrm{d}t} + \nabla U = 0
-}{} \ \ .
+M\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} + \eta\frac{\mathrm{d} x}{\mathrm{d}t} + \nabla U = 0 \ \ .
+}{}
 
 This equation describes a particle with mass \textit{M} and damping $\eta$ moving inside the potential \textit{U}. The mechanical analogue therefore allows us to interpret a \textit{phase particle}, where it's motion corresponds to a change of the gauge-invariant phase difference $\varphi$ within a potential $U_{\rm J}$ \cite{Clarke2004}. Consequently, it is attributed with a mass $M=\left(\frac{\hbar}{2 e}\right)^2C$ and damping $\eta=\left(\frac{\hbar}{2 e}\right)^2\frac{1}{R(V)}$. Figure \ref{abb:fig:rcsj} (right) visualizes how this phase particle behaves for different currents \textit{I}. Given the shape of $U_{\rm J}(\varphi)$, the potential is referred to as the \textit{tilted washboard potential}. \\
-For $I=0$, the phase particle will remain within one of the potential minima. As the current increases, however, the potential starts to tilt such that the depth of the minima reduces until it vanishes for $I=I_{\rm c}$, thus becoming a saddle point. Up until this point, the phase particle can't overcome the potential barrier to move downward, which confirms the second Josephson equation as the phase difference $\varphi$ should remain constant for $I<I_{\rm c}$. Further increasing the current and therefore the tilt of the potential causes the phase particle to fall along the potential, resulting in a voltage drop across the junction ($\frac{\del\varphi}{\del t}>0$). \\
+For $I=0$, the phase particle will remain within one of the potential minima. As the current increases, however, the potential starts to tilt such that the depth of the minima reduces until it vanishes for $I=I_{\rm c}$, thus becoming a saddle point. Up until this point, the phase particle can't overcome the potential barrier to move downward, which confirms the second Josephson equation as the phase difference $\varphi$ should remain constant on average for $I<I_{\rm c}$. Further increasing the current and therefore the tilt of the potential causes the phase particle to fall along the potential, resulting in a voltage drop across the junction ($\frac{\del\varphi}{\del t}>0$). \\
 
 Reversing the current sweep showcases the importance of the particle's mass $M$ and damping $\eta$, as they determine if the return path equals the above described current shape or not. For the case of a small mass (small $C$) and large damping (small $R$), the phase particle will, due to a lack of momentum, come to a halt as soon as minima reappear in the washboard potential by reducing the current below $I_{\rm c}$. The current path will therefore remain unchanged as $I$ is reduced back to 0, as shown in figure \ref{abb:IVCs} (right). Such a junction is consequently called an \textit{overdamped} junction. \\
 The other case describes an \textit{underdamped} junction (figure \ref{abb:IVCs} (left)) and involves a large mass (large $C$) and small damping (large $R$). This allows the phase particle to continue to move downward as it now carries enough momentum to overcome the arising maxima and minima. The finite voltage drop despite the current being below $I_{\rm c}$ is displayed as the steep quasiparticle current curve, which ends with a return current $I_{\rm R}$ that arises with the recapture of the particle in a minimum. This leads to a hysteretic IVC, as depicted in figure \ref{abb:IVCs} (left). $I_{\rm R}$ can be calculated via \cite{Likharev1986}
@@ -210,11 +210,13 @@ with $\beta_{\rm C}$ being the dimensionless Stewart-McCumber parameter, that is
 \beta_{\rm C} = \frac{2\pi}{\unit{\fq}}I_{\rm c}R^2C
 }{betaC} 
 
-with $\beta_{\rm C}\gg 1$ corresponding to a strongly underdamped junction, whereas $\beta_{\rm C}\ll 1$ represents a strongly overdamped junction. The junctions developed and produced within the scope of this thesis aim to be overdamped, which is why we take a closer look on the time-averaged voltage for $I>I_{\rm c}$ in the case of $ \beta_{\rm C}\ll 1$. Neglecting the noise in equation \ref{BJE2}, as well as assuming the resistance to be linear below and above the gap voltage $V_{\rm g}$, i.e. $R(V)=R$, the time-averaged voltage can be derived to 
+with $\beta_{\rm C}\gg 1$ corresponding to a strongly underdamped junction, whereas $\beta_{\rm C}\ll 1$ represents a strongly overdamped junction. The junctions developed and produced within the scope of this thesis aim to be overdamped, which is why we take a closer look on the time-averaged voltage for $I>I_{\rm c}$ in the case of $ \beta_{\rm C}\ll 1$. Neglecting the noise in equation \ref{BJE2}, as well as assuming the resistance to be linear below and above the gap voltage $V_{\rm g}$, i.e. $R(V)=R$, the time-averaged voltage can be derived to \cite{Clarke2004}
 
 \gl{
 \langle V(t)\rangle=I_{\mathrm{c}} R \sqrt{\left(\frac{I}{I_{\mathrm{c}}}\right)^2-1} \ \ \ \mathrm{for} \ \ \ \frac{I}{I_{\mathrm{c}}}>1 \ \ .
 }{}
+
+This equation will be crucial to determine the voltage drop of a dc-SQUID, as its derivation is analogous to that of a single junction, which will be covered in the next section.
 
 \section{dc-SQUIDs}
 
@@ -237,7 +239,7 @@ The parallel connection of the two junctions allows the bias current to split in
 I_{\rm b} = I_{\mathrm{s}}=I_{\mathrm{c}} \sin \varphi_1+I_{\mathrm{c}} \sin \varphi_2=2 I_{\mathrm{c}} \cos \left(\frac{\varphi_1-\varphi_2}{2}\right) \sin \left(\frac{\varphi_1+\varphi_2}{2}\right) \ \ .
 }{squid_Is_tot}
 
-In chapter \ref{subsec_jjmag} we concluded that a magnetic flux $\Phi$ causes the supercurrent to modulate with $\unit{\fq}$. A dc-SQUID can be considered as a single junction with a much larger effective area $A_{\rm eff}$ (loop area), that an external magnetic fux can penetrate. It is therefore reasonabe to expect a similar behavior for a dc-SQUID. The same approach as with a single junction is used to determine the flux dependency of the total supercurrent, where a closed loop integral is performed around the SQUID loop. The calculation leads to the relation ref???  
+In chapter \ref{subsec_jjmag} we concluded that a magnetic flux $\Phi$ causes the supercurrent to modulate with $\unit{\fq}$. A dc-SQUID can be considered as a single junction with a much larger effective area $A_{\rm eff}$ (loop area), that an external magnetic fux can penetrate. It is therefore reasonabe to expect a similar behavior for a dc-SQUID. The same approach as with a single junction is used to determine the flux dependency of the total supercurrent, where a closed loop integral is performed around the SQUID loop. The calculation leads to the relation \cite{Gross2016} 
 
 \gl{
 \varphi_2-\varphi_1=\frac{2 \pi \Phi}{\Phi_0}
