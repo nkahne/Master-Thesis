@@ -6,18 +6,19 @@
 \contentsline {subsection}{\numberline {1.1.3}RCSJ Model}{7}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}dc-SQUIDs}{11}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Zero Voltage State}{11}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Voltage State}{12}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Noise}{12}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Parasitic Resonances}{12}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.2}Voltage State}{13}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Noise}{13}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Parasitic Resonances}{13}{subsection.1.2.4}%
 \contentsline {chapter}{\numberline {2}Experimental Setup}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Operation of a dc-SQUID}{15}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Flux-Locked Loop}{15}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Two-Stage Configuration}{15}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Metallic Magnetic Microcalorimeters}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}dc-SQUID Design}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}dc-SQUID with a Two-Turn Input Coil}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Integrated Two-Stage Chip}{15}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Damping Methods}{15}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.1}Practical dc-SQUIDs}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Operation of a dc-SQUID}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Flux-Locked Loop}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Two-Stage Configuration}{15}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Metallic Magnetic Microcalorimeters}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}dc-SQUID Design}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}dc-SQUID with a Two-Turn Input Coil}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Integrated Two-Stage Chip}{15}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Damping Methods}{15}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Experimental Results}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}dc-SQUID Parameters}{17}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Characteristic Quantities}{17}{subsection.3.1.1}%

@@ -251,13 +251,15 @@ which can be directly inserted into equation \ref{squid_Is_tot} to obtain
 I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
 }{}
 
-\gl{
-I_{\mathrm{s}}^{\mathrm{m}}(\Phi)=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi}{\Phi_0}\right)\right|
-}{}
+In the most general case, however, one needs to take into account the inductance $L_{\rm s}$ of the SQUID loop and therefore a circulating current $I_{\rm cir} = \frac{I_{\rm s1} - I_{\rm s2}}{2}$ that induces the additional flux $\Phi_{\rm cir} = L_{\rm s}I_{\rm cir}$. With the external flux $\Phi_{\rm e}$ we can write for the total flux
+
+%\gl{
+%I_{\mathrm{s}}^{\mathrm{m}}(\Phi)=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi}{\Phi_0}\right)\right|
+%}{}
 
 \gl{
-\Phi=\Phi_{\rm e} + \Phi_{\rm L} =
- \Phi_{\rm e} - L I_{\rm  c} \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+\Phi=\Phi_{\rm e} + \Phi_{\rm cir} =
+ \Phi_{\rm e} - L_{\rm s} I_{\rm  c} \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
 }{}
 
 \gl{
