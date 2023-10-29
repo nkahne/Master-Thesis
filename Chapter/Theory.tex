@@ -249,7 +249,7 @@ which can be directly inserted into equation \ref{squid_Is_tot} to obtain
 
 \gl{
 I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
-}{}
+}{IsGeneral_SQUID0v}
 
 In the most general case, however, one needs to take into account the inductance $L_{\rm s}$ of the SQUID loop and therefore a circulating current $I_{\rm cir} = \frac{I_{\rm s1} - I_{\rm s2}}{2}$ that induces the additional flux $\Phi_{\rm cir} = L_{\rm s}I_{\rm cir}$. With the external flux $\Phi_{\rm e}$ we can thus write for the total flux
 
@@ -259,11 +259,16 @@ In the most general case, however, one needs to take into account the inductance
 = \Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
 }{}
 
-Here, we introduced the dimensionless screening paramater $\beta_{\rm L}=\frac{2L_{\rm s}I_{\rm c}}{\unit{\fq}}$, which relates the maximum possible flux produced by screening currents 
+Here, we introduced the dimensionless screening parameter $\beta_{\rm L}=\frac{2L_{\rm s}I_{\rm c}}{\unit{\fq}}$, which relates the maximum possible flux $\Phi_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm c}$ produced by screening currents to $\frac{\unit{\fq}}{2}$. This quantity describes the influence the screening currents have on the total flux $\Phi$, which in turn affects $I_{\rm s}$ in equation \ref{IsGeneral_SQUID0v}. We will now simplify the expression above by considering the limiting case for $I_{\rm s}\ll 2I_{\rm c}$
+
+%\gl{
+%\Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+%}{}
 
 \gl{
-\Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
+\Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_{\rm L} \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \ \ .	
 }{}
+
 
 \gl{
 I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right)\right|
