@@ -252,14 +252,10 @@ I_{\mathrm{s}}=2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi}{\Phi_0}\right) \sin \
 }{IsGeneral_SQUID0v}
 
 In the most general case, however, one needs to take into account the inductance $L_{\rm s}$ of the SQUID loop and therefore a circulating current $I_{\rm cir} = \frac{I_{\rm s1} - I_{\rm s2}}{2}$ that induces the additional flux $\Phi_{\rm cir} = L_{\rm s}I_{\rm cir}$. With the external flux $\Phi_{\rm e}$ we can thus write for the total flux
-
-\gl{
-\Phi=\Phi_{\rm e} + \Phi_{\rm cir} =
- \Phi_{\rm e} - L_{\rm s} I_{\rm  c} \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \\ 
-= \Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
-}{}
-
-Here, we introduced the dimensionless screening parameter $\beta_{\rm L}=\frac{2L_{\rm s}I_{\rm c}}{\unit{\fq}}$, which relates the maximum possible flux $\Phi_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm c}$ produced by screening currents to $\frac{\unit{\fq}}{2}$. This quantity describes the influence the screening currents have on the total flux $\Phi$, which in turn affects $I_{\rm s}$ in equation \ref{IsGeneral_SQUID0v}. We will now simplify the expression above by considering the limiting case for $I_{\rm s}\ll 2I_{\rm c}$
+\begin{align}
+	\Phi &= \Phi_{\rm e} + \Phi_{\rm cir} \\ &= \Phi_{\rm e} - L_{\rm s} I_{\rm  c} \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \\ &= \Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right) \ \ .
+\end{align}
+Here, we introduced the dimensionless screening parameter $\beta_{\rm L}=\frac{2L_{\rm s}I_{\rm c}}{\unit{\fq}}$, which relates the maximum possible flux $\Phi_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm cir}^{\rm max} = L_{\rm s}I_{\rm c}$ produced by screening currents to $\frac{\unit{\fq}}{2}$. This quantity describes the influence the screening currents have on the total flux $\Phi$, which in turn affects $I_{\rm s}$ in equation \ref{IsGeneral_SQUID0v}. We will now simplify the expression above by considering the limiting case for small currents, i.e. $I_{\rm s}\ll 2I_{\rm c}$. This condition implies that $\sin\varphi_1\approx -  \sin\varphi_2$ and thus $\varphi_1\approx - \varphi_2$, leading to a vanishing cosine argument $\varphi_1 + \pi\frac{\Phi}{\unit{\fq}} \approx 0$. This results in
 
 %\gl{
 %\Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_L \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \cos \left(\varphi_1+\pi \frac{\Phi}{\Phi_0}\right)
@@ -268,6 +264,7 @@ Here, we introduced the dimensionless screening parameter $\beta_{\rm L}=\frac{2
 \gl{
 \Phi=\Phi_{\mathrm{e}}-\frac{1}{2} \beta_{\rm L} \Phi_0 \sin \left(\pi \frac{\Phi}{\Phi_0}\right) \ \ .	
 }{}
+
 
 
 \gl{
