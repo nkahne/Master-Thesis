@@ -42,7 +42,7 @@ which describes all charge carriers of the superconductor. Here, the charge carr
 
 Flux quantization is derived through the capture of an external magnetic flux within a superconducting cylinder (see figure \ref{abb:fig:quantflux}). The wave function must remain unchanged after circumnavigating the cylinder due to $e^{i\theta} = e^{i\theta + 2\pi n}$. As a result, upon integrating along the current-free center of the cylinder wall (path $C$), the following equation holds for the captured flux
 
-\begin{equation}
+\begin{equation}\label{fq}
 \Phi = \frac{h}{q_\mathrm{s}}n = \frac{h}{2e}n \equiv \Phi_0n \ \ .
 \end{equation}
 
@@ -270,17 +270,19 @@ Here, we introduced the dimensionless screening parameter $\beta_{\rm L}=\frac{2
 {../Figures/Phi_betaL}
 {9cm}
 {0cm}
-{Normalized flux $\Phi$ modulated by the external flux $\Phi_{\rm ext}$. The amplitude of the modulation depends on the screening parameter $\beta_{\rm L}$, where $\Phi(\Phi_{\rm ext})$ remains a single-valued function for $\beta_{\rm L}\leq2/\pi$.} 
+{Normalized flux $\Phi$ modulated by the external flux $\Phi_{\rm e}$. The amplitude of the modulation depends on the screening parameter $\beta_{\rm L}$, where $\Phi(\Phi_{\rm e})$ remains a single-valued function for $\beta_{\rm L}\leq2/\pi$.} 
 {Phi_betaL}
 
-Figure \ref{abb:Phi_betaL} showcases this relation for several values of $\beta_{\rm L}$. High values ($\beta_{\rm L}>2/\pi$) cause a hysteretic behaviour, meaning there can be multiple values of total flux $\Phi$ for the same applied flux $\Phi_{\rm ex}$.  
+Figure \ref{abb:Phi_betaL} showcases this relation for several values of $\beta_{\rm L}$. High values ($\beta_{\rm L}>2/\pi$) correspond to  hysteretic characteristics, meaning there can be multiple values of total flux $\Phi$ for the same applied flux $\Phi_{\rm e}$. For practical dc-SQUIDs, it is therefore desirable to avoid this ambiguous behavior. The intersections of each curve represents the case for $\Phi = n\unit{\fq}$, such that the screening currents vanish and the total flux equals the external flux ($\Phi=\Phi_{\rm e}$). This is to be expected as the flux in a superconducting ring tends to be quantized (see equation \ref{fq}). Consequently, the SQUID tries to maintain the total flux at integer values of $\unit{\fq}$ for the limiting case of $\beta_{\rm L}\gg 1$, where $\Phi_{\rm cir}$ dominates over any applied flux. This compensation is visualized by the strong modulation for high $\beta_{\rm L}$ in figure \ref{abb:Phi_betaL}, where a wide range of $\Phi_{\rm e}$ values remain in the proximity of $n\Phi$. The other limiting case, i.e. $\beta_{\rm L}\ll 1$, allows us to neglect the circulating currents such that we can write $\Phi \approx \Phi_{\rm e}$. From equation \ref{IsGeneral_SQUID0v} we then obtain the maximum possible supercurrent 
 
 \gl{
-I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right)\right|
+I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right)\right| \ \ .
 }{}
 
+This current modulation quickly diminishes for increasing $\beta_{\rm L}$, as was derived in \cite{Clarke2004} to 
+
 \gl{
-\frac{I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}}
+\frac{I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}} \ \ .
 }{}
 
 
