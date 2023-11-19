@@ -277,16 +277,31 @@ Figure \ref{abb:Phi_betaL} showcases this relation for several values of $\beta_
 
 \gl{
 I_{\mathrm{s}}^{\mathrm{m}}(\Phi_{\rm e})=2 I_{\mathrm{c}}\left|\cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right)\right| \ \ .
-}{}
+}{maxIs}
 
-This current modulation quickly diminishes for increasing $\beta_{\rm L}$, as was derived in \cite{Clarke2004} to 
+The modulation of this current quickly diminishes for increasing $\beta_{\rm L}$, as was derived in \cite{Clarke2004} to 
 
 \gl{
-\frac{I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}} \ \ .
+\frac{\Delta I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}} \ \ .
 }{}
 
+For the SQUIDs produced within the scope of this thesis, values of $\beta_{\rm L}\approx 2/\pi$ were cosidered optimal to minimize resonant behavior without reducing the SQUID inductance $L_{\rm s}$ too much. In subsection ??? we will discuss how various parameters are chosen to ensure an optimal SQUID performance.
 
 \subsection{Voltage State}
+
+To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using \ref{IsGeneral_SQUID0v} we can write 
+
+\gl{
+I_{\rm tot} = 2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) + 2\frac{V_{\rm s}}{R} \ \ ,
+}{}
+
+where we again assumed identical junctions, each shunted by a small shunt resistor $R_{\rm s}\ll R_{\rm n}$. Here $R_{\rm n}$ denotes the normal resistance of a single, unshunted junction. Therefore the total resistance $R$ for each parallel connection is approximately $R\approx R_{\rm s}$. Additionally, we can define a new phase $\varphi=\varphi_1 + \pi\frac{\Phi}{\unit{\fq}}$ and with the maximum supercurrent from equation \ref{maxIs} we obtain a current relation that resembles that of a single junction:
+
+\gl{
+I_{\rm tot} = I_{\rm s}^m(\Phi_{\rm e}) \sin \left(\varphi\right) + \frac{2}{R}\frac{\unit{\fq}}{2\pi}\frac{\del\varphi}{\del t} \ \ .
+}{}
+
+    
 
 \subsection{Noise}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  13 NOV 2023 08:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  19 NOV 2023 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -571,6 +571,12 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -806,10 +812,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1D103C7092929027986AE83C273618AD;4748.
  ) 
 Here is how much of TeX's memory you used:
- 18850 strings out of 477932
- 374748 string characters out of 5837865
+ 18854 strings out of 477932
+ 374793 string characters out of 5837865
  1866388 words of memory out of 5000000
- 38639 multiletter control sequences out of 15000+600000
+ 38641 multiletter control sequences out of 15000+600000
  541113 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,78p,1346b,1140s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -833,10 +839,10 @@ pe1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.p
 fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis.pdf (23 pages, 1679178 bytes).
+Output written on Thesis.pdf (23 pages, 1681886 bytes).
 PDF statistics:
- 925 PDF objects out of 1000 (max. 8388607)
- 597 compressed objects within 6 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 601 compressed objects within 7 object streams
+ 107 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
