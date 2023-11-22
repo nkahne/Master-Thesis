@@ -145,7 +145,7 @@ This expression describes the so-called Fraunhofer diffraction pattern, shown in
 {fig:fraunhofer}
 
 
-\subsection{RCSJ Model}
+\subsection{RCSJ Model}\label{subsec_RCSJ}
 
 Until now, we investigated the current-voltage behavior under the assumption of $I<I_{\rm c}$, staying in the so-called zero-voltage state. In this regime, only the dc Josephson effect applies as discussed in subsection \ref{subchap_Jeffect}. Switching to the voltage stage, i.e. $I>I_{\rm c}$, Cooper pairs start breaking up into quasiparticles if the electric energy $eV$ exceeds the sum of both electrodes' gap energies $\Delta_1(T) + \Delta_2(T)$. Consequently, at the \textit{gap-voltage} 
 
@@ -214,7 +214,7 @@ with $\beta_{\rm C}\gg 1$ corresponding to a strongly underdamped junction, wher
 
 \gl{
 \langle V(t)\rangle=I_{\mathrm{c}} R \sqrt{\left(\frac{I}{I_{\mathrm{c}}}\right)^2-1} \ \ \ \mathrm{for} \ \ \ \frac{I}{I_{\mathrm{c}}}>1 \ \ .
-}{}
+}{VJJ}
 
 This equation will be crucial to determine the voltage drop of a dc-SQUID, as its derivation is analogous to that of a single junction, which will be covered in the next section.
 
@@ -289,19 +289,22 @@ For the SQUIDs produced within the scope of this thesis, values of $\beta_{\rm L
 
 \subsection{Voltage State}
 
-To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using \ref{IsGeneral_SQUID0v} we can write 
+To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using \ref{IsGeneral_SQUID0v} we can write for the bias current 
 
 \gl{
-I_{\rm tot} = 2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) + 2\frac{V_{\rm s}}{R} \ \ ,
+I_{\rm b} = 2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) + 2\frac{V_{\rm s}}{R} \ \ ,
 }{}
 
-where we again assumed identical junctions, each shunted by a small shunt resistor $R_{\rm s}\ll R_{\rm n}$. Here $R_{\rm n}$ denotes the normal resistance of a single, unshunted junction. Therefore the total resistance $R$ for each parallel connection is approximately $R\approx R_{\rm s}$. Additionally, we can define a new phase $\varphi=\varphi_1 + \pi\frac{\Phi}{\unit{\fq}}$ and with the maximum supercurrent from equation \ref{maxIs} we obtain a current relation that resembles that of a single junction:
+where we again assumed identical junctions, each shunted by a small shunt resistor $R_{\rm s}\ll R_{\rm n}$. Here $R_{\rm n}$ denotes the normal resistance of a single, unshunted junction. Therefore the total normal resistance $R$ for each parallel connection is approximately $R\approx R_{\rm s}$. Additionally, we can define a new phase $\varphi=\varphi_1 + \pi\frac{\Phi}{\unit{\fq}}$ and with the maximum supercurrent from equation \ref{maxIs} we obtain a current relation that resembles that of a single junction:
 
 \gl{
-I_{\rm tot} = I_{\rm s}^m(\Phi_{\rm e}) \sin \left(\varphi\right) + \frac{2}{R}\frac{\unit{\fq}}{2\pi}\frac{\del\varphi}{\del t} \ \ .
+I_{\rm b} = I_{\rm s}^{\rm m}(\Phi_{\rm e}) \sin \left(\varphi\right) + \frac{2}{R_{\rm s}}\frac{\unit{\fq}}{2\pi}\frac{\del\varphi}{\del t} \ \ .
 }{}
 
-    
+This equivalence of a dc-SQUID and a single junction stems from the above-mentioned fact that the SQUID loop represents a single Josephson contact that provides a larger effective area external fields can penetrate. It is therefore possible to derive the voltage drop across the SQUID in the same manner as in subsection \ref{subsec_RCSJ}. With the critical current $I_{\rm s}^{\rm m}(\Phi_{\rm e})$ now being flux-dependent with a modulation of $\unit{\fq}$, we compare with equation \ref{VJJ} and obtain for the time averaged voltage \cite{Clarke2004}
+\begin{align}
+	\langle V(t)\rangle &= \frac{R_{\rm s}}{2}\sqrt{I_{\rm b}^2 - I_{\rm s}^{\rm m}(\Phi_{\rm e})^2} \\ &= I_{\rm c}R_{\rm s}\sqrt{\left(\frac{I_{\rm b}}{2I_{\rm c}}\right)^2-\left[\cos\left(\pi\frac{\Phi_{\rm e}}{\unit{\fq}}\right)\right]^2}	
+\end{align}     
 
 \subsection{Noise}
 
