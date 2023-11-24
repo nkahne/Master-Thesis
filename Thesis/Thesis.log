@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  22 NOV 2023 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  24 NOV 2023 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,7 +731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--158
  []
 
 [7 <../Figures/fraunhofer.pdf>]
-<../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex.pdf, id=464, 483.58768pt x 4
+<../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex.pdf, id=465, 483.58768pt x 4
 47.79594pt>
 File: ../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex.pdf Graphic file (type 
 pdf)
@@ -739,7 +739,7 @@ pdf)
 Package pdftex.def Info: ../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex.pdf 
  used on input line 167.
 (pdftex.def)             Requested size: 206.22382pt x 190.96327pt.
-<../Figures/JJ_IVC_BetaC_smaller_1_Alex.pdf, id=465, 482.96059pt x 455.79474pt>
+<../Figures/JJ_IVC_BetaC_smaller_1_Alex.pdf, id=466, 482.96059pt x 455.79474pt>
 
 File: ../Figures/JJ_IVC_BetaC_smaller_1_Alex.pdf Graphic file (type pdf)
 <use ../Figures/JJ_IVC_BetaC_smaller_1_Alex.pdf>
@@ -751,12 +751,12 @@ Underfull \vbox (badness 7504) has occurred while \output is active []
 
  [8 <../Figures/CrossJJ4w13v3_2C12_4_2umJJ_edited_Alex.pdf> <../Figures/JJ_IVC_
 BetaC_smaller_1_Alex.pdf>]
-<../Figures/RCSJ-Modell.pdf, id=538, 845.0471pt x 597.51233pt>
+<../Figures/RCSJ-Modell.pdf, id=539, 845.0471pt x 597.51233pt>
 File: ../Figures/RCSJ-Modell.pdf Graphic file (type pdf)
 <use ../Figures/RCSJ-Modell.pdf>
 Package pdftex.def Info: ../Figures/RCSJ-Modell.pdf  used on input line 189.
 (pdftex.def)             Requested size: 206.22382pt x 145.81285pt.
-<../Figures/washboard.pdf, id=539, 722.7pt x 722.7pt>
+<../Figures/washboard.pdf, id=540, 722.7pt x 722.7pt>
 File: ../Figures/washboard.pdf Graphic file (type pdf)
 <use ../Figures/washboard.pdf>
 Package pdftex.def Info: ../Figures/washboard.pdf  used on input line 189.
@@ -770,14 +770,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--199
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
  [10]
-<../Figures/dc-SQUID.pdf, id=641, 241.84856pt x 200.75pt>
+<../Figures/dc-SQUID.pdf, id=643, 241.84856pt x 200.75pt>
 File: ../Figures/dc-SQUID.pdf Graphic file (type pdf)
 <use ../Figures/dc-SQUID.pdf>
 Package pdftex.def Info: ../Figures/dc-SQUID.pdf  used on input line 233.
 (pdftex.def)             Requested size: 256.0748pt x 212.56117pt.
 
 [11 <../Figures/dc-SQUID.pdf>]
-<../Figures/Phi_betaL.pdf, id=687, 722.7pt x 722.7pt>
+<../Figures/Phi_betaL.pdf, id=689, 722.7pt x 722.7pt>
 File: ../Figures/Phi_betaL.pdf Graphic file (type pdf)
 <use ../Figures/Phi_betaL.pdf>
 Package pdftex.def Info: ../Figures/Phi_betaL.pdf  used on input line 274.
@@ -788,11 +788,23 @@ Overfull \hbox (2.48279pt too wide) in paragraph at lines 304--305
  from the above-mentioned
  []
 
-) (../Chapter/Experimental_Setup.tex
-Underfull \vbox (badness 1147) has occurred while \output is active []
+[14]
+<../Figures/IV.pdf, id=772, 722.7pt x 722.7pt>
+File: ../Figures/IV.pdf Graphic file (type pdf)
+<use ../Figures/IV.pdf>
+Package pdftex.def Info: ../Figures/IV.pdf  used on input line 318.
+(pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
+<../Figures/VPhi.pdf, id=773, 722.7pt x 722.7pt>
+File: ../Figures/VPhi.pdf Graphic file (type pdf)
+<use ../Figures/VPhi.pdf>
+Package pdftex.def Info: ../Figures/VPhi.pdf  used on input line 318.
+(pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
+) (../Chapter/Experimental_Setup.tex [15 <../Figures/IV.pdf> <../Figures/VPhi.p
+df
 
- [14]
-[15] [16
+pdfTeX warning: pdflatex.exe (file ../Figures/VPhi.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [16
 
 ]
 Chapter 2.
@@ -814,10 +826,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1D103C7092929027986AE83C273618AD;4748.
  ) 
 Here is how much of TeX's memory you used:
- 18999 strings out of 476410
- 380407 string characters out of 5797990
+ 19022 strings out of 476410
+ 380948 string characters out of 5797990
  1867845 words of memory out of 5000000
- 38926 multiletter control sequences out of 15000+600000
+ 38946 multiletter control sequences out of 15000+600000
  541113 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,78p,1348b,1140s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -847,9 +859,9 @@ cm/cmr6.pfb><C:/Program Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 m Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/Mik
 TeK20/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MikTeK20
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (25 pages, 1671126 bytes).
+Output written on Thesis.pdf (25 pages, 1702381 bytes).
 PDF statistics:
- 1247 PDF objects out of 1440 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

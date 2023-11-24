@@ -303,8 +303,20 @@ I_{\rm b} = I_{\rm s}^{\rm m}(\Phi_{\rm e}) \sin \left(\varphi\right) + \frac{2}
 
 This equivalence of a dc-SQUID and a single junction stems from the above-mentioned fact that the SQUID loop represents a single Josephson contact that provides a larger effective area external fields can penetrate. It is therefore possible to derive the voltage drop across the SQUID in the same manner as in subsection \ref{subsec_RCSJ}. With the critical current $I_{\rm s}^{\rm m}(\Phi_{\rm e})$ now being flux-dependent with a modulation of $\unit{\fq}$, we compare with equation \ref{VJJ} and obtain for the time averaged voltage \cite{Clarke2004}
 \begin{align}
-	\langle V(t)\rangle &= \frac{R_{\rm s}}{2}\sqrt{I_{\rm b}^2 - I_{\rm s}^{\rm m}(\Phi_{\rm e})^2} \\ &= I_{\rm c}R_{\rm s}\sqrt{\left(\frac{I_{\rm b}}{2I_{\rm c}}\right)^2-\left[\cos\left(\pi\frac{\Phi_{\rm e}}{\unit{\fq}}\right)\right]^2}	
+	\langle V(t)\rangle &= \frac{R_{\rm s}}{2}\sqrt{I_{\rm b}^2 - I_{\rm s}^{\rm m}(\Phi_{\rm e})^2} \\ &= I_{\rm c}R_{\rm s}\sqrt{\left(\frac{I_{\rm b}}{2I_{\rm c}}\right)^2-\left[\cos\left(\pi\frac{\Phi_{\rm e}}{\unit{\fq}}\right)\right]^2} \ \ .	
 \end{align}     
+Evidently, both the current and the voltage are flux dependent and are modulated by $\unit{\fq}$. Figure ??? showcases this behavior by considering the case for the minimum and maximum critical current, i.e. for $\Phi_{\rm e} = n\unit{\fq}$ and $\Phi_{\rm e} = (n+\frac{1}{2})\unit{\fq}$, with $n\in\mathbb{Z}$. The current-voltage-characteristics at these flux values are particularly interesting, as they can be used to extract crucial SQUID parameters like the voltage swing $\Delta V_{\rm max}$. This property describes how the voltage varies with the applied flux $\Phi_{\rm e}$, at a given current $I_{\rm b}$. This is maximal at $I_{\rm b}\approx 2I_{\rm c}$, as depicted in figure ???.
+
+\twofigurescenter {t!}
+{width=0.48\textwidth}
+{../Figures/IV}
+{0.02\textwidth} %hspace b/w figures
+{width=0.48\textwidth}
+{../Figures/VPhi}
+{0.5cm} %vspace
+{Left: .}
+{fig:IV_VPhi_theo}
+
 
 \subsection{Noise}
 
