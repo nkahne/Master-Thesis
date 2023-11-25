@@ -285,11 +285,11 @@ The modulation of this current quickly diminishes for increasing $\beta_{\rm L}$
 \frac{\Delta I_{\mathrm{s}}^{\mathrm{m}}\left(\Phi_{\mathrm{e}}\right)}{2 I_{\mathrm{c}}} \approx 1-\frac{2 \Phi_{\mathrm{e}}}{\Phi_0 \beta_{\mathrm{L}}} \ \ .
 }{}
 
-For the SQUIDs produced within the scope of this thesis, values of $\beta_{\rm L}\approx 2/\pi$ were cosidered optimal to minimize resonant behavior without reducing the SQUID inductance $L_{\rm s}$ too much. In subsection ??? we will discuss how various parameters are chosen to ensure an optimal SQUID performance.
+For the SQUIDs produced within the scope of this thesis, values of $\beta_{\rm L}\approx 1$ were cosidered optimal to minimize resonant behavior without reducing the SQUID inductance $L_{\rm s}$ too much. In subsection \ref{subsec_optparam_theo} we will discuss how various parameters are chosen to ensure an optimal SQUID performance.
 
 \subsection{Voltage State}
 
-To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using \ref{IsGeneral_SQUID0v} we can write for the bias current 
+To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using equation \ref{IsGeneral_SQUID0v} we can write for the bias current 
 
 \gl{
 I_{\rm b} = 2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) + 2\frac{V_{\rm s}}{R} \ \ ,
@@ -302,10 +302,10 @@ I_{\rm b} = I_{\rm s}^{\rm m}(\Phi_{\rm e}) \sin \left(\varphi\right) + \frac{2}
 }{}
 
 This equivalence of a dc-SQUID and a single junction stems from the above-mentioned fact that the SQUID loop represents a single Josephson contact that provides a larger effective area external fields can penetrate. It is therefore possible to derive the voltage drop across the SQUID in the same manner as in subsection \ref{subsec_RCSJ}. With the critical current $I_{\rm s}^{\rm m}(\Phi_{\rm e})$ now being flux-dependent with a modulation of $\unit{\fq}$, we compare with equation \ref{VJJ} and obtain for the time averaged voltage \cite{Clarke2004}
-\begin{align}
+\begin{align}\label{squidV(t)}
 	\langle V(t)\rangle &= \frac{R_{\rm s}}{2}\sqrt{I_{\rm b}^2 - I_{\rm s}^{\rm m}(\Phi_{\rm e})^2} \\ &= I_{\rm c}R_{\rm s}\sqrt{\left(\frac{I_{\rm b}}{2I_{\rm c}}\right)^2-\left[\cos\left(\pi\frac{\Phi_{\rm e}}{\unit{\fq}}\right)\right]^2} \ \ .	
 \end{align}     
-Evidently, both the current and the voltage are flux dependent and are modulated by $\unit{\fq}$. Figure ??? showcases this behavior by considering the case for the minimum and maximum critical current, i.e. for $\Phi_{\rm e} = n\unit{\fq}$ and $\Phi_{\rm e} = (n+\frac{1}{2})\unit{\fq}$, with $n\in\mathbb{Z}$. The current-voltage-characteristics at these flux values are particularly interesting, as they can be used to extract crucial SQUID parameters like the voltage swing $\Delta V_{\rm max}$. This property describes how the voltage varies with the applied flux $\Phi_{\rm e}$, at a given current $I_{\rm b}$. This is maximal at $I_{\rm b}\approx 2I_{\rm c}$, as depicted in figure ???.
+Evidently, both the current and the voltage are flux dependent and are modulated by $\unit{\fq}$. Figure \ref{abb:IV_VPhi_theo} (left) showcases this behavior by considering the case for the minimum and maximum critical current, i.e. for $\Phi_{\rm e} = n\unit{\fq}$ and $\Phi_{\rm e} = (n+\frac{1}{2})\unit{\fq}$, with $n\in\mathbb{Z}$. The current-voltage-characteristics at these flux values are particularly interesting, as they can be used to extract crucial SQUID parameters like the voltage swing $\Delta V_{\rm max}$. This property describes how the voltage varies with the applied flux $\Phi_{\rm e}$, at a given current $I_{\rm b}$. It is maximal at $I_{\rm b}\approx 2I_{\rm c}$, as depicted in figure \ref{abb:IV_VPhi_theo} (right). \\
 
 \twofigurescenter {t!}
 {width=0.48\textwidth}
@@ -314,9 +314,14 @@ Evidently, both the current and the voltage are flux dependent and are modulated
 {width=0.48\textwidth}
 {../Figures/VPhi}
 {0.5cm} %vspace
-{Left: .}
-{fig:IV_VPhi_theo}
+{Left: IV-characteristics for a integer and half integer number of flux quanta for the limiting case of $\beta_{\rm c}\ll 1$ and $\beta_{\rm L}\ll 1$. The maximum voltage swing $\Delta V_{\rm max}$ is approximately at $I_{\rm b}\approx 2I_{\rm c}$ and corresponds to $I_{\rm c}R_{\rm s}$ for a resistively shunted dc-SQUID. Right: The projection of equation \ref{squidV(t)} onto the $V\Phi$-plane shows the flux dependency of the voltage at various bias current values ($I_{\rm b}\geq 2I_{\rm c}$). The amplitude of the modulation decreases for increasing $I_{\rm b}$.}
+{IV_VPhi_theo}
 
+It is, however, important to note that equation \ref{squidV(t)} doesn't hold for practical SQUIDs, as they are typically not fabricated to fulfill the limiting case of $\beta_{\rm c}\ll 1$ and $\beta_{\rm L}\ll 1$. The conclusions reached here will nevertheless be applicable to practical SQUIDS, only needing a few adjustments. 
+
+\subsection{Optimal Parameters}\label{subsec_optparam_theo}
+
+Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much increases white noise levels, as we will see in the following subsection. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} 
 
 \subsection{Noise}
 
