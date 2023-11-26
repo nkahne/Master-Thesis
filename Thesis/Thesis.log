@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.1)  25 NOV 2023 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.1)  26 NOV 2023 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,11 +821,21 @@ Package pdftex.def Info: ../Figures/VPhi.pdf  used on input line 318.
 
 LaTeX Warning: Citation `Tesche1977' on page 15 undefined on input line 324.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
 [15 <../Figures/IV.pdf> <../Figures/VPhi.pdf
 
 pdfTeX warning: pdflatex (file ../Figures/VPhi.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->]) (../Chapter/Experimental_Setup.tex [16]
+>]
+
+LaTeX Warning: Citation `Ivanchenko1968' on page 16 undefined on input line 332
+.
+
+) (../Chapter/Experimental_Setup.tex [16]
 Chapter 2.
 ) (../Chapter/Experimental_Results.tex [17
 
@@ -855,8 +865,8 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F40161499932C2C3DBBD21372932DEB6;4903.
  ) 
 Here is how much of TeX's memory you used:
- 18810 strings out of 475550
- 377156 string characters out of 5762534
+ 18814 strings out of 475550
+ 377208 string characters out of 5762534
  1933238 words of memory out of 5000000
  39611 multiletter control sequences out of 15000+600000
  586895 words of font info for 104 fonts, out of 8000000 for 9000
@@ -891,9 +901,9 @@ fb><C:/Users/nico-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb><C:/Users/nico-/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/symbols/msam10.pfb><C:/Users/nico-/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (25 pages, 1707031 bytes).
+Output written on Thesis.pdf (25 pages, 1710551 bytes).
 PDF statistics:
- 1335 PDF objects out of 1440 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
+ 1342 PDF objects out of 1440 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
  309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

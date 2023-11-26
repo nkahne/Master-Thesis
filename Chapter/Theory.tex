@@ -321,7 +321,23 @@ It is, however, important to note that equation \ref{squidV(t)} doesn't hold for
 
 \subsection{Optimal Parameters}\label{subsec_optparam_theo}
 
-Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much increases white noise levels, as we will see in the following subsection. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} 
+Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much increases the current white noise and energy sensitivity, as we will see in the following subsection. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} such numerical simulations lead to optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$ to minimize the energy sensitivity. \\
+
+To further fine-tune various parameters it is essential to look at how dc-SQUIDs are typically operated to achieve the highest possible flux sensitivity. Here, we distinguish between a current and a voltage bias, where the former was assumed in figure \ref{abb:IV_VPhi_theo}. Maximizing sensitivity in this mode is done by maintaining the flux thorugh a constant offset at the steepest point in the $V\Phi$-curve, which is referred to as the working point. This allows for the largest possible voltage change $\Delta V$ at a given flux change $\Delta \Phi$. Similarly, at a voltage bias the working point will mark the steepest point in the $I\Phi$-curve. To quantify this, we will introduce the transfer parameters %$V_{\rm \Phi}$, $\equiv$, $\left(\frac{\del V}{\del\Phi_{\rm e}}\right)$
+
+\begin{align}
+V_{\rm \Phi} &\equiv \left| \left(\frac{\del V}{\del\Phi_{\rm e}}\right)\right| \\ I_{\rm \Phi} &\equiv \left| \left(\frac{\del I}{\del\Phi_{\rm e}}\right)\right| \ \ .
+\end{align}
+
+As mentioned above, at $I_{\rm b}\approx 2I_{\rm c}$ (current bias) the amplitude of the voltage modulation is maximal. This needs to be modified for practical SQUIDs, where thermal fluctuations can't be neglected. The resulting thermal current $I_{\rm th}$ causes a rounding of the edge at $I_{\rm b}= 2I_{\rm c}$ (figure \ref{abb:IV_VPhi_theo} (left)), thereby reducing $\Delta V_{\rm max}$ and $V_{\rm \Phi}$ \cite{Ivanchenko1968}. To minimize this effect, 
+
+\gl{
+\frac{I_{\rm c}}{5}\geq I_{\rm th}\equiv\frac{2\pi k_{\rm B}T}{\unit{\fq}}
+}{}
+
+\gl{
+I_{\rm b,max}\approx 2I_{\rm c}(1-\sqrt{\Gamma/\pi})
+}{}
 
 \subsection{Noise}
 
