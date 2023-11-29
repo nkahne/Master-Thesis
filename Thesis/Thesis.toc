@@ -8,7 +8,8 @@
 \contentsline {subsection}{\numberline {1.2.1}Zero Voltage State}{11}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Voltage State}{14}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Optimal Parameters}{15}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Parasitic Resonances}{17}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.4}Noise}{17}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Parasitic Resonances}{17}{subsection.1.2.5}%
 \contentsline {chapter}{\numberline {2}Experimental Setup}{19}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Practical dc-SQUIDs}{19}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Operation of a dc-SQUID}{19}{section.2.2}%

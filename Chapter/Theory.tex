@@ -348,9 +348,12 @@ where $\Gamma$ is the noise parameter defined as $\Gamma=I_{\rm th}/I_{\rm c}$. 
 }{} 
 
 For $T=\qty{4.2}{\kelvin}$ we would obtain $L_{\rm s}\leq\qty{1}{n\henry}$, which is typically fulfilled for practical dc-SQUIDs.
-\\ \\ \\
-{\large\textbf{Noise}}
-\\ \\
+%\\ \\ \\
+%{\large\textbf{Noise}}
+%\\ \\
+
+\subsection{Noise}
+
 The above-mentioned energy sensitivity, also called spectral noise energy density or energy resolution, is defined as the flux noise per SQUID inductance $L_{\rm s}$ and is typically expressed through a power spectral density as 
 
 \gl{
@@ -365,13 +368,18 @@ S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2}
 S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right]
 }{}
 
-%\gl{
+\gl{
+S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s}
+}{}
 
-%}{}
+\gl{
+\epsilon(f) = 16k_{\rm B}T\sqrt{L_{\rm s}C}
+}{}
 
-%\gl{
+\gl{
+S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(1Hz}{•}
+}{}
 
-%}{}
 \subsection{Parasitic Resonances}
 
 
