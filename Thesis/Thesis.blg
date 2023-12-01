@@ -9,6 +9,10 @@ Repeated entry---line 1081 of file library.bib
  : @article{Stewart1968
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1761 of file library.bib
+ : @article{Tesche1977
+ :                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3085 of file library.bib
  : @article{Josephson1962
  :                       ,
@@ -30,45 +34,45 @@ Repeated entry---line 5745 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 12 entries,
+You've used 16 entries,
             2496 wiz_defined-function locations,
-            653 strings with 6284 characters,
-and the built_in function-call counts, 4398 in all, are:
-= -- 432
-> -- 141
-< -- 12
-+ -- 44
-- -- 44
-* -- 364
-:= -- 718
-add.period$ -- 12
-call.type$ -- 12
-change.case$ -- 67
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 193
-empty$ -- 357
-format.name$ -- 68
-if$ -- 878
+            683 strings with 7009 characters,
+and the built_in function-call counts, 6231 in all, are:
+= -- 605
+> -- 243
+< -- 16
++ -- 80
+- -- 80
+* -- 531
+:= -- 1023
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 101
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 257
+empty$ -- 476
+format.name$ -- 112
+if$ -- 1237
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 63
-num.names$ -- 37
-pop$ -- 61
+missing$ -- 18
+newline$ -- 83
+num.names$ -- 49
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 120
 quote$ -- 0
-skip$ -- 131
+skip$ -- 177
 stack$ -- 0
-substring$ -- 303
-swap$ -- 21
-text.length$ -- 12
-text.prefix$ -- 12
+substring$ -- 413
+swap$ -- 29
+text.length$ -- 16
+text.prefix$ -- 16
 top$ -- 0
-type$ -- 84
+type$ -- 116
 warning$ -- 0
-while$ -- 39
-width$ -- 15
-write$ -- 156
-(There were 6 error messages)
+while$ -- 52
+width$ -- 20
+write$ -- 208
+(There were 7 error messages)

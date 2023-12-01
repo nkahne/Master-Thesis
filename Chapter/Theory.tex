@@ -360,10 +360,14 @@ The above-mentioned energy sensitivity, also called spectral noise energy densit
 \epsilon(f) = \frac{S_{\rm \Phi}(f)}{2L_{\rm s}} \ \ .
 }{}
 
+This conveniently allows to compare noise properties from SQUIDs with different loop inductances. The flux noise power spectral density $S_{\rm \Phi}(f)$ cannot be measured directly and is therefore calculated with the equivalent voltage noise using the transfer coefficient introduced above: 
+
 \gl{
-S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2}
+S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2} \ \ .
 }{}
 
+To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise
+ 
 \gl{
 S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right]
 }{}
@@ -377,7 +381,7 @@ S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s}
 }{}
 
 \gl{
-S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(1Hz}{•}
+S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(\qty{1}{\hertz})}{f^\alpha}
 }{}
 
 \subsection{Parasitic Resonances}
