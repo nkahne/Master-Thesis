@@ -321,9 +321,9 @@ It is, however, important to note that equation \ref{squidV(t)} doesn't hold for
 
 \subsection{Optimal Parameters}\label{subsec_optparam_theo}
 
-Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much reduces the voltage swing and increases the current white noise and energy sensitivity, as we will see in the following discussion. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} such numerical simulations lead to optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$ to minimize the energy sensitivity. \\
+Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much reduces the voltage swing $\Delta V_{\rm max}$ and increases the energy sensitivity $\epsilon(f)$, as we will see in the following discussion. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} such numerical simulations lead to optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$ to minimize the energy sensitivity. \\
 
-To further fine-tune various parameters it is essential to look at how dc-SQUIDs are typically operated to achieve the highest possible flux sensitivity. Here, we distinguish between a current and a voltage bias, where the former was assumed in figure \ref{abb:IV_VPhi_theo}. Maximizing sensitivity in this mode is done by maintaining the flux thorugh a constant offset at the steepest point in the $V\Phi$-curve, which is referred to as the working point and corresponds to $\Phi_{\rm e}=(2n+1)\frac{\unit{\fq}}{4}$. This allows for the largest possible voltage change $\Delta V$ at a given flux change $\Delta \Phi$. Similarly, at a voltage bias the working point will mark the steepest point in the $I\Phi$-curve. To quantify this, we will introduce the transfer parameters %$V_{\rm \Phi}$, $\equiv$, $\left(\frac{\del V}{\del\Phi_{\rm e}}\right)$
+To further fine-tune various parameters it is essential to look at how dc-SQUIDs are typically operated to achieve the highest possible flux sensitivity. Here, we distinguish between a current and a voltage bias, where the former was assumed in figure \ref{abb:IV_VPhi_theo}. Maximizing sensitivity in this mode is done by maintaining the flux thorugh a constant offset at the steepest point in the $V\Phi$-curve, which is referred to as the working point and corresponds to $\Phi_{\rm e}=(2n+1)\frac{\unit{\fq}}{4}$. This allows for the largest possible voltage change $\Delta V$ at a given flux change $\Delta \Phi$. Similarly, at a voltage bias the working point will mark the steepest point in the $I\Phi$-curve. To quantify this, we introduce the transfer parameters 
 
 \begin{align}
 V_{\rm \Phi} &\equiv \left| \left(\frac{\del V}{\del\Phi_{\rm e}}\right)\right| \\ I_{\rm \Phi} &\equiv \left| \left(\frac{\del I}{\del\Phi_{\rm e}}\right)\right| \ \ .
@@ -358,26 +358,30 @@ The above-mentioned energy sensitivity, also called spectral noise energy densit
 
 \gl{
 \epsilon(f) = \frac{S_{\rm \Phi}(f)}{2L_{\rm s}} \ \ .
-}{}
+}{energy_sens}
 
 This conveniently allows to compare noise properties from SQUIDs with different loop inductances. The flux noise power spectral density $S_{\rm \Phi}(f)$ cannot be measured directly and is therefore calculated with the equivalent voltage noise using the transfer coefficient introduced above: 
 
 \gl{
 S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2} \ \ .
-}{}
+}{fluxnoise_psd}
 
-To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise
+To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to the simulated optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise \cite{Tesche1977}, \cite{Bruines1982}
  
 \gl{
-S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right]
-}{}
+S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right] \ \ .
+}{voltagenoise_psd}
+
+Here, we used the approximation $V_{\rm \Phi}\approx\frac{I_{\rm c}R_{\rm s}}{\unit{\fq}/2}\approx\frac{R_{\rm s}}{L_{\rm s}}$ for $\beta_{\rm L}\approx 1$. These calculations have also lead to the relation $R_{\rm dyn}\approx \sqrt{2}R_{\rm s}$, which can be used to rewrite equation \ref{voltagenoise_psd} to 
 
 \gl{
-S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s}
+S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s} \ \ .
 }{}
 
+Inserting this into equations \ref{fluxnoise_psd} and \ref{energy_sens} leads to the expression
+
 \gl{
-\epsilon(f) = 16k_{\rm B}T\sqrt{L_{\rm s}C}
+\epsilon(f) \approx 16k_{\rm B}T\sqrt{\frac{L_{\rm s}C}{\beta_{\rm c}}} \approx 16k_{\rm B}T\sqrt{L_{\rm s}C} \ \ \ \rm{for} \ \ \ \beta_{\rm c}\approx 1 \ \ .
 }{}
 
 \gl{
