@@ -384,9 +384,16 @@ Inserting this into equations \ref{fluxnoise_psd} and \ref{energy_sens} leads to
 \epsilon(f) \approx 16k_{\rm B}T\sqrt{\frac{L_{\rm s}C}{\beta_{\rm c}}} \approx 16k_{\rm B}T\sqrt{L_{\rm s}C} \ \ \ \rm{for} \ \ \ \beta_{\rm c}\approx 1 \ \ .
 }{}
 
+For a moderately damped dc-SQUID ($\beta_{\rm c}\approx 1$) at a temperature $T=\qty{100}{\kelvin}$ and with a suitably small inductance $L_{\rm s}=\qty{100}{p\henry}$ we would therefore obtain a theoretical value of $\epsilon\approx \qty{0.32}{h}$. \\
+
+Lastly, to get the full picture we will look at the total flux noise spectrum by considering the $1/f$ component. This not entirely understood noise behavior is added to the above derived white noise and dominates the low frequency regime. It is parameterized by a power density of \qty{1}{\hertz}, giving a total noise power density of      
+
+
 \gl{
-S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(\qty{1}{\hertz})}{f^\alpha}
+S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(\qty{1}{\hertz})}{f^\alpha} \ \ ,
 }{}
+
+with $S_{\rm \Phi,w}$ being the white noise component and $\alpha$ ranging between 0.5 and 1 \cite{Drung2011}, which can be determined through experiment.
 
 \subsection{Parasitic Resonances}
 
