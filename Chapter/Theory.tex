@@ -366,13 +366,13 @@ This conveniently allows to compare noise properties from SQUIDs with different 
 S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2} \ \ .
 }{fluxnoise_psd}
 
-To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to the simulated optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise \cite{Tesche1977}, \cite{Bruines1982}
+To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to the simulated optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise given by \cite{Tesche1977}, \cite{Bruines1982}
  
 \gl{
 S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right] \ \ .
 }{voltagenoise_psd}
 
-Here, we used the approximation $V_{\rm \Phi}\approx\frac{I_{\rm c}R_{\rm s}}{\unit{\fq}/2}\approx\frac{R_{\rm s}}{L_{\rm s}}$ for $\beta_{\rm L}\approx 1$. These calculations have also lead to the relation $R_{\rm dyn}\approx \sqrt{2}R_{\rm s}$, which can be used to rewrite equation \ref{voltagenoise_psd} to 
+Here, we used the approximation $V_{\rm \Phi}\approx\frac{I_{\rm c}R_{\rm s}}{\unit{\fq}/2}\approx\frac{R_{\rm s}}{L_{\rm s}}$ for $\beta_{\rm L}\approx 1$. These calculations also derived the relation $R_{\rm dyn}\approx \sqrt{2}R_{\rm s}$, which can be used to rewrite equation \ref{voltagenoise_psd} to 
 
 \gl{
 S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s} \ \ .
@@ -386,7 +386,7 @@ Inserting this into equations \ref{fluxnoise_psd} and \ref{energy_sens} leads to
 
 For a moderately damped dc-SQUID ($\beta_{\rm c}\approx 1$) at a temperature $T=\qty{100}{\kelvin}$ and with a suitably small inductance $L_{\rm s}=\qty{100}{p\henry}$ we would therefore obtain a theoretical value of $\epsilon\approx \qty{0.32}{h}$. \\
 
-Lastly, to get the full picture we will look at the total flux noise spectrum by considering the $1/f$ component. This not entirely understood noise behavior is added to the above derived white noise and dominates the low frequency regime. It is parameterized by a power density of \qty{1}{\hertz}, giving a total noise power density of      
+Lastly, to get the full picture we will look at the total flux noise spectrum by considering the $1/f$ component. This not entirely understood noise behavior is added to the above derived white noise and dominates the low frequency regime. It is parameterized by a power density at \qty{1}{\hertz}, giving a total noise power density of      
 
 
 \gl{
