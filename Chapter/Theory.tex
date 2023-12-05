@@ -289,7 +289,7 @@ For the SQUIDs produced within the scope of this thesis, values of $\beta_{\rm L
 
 \subsection{Voltage State}
 
-To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm c}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using equation \ref{IsGeneral_SQUID0v} we can write for the bias current 
+To utilize dc-SQUIDs as sensitive magnetometers, it is necessary to operate them in the voltage state by applying a large enough current bias $I_{\rm b}$, such that $I_{\rm b}>2I_{\rm c}$. In the case of negligible screening ($\beta_{\rm L}\ll 1, \Phi\approx\Phi_{\rm e}$) and strong damping ($\beta_{\rm C}\ll 1$), i.e. by chosing a small junction capacitance $C$ and SQUID inductance $L_{\rm s}$, it is possible to derive the flux dependency of the resulting voltage drop across the SQUID. Following the RCSJ model, we are only left with the supercurrent $I_{\rm s}$ and the resistive current $I_{\rm n}$, such that by using equation \ref{IsGeneral_SQUID0v} we can write for the bias current 
 
 \gl{
 I_{\rm b} = 2 I_{\mathrm{c}} \cos \left(\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) \sin \left(\varphi_1+\pi \frac{\Phi_{\rm e}}{\Phi_0}\right) + 2\frac{V_{\rm s}}{R} \ \ ,
@@ -314,14 +314,14 @@ Evidently, both the current and the voltage are flux dependent and are modulated
 {width=0.48\textwidth}
 {../Figures/VPhi}
 {0.5cm} %vspace
-{Left: IV-characteristics for a integer and half integer number of flux quanta for the limiting case of $\beta_{\rm c}\ll 1$ and $\beta_{\rm L}\ll 1$. The maximum voltage swing $\Delta V_{\rm max}$ is approximately at $I_{\rm b}\approx 2I_{\rm c}$ and corresponds to $I_{\rm c}R_{\rm s}$ for a resistively shunted dc-SQUID. Right: The projection of equation \ref{squidV(t)} onto the $V\Phi$-plane shows the flux dependency of the voltage at various bias current values ($I_{\rm b}\geq 2I_{\rm c}$). The amplitude of the modulation decreases for increasing $I_{\rm b}$.}
+{Left: IV-characteristics for a integer and half integer number of flux quanta for the limiting case of $\beta_{\rm C}\ll 1$ and $\beta_{\rm L}\ll 1$. The maximum voltage swing $\Delta V_{\rm max}$ is approximately at $I_{\rm b}\approx 2I_{\rm c}$ and corresponds to $I_{\rm c}R_{\rm s}$ for a resistively shunted dc-SQUID. Right: The projection of equation \ref{squidV(t)} onto the $V\Phi$-plane shows the flux dependency of the voltage at various bias current values ($I_{\rm b}\geq 2I_{\rm c}$). The amplitude of the modulation decreases for increasing $I_{\rm b}$.}
 {IV_VPhi_theo}
 
-It is, however, important to note that equation \ref{squidV(t)} doesn't hold for practical SQUIDs, as they are typically not fabricated to fulfill the limiting case of $\beta_{\rm c}\ll 1$ and $\beta_{\rm L}\ll 1$. The conclusions reached here will nevertheless be applicable to practical SQUIDS, only needing a few adjustments. 
+It is, however, important to note that equation \ref{squidV(t)} doesn't hold for practical SQUIDs, as they are typically not fabricated to fulfill the limiting case of $\beta_{\rm C}\ll 1$ and $\beta_{\rm L}\ll 1$. The conclusions reached here will nevertheless be applicable to practical SQUIDS, only needing a few adjustments. 
 
 \subsection{Optimal Parameters}\label{subsec_optparam_theo}
 
-Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm c}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much reduces the voltage swing $\Delta V_{\rm max}$ and increases the energy sensitivity $\epsilon(f)$, as we will see in the following discussion. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} such numerical simulations lead to optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$ to minimize the energy sensitivity. \\
+Negligible screening is not reasonable, as it would require to choose an extremely small SQUID inductance $L_{\rm s}$, which in turn deteriorates the sensitivity for magnetic fields. The main reason to construct a dc-SQUID was to obtain a highly sensitive magnetometer by creating a large area for magnetic fields to thread through. Also, the fabrication process doesn't allow to produce an arbitrarily small junction capacitance $C$. The parameter $\beta_{\rm C}$ will therefore reach a lower limit as well, since also decreasing $R_{\rm s}$ too much reduces the voltage swing $\Delta V_{\rm max}$ and increases the energy sensitivity $\epsilon(f)$, as we will see in the following discussion. Now by allowing displacement and fluctuation currents, the current and voltage expressions become analytically unsolvable and therefore have to be solved numerically. In \cite{Tesche1977} such numerical simulations lead to optimal values of $\beta_{\rm C}\approx 1$ and $\beta_{\rm L}\approx 1$ to minimize the energy sensitivity. \\
 
 To further fine-tune various parameters it is essential to look at how dc-SQUIDs are typically operated to achieve the highest possible flux sensitivity. Here, we distinguish between a current and a voltage bias, where the former was assumed in figure \ref{abb:IV_VPhi_theo}. Maximizing sensitivity in this mode is done by maintaining the flux thorugh a constant offset at the steepest point in the $V\Phi$-curve, which is referred to as the working point and corresponds to $\Phi_{\rm e}=(2n+1)\frac{\unit{\fq}}{4}$. This allows for the largest possible voltage change $\Delta V$ at a given flux change $\Delta \Phi$. Similarly, at a voltage bias the working point will mark the steepest point in the $I\Phi$-curve. To quantify this, we introduce the transfer parameters 
 
@@ -366,7 +366,7 @@ This conveniently allows to compare noise properties from SQUIDs with different 
 S_{\rm \Phi}(f) = \frac{S_{\rm V}(f)}{V_{\rm \Phi}^2} \ \ .
 }{fluxnoise_psd}
 
-To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to the simulated optimal values of $\beta_{\rm c}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise given by \cite{Tesche1977}, \cite{Bruines1982}
+To derive an expression for $S_{\rm V}(f)$ we consider the white noise regime only, meaning we limit ourselves to higher frequencies to avoid any significant influence of 1/\textit{f}-noise. Now, we need to distinguish between two noise currents, one flowing across the SQUID and the other circulating within the SQUID loop. The former sees the total resistance of the SQUID which corresponds to $\frac{R_{\rm s}}{2}$ for $I\gg I_{\rm b,max}$ and to the dynamic resistance $R_{\rm dyn}=\frac{\del V}{\del I}$ for operation at the working point. The circulating current, however, sees two resistances in series, i.e. 2$R_{\rm s}$. By taking into account noise inducing resonances due to the simulated optimal values of $\beta_{\rm C}\approx 1$ and $\beta_{\rm L}\approx 1$, both noise currents can be used to obtain the voltage noise given by \cite{Tesche1977}, \cite{Bruines1982}
  
 \gl{
 S_{\rm V}(f) = \frac{4k_{\rm B}T}{R_{\rm s}}\left[2R_{\rm dyn}^2+\frac{L_{\rm s}^2V_{\rm \Phi}^2}{2}\right] \ \ .
@@ -381,21 +381,37 @@ S_{\rm V}(f) = 18k_{\rm B}TR_{\rm s} \ \ .
 Inserting this into equations \ref{fluxnoise_psd} and \ref{energy_sens} leads to the expression
 
 \gl{
-\epsilon(f) \approx 16k_{\rm B}T\sqrt{\frac{L_{\rm s}C}{\beta_{\rm c}}} \approx 16k_{\rm B}T\sqrt{L_{\rm s}C} \ \ \ \rm{for} \ \ \ \beta_{\rm c}\approx 1 \ \ .
+\epsilon(f) \approx 16k_{\rm B}T\sqrt{\frac{L_{\rm s}C}{\beta_{\rm C}}} \approx 16k_{\rm B}T\sqrt{L_{\rm s}C} \ \ \ \rm{for} \ \ \ \beta_{\rm C}\approx 1 \ \ .
 }{}
 
-For a moderately damped dc-SQUID ($\beta_{\rm c}\approx 1$) at a temperature $T=\qty{100}{\kelvin}$ and with a suitably small inductance $L_{\rm s}=\qty{100}{p\henry}$ we would therefore obtain a theoretical value of $\epsilon\approx \qty{0.32}{h}$. \\
+For a moderately damped dc-SQUID ($\beta_{\rm C}\approx 1$) at a temperature $T=\qty{100}{\kelvin}$ and with a suitably small inductance $L_{\rm s}=\qty{100}{p\henry}$ we would therefore obtain a theoretical value of $\epsilon\approx \qty{0.32}{h}$. \\
 
 Lastly, to get the full picture we will look at the total flux noise spectrum by considering the $1/f$ component. This not entirely understood noise behavior is added to the above derived white noise and dominates the low frequency regime. It is parameterized by a power density at \qty{1}{\hertz}, giving a total noise power density of      
 
 
 \gl{
-S_{\rm \Phi} = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(\qty{1}{\hertz})}{f^\alpha} \ \ ,
+S_{\rm \Phi}(f) = S_{\rm \Phi,w} + \frac{S_{\rm \Phi, 1/f}(\qty{1}{\hertz})}{f^\alpha} \ \ ,
 }{}
 
 with $S_{\rm \Phi,w}$ being the white noise component and $\alpha$ ranging between 0.5 and 1 \cite{Drung2011}, which can be determined through experiment.
 
 \subsection{Parasitic Resonances}
 
+We have seen that optimizing dc-SQUID properties requires careful fine-tuning of various parameters to ensure high sensitivity and low noise at the same time. Another constraint in this regard involves the presence of resonances in the system that we need to take into account. As discussed in subsection \ref{subsec_RCSJ}, a Josephson contact represents a parallel plate capacitor with capacitance $C$. The SQUID with its loop inductance $L_{\rm s}$ will therefore form a $LC$ resonator that can be excited if the Josephson currents oscillate with the resonance frequency $f_{L_{\rm s}C}=\frac{1}{2\pi\sqrt{L_{\rm s}C}}$. This is fulfilled for the condition 
 
+\gl{
+\frac{V_{\rm s}}{\unit{\fq}} = \frac{1}{2\pi\sqrt{L_{\rm s}C}} \ \ ,
+}{}
 
+where $V_{\rm s}$ denotes the voltage drop across the SQUID that is associated with the Josephson frequency $f_{\rm J}=\frac{V_{\rm s}}{\unit{\fq}}$ resulting from the ac Josephson effect. With optimal $\beta_{\rm C}$ and $\beta_{\rm L}$ values the voltage corresponding to this resonance frequency will move towards the vicinity of the working point, thus becoming relevant for the SQUID's performance.
+This so-called \textit{fundamental SQUID resonance} negatively affects the operation range by manifesting itself through a current step in the IVC, as shown in figure \ref{abb:fund_resonance_theo}. At the corresponding voltage the IV curves for integer and half integer flux quanta intersect, followed by further intersections and current steps at higher harmonics of the resonance \cite{Clarke2004}. The voltage swing $\Delta V$ and consequently $V_{\rm \Phi}$ are therefore limited by this resonance, which favors the choice of small values for $L_{\rm s}$ and $C$. \\
+
+\figureleft {t!}
+{width=\textwidth}
+{../Figures/IV}
+{9cm}
+{0cm}
+{Platzhalter: Cryo-Messung von SQUID ohne Einkoppelspule?} 
+{fund_resonance_theo}
+
+It is important to note, that the fundamental resonance does not depend on any geometrical properties of the circuit, which typically play a significant role in practical SQUIDs. This stems from the fact that external flux changes need to couple effectively into the SQUID in order to take advantage of its high sensitivity. For this an external input coil is usually placed on top of the SQUID loop, separated by an insulating layer to ensure the coupling to be solely inductive (see section \ref{sec_practical_SQUID}). The SQUID can therefore be used as a current sensor by converting small current signals in the input coil into small magnetic flux changes in the SQUID. This added coil, however, provides another parasitic capacitance $C_{\rm p}$ resulting from its fabrication on top of the SQUID loop. Consequently, rf currents can couple inductively from one system into the other, causing further parasitic effects. Particularly, problematic $LC$ resonances arise from the added inductance $L_{\rm i}$ and $C_{\rm p}$, namely the $f_{L_{\rm s}C_{\rm p}}$ and $f_{L_{\rm i}C_{\rm p}}$ resonance.
