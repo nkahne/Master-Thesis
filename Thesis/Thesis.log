@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  16 DEC 2023 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  17 DEC 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,30 +863,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 pdfTeX warning: /usr/bin/pdflatex (file ../Figures/VPhi.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
 
  []
 
 [18]
 File: ../Figures/IV.pdf Graphic file (type pdf)
 <use ../Figures/IV.pdf>
-Package pdftex.def Info: ../Figures/IV.pdf  used on input line 415.
+Package pdftex.def Info: ../Figures/IV.pdf  used on input line 416.
 (pdftex.def)             Requested size: 256.0748pt x 256.06956pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 \T1/cmr/m/n/12 Messung von SQUID ohne
  []
 
 
-LaTeX Warning: Citation `Ryh1992' on page 19 undefined on input line 418.
+LaTeX Warning: Citation `Ryh1992' on page 19 undefined on input line 419.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
@@ -919,10 +919,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B306326D1E263A2AF345E0909EEAC7CD;4594.
  ) 
 Here is how much of TeX's memory you used:
- 18928 strings out of 477932
- 376018 string characters out of 5837865
+ 18930 strings out of 477932
+ 376061 string characters out of 5837865
  1866388 words of memory out of 5000000
- 38683 multiletter control sequences out of 15000+600000
+ 38685 multiletter control sequences out of 15000+600000
  541113 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,12n,78p,1861b,1117s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -946,10 +946,10 @@ pe1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.p
 fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis.pdf (30 pages, 1731018 bytes).
+Output written on Thesis.pdf (30 pages, 1731310 bytes).
 PDF statistics:
- 1088 PDF objects out of 1200 (max. 8388607)
- 703 compressed objects within 8 object streams
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 705 compressed objects within 8 object streams
  137 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
