@@ -31,7 +31,7 @@ Here, the SQUID loop is represented by the washer, whereas each turn of the inpu
 L_{\rm s} = L_{\rm h} + L_{\rm t} + L_{\rm j} \ \ .
 }{}
 
-The latter is referred to as parasitic due to it's position outside of the input coil, thus not contributing to the coupling. By neglecting $L_{\rm t}$ and $L_{\rm j}$, we can approximate the washer inductance in the limit of $d\ll w$ to $L_{\rm s}\approx L_{\rm h}\approx 1.25{\rm\mu_0}d$, where $d$ and $w$ are the inner and outer side lengths, respectively \cite{Ketchen1981}. This is a reasonable result considering that the supercurrent will only flow along the inner edge of the washer \cite{Ketchen1982}, thereby being independent of the outer side length $w$. The effective area $A_{\rm eff}$ of the SQUID loop has been calculated to $A_{\rm eff}\approx dw$ \cite{Ketchen1985}, showing that this geometry allows for high sensitivity while keeping the SQUID inductance small. The input coil inductance on the other hand can be approximated by $L_{\rm i}=L_{\rm str}+n^2L_{\rm s}$, where $L_{\rm str}$ is the stripline inductance (see section \ref{sec_damping}) and $n$ is the number of input coil turns \cite{Ketchen1981}. The dc-SQUID designs used in this working group, however, are too complex to provide such analytical expressions and therefore need to be calculated numerically using simulation software such as \textit{InductEX}. 
+The latter is referred to as parasitic due to it's position outside of the input coil, thus not contributing to the coupling. By neglecting $L_{\rm t}$ and $L_{\rm j}$, we can approximate the washer inductance in the limit of $d\ll w$ to $L_{\rm s}\approx L_{\rm h}\approx 1.25{\rm\mu_0}d$, where $d$ and $w$ are the inner and outer side lengths, respectively \cite{Ketchen1981}. This is a reasonable result considering that the supercurrent will only flow along the inner edge of the washer \cite{Ketchen1982}, thereby being independent of the outer side length $w$. The effective area $A_{\rm eff}$ of the SQUID loop has been calculated to $A_{\rm eff}\approx dw$ \cite{Ketchen1985}, showing that this geometry allows for high sensitivity while keeping the SQUID inductance small. The input coil inductance on the other hand can be approximated by $L_{\rm i}=L_{\rm str}+n^2L_{\rm s}$, where $L_{\rm str}$ is the stripline inductance (see section \ref{sec_damping}) and $n$ is the number of input coil turns \cite{Ketchen1981}. The dc-SQUID designs used in this working group, however, are too complex to provide such analytical expressions and therefore need to be calculated numerically using simulation softwares such as \textit{InductEX}. 
 
 \subsection{Gradiometer}
 
@@ -39,11 +39,26 @@ The latter is referred to as parasitic due to it's position outside of the input
 {width=\textwidth}
 {../Figures/Gradiometer}
 {0cm}   %vspace
-{caption}
-{label}
+{Schematic examples of a gradiometric dc-SQUID configuration threaded by a homogeneous magnetic field $\textbf{B}$. First order gradiometer with two loops connected in series (left) and parallel (middle). A magnetic field change $\Delta B_{\rm x}$ induces two opposing currents that cancel each other out. Right: Second order gradiometer cosisting of four loops conected in series. This geometry results in a net zero current also for an applied field gradient $\frac{\del \textbf{B}}{\del z}$.}
+{gradiometer}
 
+The high flux sensitivity of a SQUID makes it prone to detect unwanted magnetic bias fields and/or gradients that may be present during its operation. Typical SQUIDs are therefore built in a gradiometric design to counteract this effect. A first order gradiometer consists of two identical conducting loops connected in series or parallel, with opposing orientation as shown in figure \ref{abb:gradiometer} (left, middle). Under the presence of a homogeneous bias field $\textbf{B}$ in x-direction, this configuration produces a zero net current after a field change $\Delta B_{\rm x}$, due to the opposing currents induced in each turn. To also achieve the same effect for a field gradient $\frac{\del \textbf{B}}{\del z}$, a second order gradiometer composed of four loops in series or parallel is required, see figure \ref{abb:gradiometer} (right) where only the currents induced in the upper loops are drawn for the sake of overview. In order to incorporate this into a practical SQUID, the input coil and the SQUID loop will consist of four serial and parallel turns, respectively. This configuration enables to combine a small SQUID inductance with a large input coil inductance while maintaining a strong coupling between the two, as each turn of both coils can be produced with similar dimensions. The low SQUID inductance results from the reciprocal summation over each loop inductance $L_{\rm w}$ due to the parallel connection, giving
 
+\gl{
+L_{\rm s} = \frac{L_{\rm w}}{4} \ \ .
+}{}
+
+Whereas a serial gradiometer gives 
+
+\gl{
+L_{\rm i} = 4L_{\rm w}
+}{}
+
+for the input coil. This gradiometric setup allows for adapting the input coil to the pickup coil of an MMC by choosing a large enough inductance $L_{\rm i}$, which will be discussed in section \ref{sec_SQUIDdesign}. 
+   
 \section{Operation of a dc-SQUID}
+
+
 
 \subsection{Flux-Locked Loop}
 
@@ -53,7 +68,7 @@ The latter is referred to as parasitic due to it's position outside of the input
 
 \subsection{Readout with Coupled dc-SQUIDs}
 
-\section{dc-SQUID Design}
+\section{dc-SQUID Design} \label{sec_SQUIDdesign}
 
 \subsection{dc-SQUID with a Two-Turn Input Coil}
 
