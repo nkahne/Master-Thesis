@@ -38,6 +38,16 @@ D.~Drung, F.~Ludwig, W.~M\"uller, U.~Steinhoff, L.~Trahms, H.~Koch, Y.~Q. Shen,
   biomagnetic measurements},
 \newblock {\em Appl. Phys. Lett.}, {\bf 68}, 1421--1423, 1996.
 
+\bibitem[Dru02]{Drung2002}
+D.~Drung,
+\newblock {High-performance DC SQUID read-out electronics},
+\newblock {\em Physica C: Superconductivity}, {\bf 368}(1-4), 134--140, 2002.
+
+\bibitem[Dru06]{Drung2006}
+D.~Drung, C.~Hinnrichs, and H.-J. Barthelmess,
+\newblock {Low-noise ultra-high-speed dc SQUID readout electronics},
+\newblock {\em Supercond. Sci. Tech.}, {\bf 19}(5), S235, 2006.
+
 \bibitem[Dru11]{Drung2011}
 D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
 \newblock {Investigation of Low-Frequency Excess Flux Noise in DC SQUIDs at mK
@@ -75,6 +85,17 @@ B.~D. Josephson,
 B.~D. Josephson,
 \newblock {Supercurrents through barriers},
 \newblock {\em Advances in Physics}, {\bf 14}(56), 419--451, 1965.
+
+\bibitem[Ket78]{Ketchen1978}
+M.~B. Ketchen, W.~M. Goubau, J.~Clarke, and G.~B. Donaldson,
+\newblock {Superconducting thinfilm gradiometer},
+\newblock {\em J. Appl. Phys.}, {\bf 49}, 4111--4116, 1978.
+
+\bibitem[Ket91]{Ketchen1991}
+M.B. Ketchen,
+\newblock {Design considerations for DC SQUIDs fabricated in deep sub-micron
+  technology},
+\newblock {\em IEEE T. Magn.}, {\bf 27}, 2916--2919, 1991.
 
 \bibitem[Lik86]{Likharev1986}
 K.~K. Likharev,

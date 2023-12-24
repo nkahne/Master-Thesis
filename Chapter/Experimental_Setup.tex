@@ -35,14 +35,7 @@ The latter is referred to as parasitic due to it's position outside of the input
 
 \subsection{Gradiometer}
 
-\figurecenter {t!}
-{width=\textwidth}
-{../Figures/Gradiometer}
-{0cm}   %vspace
-{Schematic examples of a gradiometric dc-SQUID configuration threaded by a homogeneous magnetic field $\textbf{B}$. First order gradiometer with two loops connected in series (left) and parallel (middle). A magnetic field change $\Delta B_{\rm x}$ induces two opposing currents that cancel each other out. Right: Second order gradiometer cosisting of four loops conected in series. This geometry results in a net zero current also for an applied field gradient $\frac{\del \textbf{B}}{\del z}$.}
-{gradiometer}
-
-The high flux sensitivity of a SQUID makes it prone to detect unwanted magnetic bias fields and/or gradients that may be present during its operation. Typical SQUIDs are therefore built in a gradiometric design to counteract this effect. A first order gradiometer consists of two identical conducting loops connected in series or parallel, with opposing orientation as shown in figure \ref{abb:gradiometer} (left, middle). Under the presence of a homogeneous bias field $\textbf{B}$ in x-direction, this configuration produces a zero net current after a field change $\Delta B_{\rm x}$, due to the opposing currents induced in each turn. To also achieve the same effect for a field gradient $\frac{\del \textbf{B}}{\del z}$, a second order gradiometer composed of four loops in series or parallel is required, see figure \ref{abb:gradiometer} (right) where only the currents induced in the upper loops are drawn for the sake of overview. In order to incorporate this into a practical SQUID, the input coil and the SQUID loop will consist of four serial and parallel turns, respectively. This configuration enables to combine a small SQUID inductance with a large input coil inductance while maintaining a strong coupling between the two, as each turn of both coils can be produced with similar dimensions. The low SQUID inductance results from the reciprocal summation over each loop inductance $L_{\rm w}$ due to the parallel connection, giving
+The high flux sensitivity of a SQUID makes it prone to detect unwanted magnetic bias fields and/or gradients that may be present during its operation. Typical SQUIDs are therefore built in a gradiometric design to counteract this effect \cite{Ketchen1978}. A first order gradiometer consists of two identical conducting loops connected in series or parallel, with opposing orientation as shown in figure \ref{abb:gradiometer} (left, middle). Under the presence of a homogeneous bias field $\textbf{B}$ in x-direction (perpendicular to the gradiometer plane), this configuration produces a zero net current after a field change $\Delta B_{\rm x}$, due to the opposing currents induced in each turn. To also achieve the same effect for a field gradient $\frac{\del \textbf{B}}{\del z}$ or $\frac{\del \textbf{B}}{\del y}$, a second order gradiometer composed of four loops in series or parallel is required, see figure \ref{abb:gradiometer} (right), where only the currents induced in the upper loops are drawn for the sake of overview. In order to incorporate this into a practical SQUID, the input coil and the SQUID loop will consist of four serial and parallel turns, respectively. This configuration enables to combine a small SQUID inductance with a large input coil inductance while maintaining a strong coupling between the two, as each turn of both coils can be produced with similar dimensions. The low SQUID inductance results from the reciprocal summation over each loop inductance $L_{\rm w}$ due to the parallel connection, giving
 
 \gl{
 L_{\rm s} = \frac{L_{\rm w}}{4} \ \ .
@@ -55,12 +48,40 @@ L_{\rm i} = 4L_{\rm w}
 }{}
 
 for the input coil. This gradiometric setup allows for adapting the input coil to the pickup coil of an MMC by choosing a large enough inductance $L_{\rm i}$, which will be discussed in section \ref{sec_SQUIDdesign}. 
+
+\figurecenter {t!}
+{width=\textwidth}
+{../Figures/Gradiometer}
+{0cm}   %vspace
+{Schematic examples of a gradiometric dc-SQUID configuration threaded by a homogeneous magnetic field $\textbf{B}$. A first order gradiometer can be realized by either connecting two loops in series (left) or in parallel (middle). A magnetic field change $\Delta B_{\rm x}$ induces two opposing currents that cancel each other out. Right: Second order gradiometer consisting of four loops conected in series. This geometry results in a net zero current also for an applied field gradient $\frac{\del \textbf{B}}{\del z}$.}
+{gradiometer}
    
 \section{Operation of a dc-SQUID}
 
-
+We have seen in section \ref{sec_voltagestate} that the periodic $V\Phi$-characteristic provides an approximately linear dependency at $\Phi = (2n+1)\frac{\Phi_0}{4}$, which only holds for $\Delta\Phi\approx\Phi_0/4$. This restricts the dynamic range greatly, as the linearity vanishes for larger flux changes and for $\Delta\Phi>\Phi_0/2$ the voltage even becomes ambiguous. Such behavior is unsuitable for MMC readout, as they require the highest possible signal to noise ratio and therefore a linearized output voltage.  
 
 \subsection{Flux-Locked Loop}
+
+The standard readout method involves a flux feedback circuit to maintain the operation at the working point independently of the flux change amplitude \cite{Drung2002}. This so-called flux-locked loop (FLL) readout technique first amplifies the output signal of the SQUID $V_s$ with a differential amplifier operated at room temperature, where the voltage $V_{\rm b}$ corresponding to the working point is provided by a voltage source on the second amplifier input. This voltage compensation at the working point ensures that only variations $\Delta V = V_{\rm s}-V_{\rm b}$ that correspond to the flux change $\Delta\Phi$ are amplified. The signal is then fed into an integrator, which integrates it over time and thus creates a rising output voltage $V_{\rm out}$. By now connecting a feedback resistance $R_{\rm fb}$ to the output circuit, a rising feedback current $I_{\rm fb}$ emerges that flows to a feedback coil with inductance $L_{\rm fb}$. This coil is coupled to the SQUID analogous to the input coil (see section \ref{sec_SQUIDdesign}), but with the opposite orientation. A compensation flux $-\Delta\Phi$ is generated up until the initial flux change is fully canceled out, i.e. $V_{\rm s}\to 0$. The integrator will therefore approach a constant value due to the vanishing voltage at the input circuit. This voltage signal is proportional to the current that was needed to completely compensate for the input signal that induced $\Delta\Phi$, leading to the relation 
+
+\gl{
+V_{\rm out} = \frac{R_{\rm fb}}{M_{\rm fb}}\Delta\Phi \ \ .	
+}{} 
+
+\figurecenter {t!}
+{width=\textwidth}
+{../Figures/FLL}
+{0cm}
+{Schematic circuit diagram of a flux-locked loop dc-SQUID readout. The amplified and integrated SQUID voltage signal $V_{\rm s}$, which is caused by a detected flux change $\Delta\Phi$, is fed back to a feedback coil with inductance $L_{\rm fb}$, creating a compensating flux $-\Delta\Phi$. This enables the operation at the working point, while flux changes far greater than $\Phi_0/4$ can be linearized.} 
+{FLL}
+
+A schematic for this readout process is shown in figure \ref{abb:FLL}.  With this setup the SQUID is used as a null-detector that allows for the linearization of the quantity of interest, while also providing a large dynamic range. A state-of-the-art, low-noise SQUID readout electronic by the company Magnicon\footnote{Magnicon GmbH, Barkahusenweg 11, 22339 Hamburg} of the type XXF-1, which is used in this working group, provides the necessary current and voltage sources, as well as the room temperature amplifiers within the FLL circuit described above. This SQUID electronic exhibits an intrinsic voltage noise of $\sqrt{S_{V\rm ,el}}\approx\qty{0.33}{\nV\per\sqrthz}$ and intrinsic current noise of $\sqrt{S_{I\rm ,el}}\approx\qty{2.6}{\pA\per\sqrthz}$ \cite{Drung2006}. Furthermore, a large amplifier bandwidth of $\qty{6}{\MHz}$ is provided to ensure high sensitivity for short signal rise times. The intrinsic noise of the SQUIDs produced in this working group, however, typically reaches values of $\sqrt{S_{\Phi_{\rm s}}}\leq\qty{1}{\micro\fq\per\sqrthz}$. The amplifier electronic therefore dominates the total apparent flux noise in the SQUID, which is given by the spectral power density
+
+\gl{
+S_{\rm \Phi_s,SQ} = S_{\rm \Phi_s} + \frac{S_{V\rm ,el}}{V_{\rm \Phi_s}^2} + \frac{S_{I\rm ,el}}{I_{\rm \Phi_s}^2} \ \ .
+}{}  
+
+Typical values for the transfer coefficients of SQUIDs produced within the scope of this thesis, are $V_{\rm \Phi_s}=\qty{80}{\uV\per\fq}$ and $I_{\rm \Phi_s}=\qty{20}{\uA\per\fq}$, leading to a total noise contribution of  
 
 \subsection{Two-Stage Configuration}
 

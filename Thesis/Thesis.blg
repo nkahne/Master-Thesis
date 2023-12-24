@@ -34,45 +34,49 @@ Repeated entry---line 5745 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 20 entries,
+Warning--I didn't find a database entry for "Jay1981"
+Warning--I didn't find a database entry for "Ketchen1981"
+Warning--I didn't find a database entry for "Ketchen1982"
+Warning--I didn't find a database entry for "Ketchen1985"
+You've used 24 entries,
             2496 wiz_defined-function locations,
-            713 strings with 7890 characters,
-and the built_in function-call counts, 7827 in all, are:
-= -- 764
-> -- 314
-< -- 20
-+ -- 104
-- -- 104
-* -- 670
-:= -- 1287
-add.period$ -- 20
-call.type$ -- 20
-change.case$ -- 129
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 318
-empty$ -- 586
-format.name$ -- 144
-if$ -- 1549
+            753 strings with 8542 characters,
+and the built_in function-call counts, 9418 in all, are:
+= -- 925
+> -- 369
+< -- 24
++ -- 122
+- -- 122
+* -- 810
+:= -- 1541
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 154
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 382
+empty$ -- 709
+format.name$ -- 170
+if$ -- 1864
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 103
-num.names$ -- 61
-pop$ -- 109
+missing$ -- 25
+newline$ -- 123
+num.names$ -- 73
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 152
+purify$ -- 181
 quote$ -- 0
-skip$ -- 219
+skip$ -- 263
 stack$ -- 0
-substring$ -- 518
-swap$ -- 36
-text.length$ -- 20
-text.prefix$ -- 20
+substring$ -- 645
+swap$ -- 44
+text.length$ -- 24
+text.prefix$ -- 24
 top$ -- 0
-type$ -- 148
+type$ -- 180
 warning$ -- 0
-while$ -- 65
-width$ -- 24
-write$ -- 260
+while$ -- 80
+width$ -- 28
+write$ -- 312
 (There were 7 error messages)
