@@ -54,6 +54,12 @@ D.~Drung, C.~Hinnrichs, and H.-J. Barthelmess,
 \newblock {Low-noise ultra-high-speed dc SQUID readout electronics},
 \newblock {\em Supercond. Sci. Tech.}, {\bf 19}(5), S235, 2006.
 
+\bibitem[Dru07]{Drung2007}
+D.~Drung, C.~Abmann, J.~Beyer, A.~Kirste, M.~Peters, F.~Ruede, and Th. Schurig,
+\newblock Highly sensitive and easy-to-use squid sensors,
+\newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 17}(2),
+  699--704, 2007.
+
 \bibitem[Dru11]{Drung2011}
 D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
 \newblock {Investigation of Low-Frequency Excess Flux Noise in DC SQUIDs at mK
@@ -64,6 +70,20 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
 V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
 \newblock {Performance of a flux locked series SQUID array},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
+
+\bibitem[Gas17]{Gastaldo2017}
+L.~Gastaldo, K.~Blaum, K.~Chrysalidis, T.~Day Goodacre, A.~Domula, M.~Door,
+  H.~Dorrer, Ch.~E. D\"{u}llmann, K.~Eberhardt, S.~Eliseev, C.~Enss,
+  A.~Faessler, P.~Filianin, A.~Fleischmann, D.~Fonnesu, L.~Gamer, R.~Haas,
+  C.~Hassel, D.~Hengstler, J.~Jochum, K.~Johnston, U.~Kebschull, S.~Kempf,
+  T.~Kieck, U.~K\"{o}ster, S.~Lahiri, M.~Maiti, F.~Mantegazzini, B.~Marsh,
+  P.~Neroutsos, Yu.~N. Novikov, P.~C.~O. Ranitzsch, S.~Rothe, A.~Rischka,
+  A.~Saenz, O.~Sander, F.~Schneider, S.~Scholl, R.~X. Sch\"{u}ssler, Ch.
+  Schweiger, F.~Simkovic, T.~Stora, Z.~Sz\"{u}cs, A.~T\"{u}rler, M.~Veinhard,
+  M.~Weber, M.~Wegner, K.~Wendt, and K.~Zuber,
+\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
+\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
+  1623--1694, 2017.
 
 \bibitem[Gin50]{Ginzburg1950}
 V.~L. Ginzburg and L.~Landau,
