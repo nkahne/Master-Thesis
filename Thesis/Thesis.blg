@@ -9,8 +9,16 @@ Repeated entry---line 1081 of file library.bib
  : @article{Stewart1968
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1735 of file library.bib
+ : @article{Kempf2015
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1761 of file library.bib
  : @article{Tesche1977
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2197 of file library.bib
+ : @article{Jaycox1981
  :                    ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 3085 of file library.bib
@@ -34,49 +42,58 @@ Repeated entry---line 5745 of file library.bib
  : @article{Meissner1933
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Jay1981"
-Warning--I didn't find a database entry for "Ketchen1981"
-Warning--I didn't find a database entry for "Ketchen1982"
-Warning--I didn't find a database entry for "Ketchen1985"
-You've used 24 entries,
+Repeated entry---line 6073 of file library.bib
+ : @article{Stawiasz1993
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Krä2023"
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1306 of file bibstyle_andi_english.bst
+You've used 32 entries,
             2496 wiz_defined-function locations,
-            753 strings with 8542 characters,
-and the built_in function-call counts, 9418 in all, are:
-= -- 925
-> -- 369
-< -- 24
-+ -- 122
-- -- 122
-* -- 810
-:= -- 1541
-add.period$ -- 24
-call.type$ -- 24
-change.case$ -- 154
-chr.to.int$ -- 24
-cite$ -- 24
-duplicate$ -- 382
-empty$ -- 709
-format.name$ -- 170
-if$ -- 1864
-int.to.chr$ -- 1
+            803 strings with 9977 characters,
+and the built_in function-call counts, 12745 in all, are:
+= -- 1256
+> -- 489
+< -- 33
++ -- 161
+- -- 160
+* -- 1086
+:= -- 2065
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 204
+chr.to.int$ -- 31
+cite$ -- 32
+duplicate$ -- 525
+empty$ -- 975
+format.name$ -- 224
+if$ -- 2550
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 123
-num.names$ -- 73
-pop$ -- 126
+missing$ -- 33
+newline$ -- 163
+num.names$ -- 101
+pop$ -- 171
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 239
 quote$ -- 0
-skip$ -- 263
+skip$ -- 364
 stack$ -- 0
-substring$ -- 645
-swap$ -- 44
-text.length$ -- 24
-text.prefix$ -- 24
+substring$ -- 879
+swap$ -- 67
+text.length$ -- 33
+text.prefix$ -- 32
 top$ -- 0
-type$ -- 180
+type$ -- 244
 warning$ -- 0
-while$ -- 80
-width$ -- 28
-write$ -- 312
-(There were 7 error messages)
+while$ -- 109
+width$ -- 35
+write$ -- 417
+(There were 14 error messages)

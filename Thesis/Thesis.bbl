@@ -30,7 +30,13 @@ J.~Clarke and A.~I. Braginski (Ed.),
   SQUIDs and SQUID Systems}},
 \newblock Wiley-VCH, 2004.
 
-\bibitem[Dru96]{Drung1996}
+\bibitem[Dru96a]{Drung1996a}
+D.~Drung,
+\newblock {Advanced SQUID read-out electronics},
+\newblock in H.~Weinstock (Ed.), {\em {SQUID sensors: Fundamentals, Fabrication
+  and Application}}, NATO ASI Series E329. Dordrecht: Kluwer, 1996.
+
+\bibitem[Dru96b]{Drung1996}
 D.~Drung, F.~Ludwig, W.~M\"uller, U.~Steinhoff, L.~Trahms, H.~Koch, Y.~Q. Shen,
   M.~B. Jensen, P.~Vase, T.~Holst, T.~Freltoft, and G.~Curio,
 \newblock {Integrated
@@ -54,6 +60,11 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
   Temperatures},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
 
+\bibitem[Fog93]{Foglietti1993}
+V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
+\newblock {Performance of a flux locked series SQUID array},
+\newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
+
 \bibitem[Gin50]{Ginzburg1950}
 V.~L. Ginzburg and L.~Landau,
 \newblock {On the theory of superconductivity},
@@ -76,6 +87,11 @@ Yu.~M. Ivanchenko and L.~A. Zil'berman,
 \newblock {Destruction of Josephson Current by Fluctuations},
 \newblock {\em ZhETF}, {\bf 8}, 113--115, 1968.
 
+\bibitem[Jay81]{Jaycox1981}
+J.~M. Jaycox and M.~B. Ketchen,
+\newblock {Planar coupling scheme for ultra low noise dc SQUIDs},
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 17}(1), 400--403, 1981.
+
 \bibitem[Jos62]{Josephson1962}
 B.~D. Josephson,
 \newblock {Possible new effects in superconductive tunnelling},
@@ -86,10 +102,32 @@ B.~D. Josephson,
 \newblock {Supercurrents through barriers},
 \newblock {\em Advances in Physics}, {\bf 14}(56), 419--451, 1965.
 
+\bibitem[Kem15]{Kempf2015}
+S.~Kempf, A.~Ferring, A.~Fleischmann, and C.~Enss,
+\newblock {Direct-current superconducting quantum interference devices for the
+  readout of metallic magnetic calorimeters},
+\newblock {\em Superconductor Science and Technology}, {\bf 28}(4), 45008,
+  2015.
+
 \bibitem[Ket78]{Ketchen1978}
 M.~B. Ketchen, W.~M. Goubau, J.~Clarke, and G.~B. Donaldson,
 \newblock {Superconducting thinfilm gradiometer},
 \newblock {\em J. Appl. Phys.}, {\bf 49}, 4111--4116, 1978.
+
+\bibitem[Ket82]{Ketchen1982}
+M.~B. Ketchen and J.~M. Jaycox,
+\newblock {Ultra‐low‐noise tunnel junction dc SQUID with a tightly coupled
+  planar input coil},
+\newblock {\em Applied Physics Letters}, {\bf 40}(8), 736--738, 1982.
+
+\bibitem[Ket85]{Ketchen1985}
+A.~W. Kleinsasser et~al. Ketchen, W. J.~Gallagher,
+\newblock Dc squid flux focuser,
+\newblock in H.~D.~Hahlbohm und H.~Lübbig~(Ed.) (Ed.), {\em SQUID'85
+  Superconducting Quantum Interference Devices and their Applications:
+  Proceedings of the Third International Conference on Superconducting Quantum
+  Devices, Berlin (West), June 25-28, 1985},  865--871, Walter de Gruyter,
+  1985.
 
 \bibitem[Ket91]{Ketchen1991}
 M.B. Ketchen,
@@ -119,6 +157,11 @@ Tapani Ryhänen, Heikki Seppä, and Robin Cantor,
   noise of dc superconducting quantum interference devices,
 \newblock {\em Journal of Applied Physics}, {\bf 71}(12), 6150--6166, 1992.
 
+\bibitem[Sta93]{Stawiasz1993}
+K.~G. Stawiasz and M.~B. Ketchen,
+\newblock {Noise Measurements of Series SQUID Arrays},
+\newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}, 1808--1811, 1993.
+
 \bibitem[Ste68]{Stewart1968}
 W.~C. Stewart,
 \newblock {Current-Voltage Characteristics of Josephson Junctions},
@@ -134,5 +177,11 @@ Eite Tiesinga, Peter~J. Mohr, David~B. Newell, and Barry~N. Taylor,
 \newblock Codata recommended values of the fundamental physical constants:
   2018,
 \newblock {\em Rev. Mod. Phys.}, {\bf 93}, 025010, 2021.
+
+\bibitem[Wel93]{Welty1993}
+R.P. Welty and J.M. Martinis,
+\newblock Two-stage integrated squid amplifier with series array output,
+\newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 3}(1),
+  2605--2608, 1993.
 
 \end{thebibliography}
