@@ -125,7 +125,7 @@ hence the intrinsic noise of the second stage gets reduced by a factor of $\frac
 \epsilon_{\rm c,x} = N\frac{S_{\rm \Phi_x}}{2L_{\rm cell}k_{\rm i,cell}} = \frac{S_{\rm \Phi_{cell}}}{2L_{\rm cell}k_{\rm i,cell}} \ \ .	
 }{}
 
-with the parameter $k_{\rm i,cell}$ denoting the coupling of a cell with inductance $L_{\rm cell}$ to its respective input coil segment. Connecting \textit{N} SQUIDs in series did therefore not affect the energy sensitivity, provided that $k_{\rm i,cell}$ remains constant across the array. The arrays produced in this working group either contain 16 \cite{Kempf2015} or 18 \cite{Krä2023} cells. Applying this to equation \ref{total_apparent_fluxnoise_2stage}, we would reduce the above-mentioned contribution of the room temperature amplifier flux noise of \qty{4.13}{\micro\fq\per\sqrthz} to \qty{0.29}{\micro\fq\per\sqrthz} and \qty{0.26}{\micro\fq\per\sqrthz} for $N=16$ and $N=18$, respectively. Provided an optimal flux gain of $G\approx\pi$, the noise contribution would further decrease to \qty{0.09}{\micro\fq\per\sqrthz} or \qty{0.08}{\micro\fq\per\sqrthz}. \\
+with the parameter $k_{\rm i,cell}$ denoting the coupling of a cell with inductance $L_{\rm cell}$ to its respective input coil segment. Connecting \textit{N} SQUIDs in series did therefore not affect the energy sensitivity, provided that $k_{\rm i,cell}$ remains constant across the array. The arrays produced in this working group either contain 16 \cite{Kempf2015} or 18 \cite{Krä2023} cells. Applying this to equation \ref{total_apparent_fluxnoise_2stage}, we would reduce the above-mentioned contribution of the room temperature amplifier flux noise of \qty{4.13}{\micro\fq\per\sqrthz} to \qty{0.29}{\micro\fq\per\sqrthz} and \qty{0.26}{\micro\fq\per\sqrthz} for $N=16$ and $N=18$, respectively. Provided an optimal flux gain of $G\approx\pi$, the noise contribution would further decrease to \qty{0.09}{\micro\fq\per\sqrthz} or \qty{0.08}{\micro\fq\per\sqrthz}, well below the typical noise level of a detector SQUID. \\
 
 Besides the improvement of the noise behavior, a major advantage of a two-stage readout setup consists of the low power dissipation produced by the detector SQUID. As opposed to the current bias operation in a single-stage setup, the Front-End is held at a constant, low voltage, such that the dissipated power given by $P=UI$ only consists of approximately \qty{1}{\nW} \cite{Drung2007}. However, this amount poses a problematic heat source for low temperature detectors consisting of up to millions of pixels, such that using a two-stage setup for each pixel is unfavorable. For these, a different approach using time- or frequency-division dc-SQUID multiplexing is followed. These readout techniques constitute a research focus in this working group in order to optimize the readout of several experiments such as the ECHo experiment \cite{Gastaldo2017}.
 
@@ -135,9 +135,14 @@ Besides the improvement of the noise behavior, a major advantage of a two-stage 
 
 \section{Metallic Magnetic Calorimeters} \label{sec_MMC}
 
-Figure: Schematic of MMC (?)
-
 Short explanation of working principle
+
+\figurecenter {t!}
+{width=\textwidth}
+{../Figures/Detektorgeometrie}
+{0cm}
+{Schematic of MMC} 
+{MMC_schematic}
 
 \gl{
 	\frac{\Delta\Phi_{\rm s}}{\Delta\Phi} = \frac{M_{\rm is}}{L_{\rm m} + 2(L_{\rm i} + L_{\rm par})}
@@ -170,12 +175,34 @@ Explain that $ \epsilon_p $ is minimal for $ L_i = L_{par} + L_p $, which motiva
 }{}
 \section{dc-SQUID Design} \label{sec_SQUIDdesign}
 
+
 \subsection{dc-SQUID with a Two-Turn Input Coil}
 
-%\subsection{Integrated Two-Stage Chip}
+\textit{Figure}: Front-End with Li=6 (klayout and microscope?)
+
+Explain all the design details including design parameters like Ls, Li, Rs, Rd.. \\
+Also explain how we don't expect flux vortices to play an important role for the washer width of 10µm.\\
+Talk about the value of $\frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}}$ that we would expect given the design values. The same for $\epsilon_p$.
+
+\subsection{Integrated Two-Stage Chip}
+
+\textit{Figure}: Int. 2stage chip (klayout and microscope?)
+
+Briefly cover its features
 
 \section{Damping Methods} \label{sec_damping}
 
+Talk about how resistors are used to damp resonances, like Rd and RxCx. 
+Figure: Comparison of two IVC plots, one with RxCx, one without (see Fabienne Diss.) (?)
+
 \subsection{Lossy Input Coil}
 
+\textit{Figure}: FE with lossy layer highlighted (klayout and microscope?)
+
+Explain briefly why it could help, citing the only paper we found for this specific application
+
 \subsection{Inductive Damping}
+
+\textit{Figure}: Feedlines with goldpads on top.
+
+I have not found any info about this method in papers or other publications.. I have only a handwavy explanation in mind on how it should work.
