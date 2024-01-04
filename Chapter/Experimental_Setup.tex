@@ -127,7 +127,7 @@ hence the intrinsic noise of the second stage gets reduced by a factor of $\frac
 
 with the parameter $k_{\rm i,cell}$ denoting the coupling of a cell with inductance $L_{\rm cell}$ to its respective input coil segment. Connecting \textit{N} SQUIDs in series did therefore not affect the energy sensitivity, provided that $k_{\rm i,cell}$ remains constant across the array. The arrays produced in this working group either contain 16 \cite{Kempf2015} or 18 \cite{Krä2023} cells. Applying this to equation \ref{total_apparent_fluxnoise_2stage}, we would reduce the above-mentioned contribution of the room temperature amplifier flux noise of \qty{4.13}{\micro\fq\per\sqrthz} to \qty{0.29}{\micro\fq\per\sqrthz} and \qty{0.26}{\micro\fq\per\sqrthz} for $N=16$ and $N=18$, respectively. Provided an optimal flux gain of $G\approx\pi$, the noise contribution would further decrease to \qty{0.09}{\micro\fq\per\sqrthz} or \qty{0.08}{\micro\fq\per\sqrthz}, well below the typical noise level of a detector SQUID. \\
 
-Besides the improvement of the noise behavior, a major advantage of a two-stage readout setup consists of the low power dissipation produced by the detector SQUID. As opposed to the current bias operation in a single-stage setup, the Front-End is held at a constant, low voltage, such that the dissipated power given by $P=UI$ only consists of approximately \qty{1}{\nW} \cite{Drung2007}. However, this amount poses a problematic heat source for low temperature detectors consisting of up to millions of pixels, such that using a two-stage setup for each pixel is unfavorable. For these, a different approach using time- or frequency-division dc-SQUID multiplexing is followed. These readout techniques constitute a research focus in this working group in order to optimize the readout of several experiments such as the ECHo experiment \cite{Gastaldo2017}.
+Besides the improvement of the noise behavior, a major advantage of a two-stage readout setup consists of the low power dissipation produced by the detector SQUID. As opposed to the current bias operation in a single-stage setup, the Front-End is held at a constant, low voltage, such that the dissipated power given by $P=UI$ only consists of approximately \qty{1}{\nW} \cite{Drung2007}. However, this amount poses a problematic heat source for low temperature detectors consisting of up to millions of temperature-sensitive calorimeter pixels, such that using a two-stage setup for each pixel is unfavorable. For these, a different approach using time- or frequency-division dc-SQUID multiplexing is followed. These readout techniques constitute a research focus in this working group in order to optimize the readout of several experiments such as the ECHo experiment \cite{Gastaldo2017}.
 
 
 
@@ -135,44 +135,73 @@ Besides the improvement of the noise behavior, a major advantage of a two-stage 
 
 \section{Metallic Magnetic Calorimeters} \label{sec_MMC}
 
-Short explanation of working principle
+Low temperature detectors used in this working group exhibit detector arrays consisting of MMC pixels, which are able to absorb and detect heavy particles or photons such as X-rays. The focus of this thesis was to improve the dc-SQUID based MMC readout, which is why we first briefly cover the working principle of such calorimeters. \\ 
+A general overview of the detector setup can be seen in figure \ref{abb:MMC_schematic}. The upper part consists of a particle absorber, which, following the law of energy conservation, converts the energy $E$ of an incoming particle into a change in temperature $\Delta T$ in the absorber. A paramagnetic sensor is directly attached below, submerged in a weak magnetic field. Strong thermal coupling allows for an effective temperature increase in the sensor, which is given by the total heat capacity $C_{\rm tot}$ of both the sensor and the absorber, resulting in 
+
+\gl{
+\Delta T \simeq \frac{E}{C_{\rm tot}} \ \ .
+}{1st_law_of_TD}
+
+Not shown in figure \ref{abb:MMC_schematic} is an underlying thermal bath weakly linked to the sensor, which reverts the temperature change by an exponential decay ensures a thermal equilibrium 
+The paramagnetic nature of the sensor changes its magnetization $M(T)$ upon a temperature rise, according to the Curie law $M\propto \frac{1}{T}$ for low temperatures. This induces a magnetic flux change $\Delta\Phi$ linear proportional to $\Delta M$, which is detected by a typically meander-shaped pickup coil that is strongly coupled to the sensor. The input coil of the SQUID is directly connected to the pickup coil forming a flux transformer, thereby enabling the readout of the created current signal $\Delta I_{\rm det}$. With equation \ref{1st_law_of_TD} we can write for the induced flux in the SQUID  
+
+\gl{
+\Delta\Phi_{\rm s} \propto \Delta\Phi \propto \Delta M \simeq\frac{\del M}{\del T}\frac{E}{C_{\rm tot}} \ \ ,
+}{}
 
 \figurecenter {t!}
 {width=\textwidth}
 {../Figures/Detektorgeometrie}
 {0cm}
-{Schematic of MMC} 
+{Schematic depiction (left) and circuit diagram (right) of a common MMC channel consisting of two pixels. The planar particle absorber is fabricated on top of the paramagnetic sensor, separated by cylinder-shaped posts to prevent energy losses through athermal phonons, while still providing good thermal coupling. Below the sensors two meander-shaped pickup coils connected in parallel detect the flux change $\Delta\Phi$, which can be precisely measured with a SQUID as a flux transformer. The grey dots and crosses within the meander mark a magnetic field induced by the bias current $I_{\rm 0}$.} 
 {MMC_schematic}
 
+provided the deposited energy $E$ is small. Evidently, it is desirable to both reduce the heat capacity and increase the magnetization gradient in order to maximize the flux change $\Delta\Phi$. Additionally, short signal rise times can be realized by a high thermal conductivity of the sensor and the absorber, which is particularly crucial for coincidence measurements. All these material-dependent requirements are fulfilled for the normal conducting metal gold as an absorber material and gold or silver for the sensor. The latter needs to be doped with a few hundred ppm of the rare-earth metal erbium in order to obtain paramagnetic properties. State-of-the-art MMCs of this kind were successfully developed in this working group, providing an exceptional energy resolution, a large energy bandwidth and fast signal rise times well below \qty{100}{\nano\s} \cite{Kempf2018}. \\
+
+The detector geometry shown in figure \ref{abb:MMC_schematic} is widely used in this working group. Two meander-shaped pickup coils, each with an inductance $L_{\rm m}$, are connected as a parallel gradiometer and are located beneath their respective sensor pixel, with a connection to the input coil of the flux transformer. As the SQUID is typically placed far away to mitigate the influence of its heat dissipation, a parasitic inductance $L_{\rm par}$ needs to be taken into account due to the wiring between the SQUID and the detector (figure \ref{abb:MMC_schematic}, right). A constant small bias current $I_{\rm 0}$ is injected into the pickup coils to provide the weak bias field needed for the paramagnet. If now a particle gets detected by one of the absorbers, a flux change $\Delta\Phi$ and thus a current is induced in the meander. By applying Kirchhoffs first law and knowing that magnetic flux in a closed superconducting loop is conserved \cite{}, we can calculate the resulting current signal in the input coil to \cite{}
+
 \gl{
-	\frac{\Delta\Phi_{\rm s}}{\Delta\Phi} = \frac{M_{\rm is}}{L_{\rm m} + 2(L_{\rm i} + L_{\rm par})}
-}{}
+\Delta I_{\rm det} = \frac{\Delta\Phi}{L_{\rm m} + 2(L_{\rm i} + L_{\rm par})} \ \ .
+}{meander_deltaI}
 
-\subsection{Readout with Coupled dc-SQUIDs}
+A significant advantage of this setup lies in the fact, that only one SQUID is needed to readout two pixels. The gradiometer geometry ensures, that depending on which absorber gets hit, the current $\Delta I_{\rm det}$ will flow in one direction or the other. Thus, every pixel can be assigned a polarity of the resulting flux in the SQUID loop, making them distinguishable. Together with the mutual inductance $M_{\rm is}=\frac{\Delta\Phi}{\Delta I_{\rm det}}$ between the input coil and the SQUID loop, we can now introduce the flux-to-flux coupling 
 
-Extrinsic energy sensitivity between FE and pickup coil:
+\gl{
+\frac{\Delta\Phi_{\rm s}}{\Delta\Phi} = \frac{M_{\rm is}}{L_{\rm m} + 2(L_{\rm i} + L_{\rm par})} \ \ ,
+}{meander_ftf}
+
+which is maximal for $L_{\rm i}=\frac{L_{\rm m}}{2}+L_{\rm par}$. This crucial parameter is a measure for the flux gain and gives therefore information about the quality of the readout setup. Consequently, it is desirable to choose the optimal input coil inductance $L_{\rm i}$ for a given pickup coil inductance $L_{\rm p}=\frac{L_{\rm m}}{2}$.
+
+\subsection{Extrinsic Energy Sensitivity}
+
+In this regard it is reasonable to discuss one aspect of the noise behavior for this readout setup. Just like the flux change originating in the detector induces a flux change in the SQUID, it is also possible to happen the other way around. The intrinsic flux noise of the SQUID can therefore also couple into the pickup coil, creating the apparent flux noise $\sqrt{S_{\rm\Phi_{\rm s},p}}$ in the detector. To quantify this noise influence, we define analogous to equation \ref{energy_sens} the extrinsic energy sensitivity with respect to a given pickup coil inductance $L_{\rm p}$ as \cite{Knuutila1988}
+
 \gl{
 \epsilon_{\rm p} = \frac{S_{\rm \Phi_s,p}}{2L_{\rm p}}
 }{}
 
+Here, it is necessary to point out that the choice of a single coil with inductance $L_{\rm p}$ adds a factor of 2 to equations \ref{meander_deltaI} and \ref{meander_ftf}, such that the flux-to-flux coupling reads
 
 \gl{
-I_{\rm in} = \frac{\Delta\Phi_{\rm p}}{L_{\rm i} + L_{\rm par} + L_{\rm p}}
+\frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}} = \frac{M_{\rm is}}{L_{\rm p} +  L_{\rm i} + L_{\rm par}} \ \ .
 }{}
+
+%\gl{
+%I_{\rm in} = \frac{\Delta\Phi_{\rm p}}{L_{\rm i} + L_{\rm par} + L_{\rm p}}
+%}{}
+
+This advantage, however, does not outweigh the above-mentioned benefit to readout two pixels with one readout electronic. In the following we consider the case for a single pickup coil with inductance $L_{\rm p}=\frac{L_{\rm m}}{2}$. The presence of a flux transformer is accompanied with a shielding effect with respect to the SQUID loop, such that the geometric inductance is reduced to an effective inductance given by \cite{Gross2016} 
 
 \gl{
-\frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}} = \frac{M_{\rm is}}{L_{\rm i} + L_{\rm par} + L_{\rm p}}
+L_{\rm s}' = L_{\rm s}(1-k_{\rm is}^2s_{\rm in}) \ \ ,
 }{}
+
+where $s_{\rm in}=\frac{L_{\rm i}}{L_{\rm i} + L_{\rm p} + L_{\rm par}}$ denotes the screening factor \cite{Clarke2004}, which reaches the value of 0.5 for the condition $L_{\rm i}=L_{\rm p}+L_{\rm par}$ that minimizes the flux-to-flux coupling. By now using the relation $\frac{}{}=\frac{}{}$, we finally obtain with equation \ref{} the extrinsic energy sensitivity 
 
 \gl{
-L_{\rm s}' = L_{\rm s}(1-k_{\rm is}^2s_{\rm in})
+\epsilon_{\rm p} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm p})^{2}}{2L_{\rm p}M_{\rm is}^{2}} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm p})}{L_{\rm p}L_{\rm s}k_{\rm is}^{2}s_{\rm in}}
 }{}
 
-Explain that $ \epsilon_p $ is minimal for $ L_i = L_{par} + L_p $, which motivates the next section (design)
-
-\gl{
-\epsilon_{\rm p} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm p})^{2}}{L_{\rm p}M_{\rm is}^{2}} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm p})}{L_{\rm p}L_{\rm s}k_{\rm is}^{2}s_{\rm in}}
-}{}
 \section{dc-SQUID Design} \label{sec_SQUIDdesign}
 
 
@@ -192,14 +221,15 @@ Briefly cover its features
 
 \section{Damping Methods} \label{sec_damping}
 
-Talk about how resistors are used to damp resonances, like Rd and RxCx. 
-Figure: Comparison of two IVC plots, one with RxCx, one without (see Fabienne Diss.) (?)
+Talk about how resistors are used to damp resonances, like Rd and RxCx.\\ 
+\textit{Figure}: Comparison of two IVC plots, one with RxCx, one without (see Fabienne Diss.) (?) \\
+\textit{Figure}: Schematic circuit diagram of our SQUIDs with all L's, C's and R's
 
 \subsection{Lossy Input Coil}
 
 \textit{Figure}: FE with lossy layer highlighted (klayout and microscope?)
 
-Explain briefly why it could help, citing the only paper we found for this specific application
+Explain briefly why it could help, citing the only paper we found for this specific application so far
 
 \subsection{Inductive Damping}
 

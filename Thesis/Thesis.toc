@@ -17,19 +17,19 @@
 \contentsline {subsection}{\numberline {2.2.1}Flux-Locked Loop}{24}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Two-Stage Configuration}{26}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Metallic Magnetic Calorimeters}{29}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Readout with Coupled dc-SQUIDs}{30}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}dc-SQUID Design}{30}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}dc-SQUID with a Two-Turn Input Coil}{30}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Integrated Two-Stage Chip}{30}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Damping Methods}{31}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Lossy Input Coil}{31}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Inductive Damping}{31}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Experimental Results}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Characteristic dc-SQUID Parameters}{33}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Input Coil Inductance}{33}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Resonance Behavior}{33}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Noise Performance}{33}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Lumped Element Two-Stage Setup}{33}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Integrated Two-Stage Setup}{33}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Summary}{35}{chapter.4}%
-\contentsline {chapter}{{Bibliography}}{37}{chapter.5}%
+\contentsline {subsection}{\numberline {2.3.1}Extrinsic Energy Sensitivity}{31}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}dc-SQUID Design}{32}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}dc-SQUID with a Two-Turn Input Coil}{32}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Integrated Two-Stage Chip}{33}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Damping Methods}{33}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Lossy Input Coil}{33}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Inductive Damping}{33}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Experimental Results}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Characteristic dc-SQUID Parameters}{35}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Input Coil Inductance}{35}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Resonance Behavior}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Noise Performance}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Lumped Element Two-Stage Setup}{35}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Integrated Two-Stage Setup}{36}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Summary}{37}{chapter.4}%
+\contentsline {chapter}{{Bibliography}}{39}{chapter.5}%
