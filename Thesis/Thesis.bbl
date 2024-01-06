@@ -5,19 +5,26 @@ J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer,
 \newblock {Theory of Superconductivity},
 \newblock {\em Phys. Rev.}, {\bf 108}(5), 1175--1204, 1957.
 
-\bibitem[Bau18]{Bauer2018}
-F.~Bauer,
-\newblock {\em {Optimierung von gekoppelten dc-SQUIDs durch die Unterdrückung
-  parasitärer Resonanzen und die Etablierung eines neuen Herstellungsprozesses
-  für Nb/Al-AlOx/Nb-Josephson-Kontakte}},
-\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
-  Heidelberg, 2018.
+\bibitem[Bau22]{Bauer2022}
+Fabienne Bauer,
+\newblock {\em {Rauscharme Stromsensor-dc-SQUIDs mit Impedanzanpassung für
+  metallische magnetische Kalorimeter}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2022.
 
 \bibitem[Bru82]{Bruines1982}
 J.~J.~P. Bruines, V.~J. de~Waal, and J.~E. Mooij,
 \newblock {Comment on: “DC SQUID: Noise and optimization” by Tesche and
   Clarke},
 \newblock {\em J. Low Temp. Phys.}, {\bf 46}, 383--386, 1982.
+
+\bibitem[Bur04]{Burck2004}
+Andreas Burck,
+\newblock {\em {Entwicklung gro{\ss}fl{\"a}chiger magnetischer Kalorimeter zur
+  energieaufgel{\"o}sten Detektion von R{\"o}ntgenquanten und hochenergetischen
+  Teilchen}},
+\newblock Diplomarbeit, Kirchhoff-Institut f{\"u}r Physik, Universit{\"a}t
+  Heidelberg, 2004.
 
 \bibitem[Cla88]{Clarke1988}
 J.~Clarke and R.~Koch,
@@ -29,6 +36,12 @@ J.~Clarke and A.~I. Braginski (Ed.),
 \newblock {\em {The SQUID Handbook: Vol. 1, Fundamentals and Technology of
   SQUIDs and SQUID Systems}},
 \newblock Wiley-VCH, 2004.
+
+\bibitem[Dea61]{Deaver1961}
+B.~S. Deaver and W.~M. Fairbank,
+\newblock {Experimental Evidence for Quantized Flux in Superconducting
+  Cylinders},
+\newblock {\em Phys. Rev. Lett.}, {\bf 7}, 43--46, 1961.
 
 \bibitem[Dru96a]{Drung1996a}
 D.~Drung,
@@ -96,6 +109,13 @@ R.~Gross, A.~Marx, and F.~Deppe,
   Electronics},
 \newblock De Gruyter Textbook Series, Walter De Gruyter Incorporated, 2016.
 
+\bibitem[Hen17]{Hengstler2017}
+Daniel Hengstler,
+\newblock {\em {Development and characterization of two-dimensional metallic
+  magnetic calorimeter arrays for the high-resolution X-ray spectroscopy}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2017.
+
 \bibitem[Ina80]{Inaba_1980}
 Akira Inaba,
 \newblock Superconductive transition point of tantalum and niobium as a
@@ -129,6 +149,11 @@ S.~Kempf, A.~Ferring, A.~Fleischmann, and C.~Enss,
 \newblock {\em Superconductor Science and Technology}, {\bf 28}(4), 45008,
   2015.
 
+\bibitem[Kem18]{Kempf2018}
+S.~Kempf, A.~Fleischmann, L.~Gastaldo, and C.~Enss,
+\newblock {Physics and Applications of Metallic Magnetic Calorimeters},
+\newblock {\em Journal of Low Temperature Physics},  1--15, 2018.
+
 \bibitem[Ket78]{Ketchen1978}
 M.~B. Ketchen, W.~M. Goubau, J.~Clarke, and G.~B. Donaldson,
 \newblock {Superconducting thinfilm gradiometer},
@@ -155,10 +180,42 @@ M.B. Ketchen,
   technology},
 \newblock {\em IEEE T. Magn.}, {\bf 27}, 2916--2919, 1991.
 
+\bibitem[Knu88]{Knuutila1988}
+J.~Knuutila, M.~Kajola, H.~Sepp{\"{a}}, R.~Mutikainen, and J.~Salmi,
+\newblock {Design, Optimization, and Construction of a DC SQUID with Complete
+  Flux Transformer Circuits},
+\newblock {\em Journal of Low Temperature Physics}, {\bf 71}(5-6), 369--392,
+  1988.
+
+\bibitem[Koc07]{Koch2007}
+Roger~H. Koch, David~P. DiVincenzo, and John Clarke,
+\newblock Model for $1/f$ flux noise in squids and qubits,
+\newblock {\em Phys. Rev. Lett.}, {\bf 98}, 267003, 2007.
+
+\bibitem[Kra23]{Kraemer2023}
+F.~Kraemer,
+\newblock {\em {Development and characterization of an integrated two-stage
+  dc-SQUID for the read-out of metallic magnetic calorimeters}},
+\newblock Bachelor thesis, Kirchhoff-Institut f{\"{u}}r Physik,
+  Universit{\"{a}}t Heidelberg, 2023.
+
+\bibitem[Lan60]{Landau1960}
+L.D. Landau, L.P. Bell, E.M. Lifshitz, and J.B. Sykes,
+\newblock {\em Electrodynamics of Continuous Media}, Volumen~8 in {\em Course
+  of Theoretical Physics},
+\newblock Ney York: Pergamon Press, 1960.
+
 \bibitem[Lik86]{Likharev1986}
 K.~K. Likharev,
 \newblock {\em {Dynamics of Josephson Junctions and Circuits}},
 \newblock Gordon and Breach, New York, 1986.
+
+\bibitem[Man21]{Mantegazzini2021}
+Federica Mantegazzini,
+\newblock {\em {Development and characterisation of high-resolution metallic
+  magnetic calorimeter arrays for the ECHo neutrino mass experiment}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2021.
 
 \bibitem[{McC}68]{Cumber1968}
 D.~E. {McCumber},
