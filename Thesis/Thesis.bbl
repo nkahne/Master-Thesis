@@ -159,6 +159,11 @@ M.~B. Ketchen, W.~M. Goubau, J.~Clarke, and G.~B. Donaldson,
 \newblock {Superconducting thinfilm gradiometer},
 \newblock {\em J. Appl. Phys.}, {\bf 49}, 4111--4116, 1978.
 
+\bibitem[Ket81]{Ketchen1981}
+M.~Ketchen,
+\newblock Dc squids 1980: The state of the art,
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 17}(1), 387--394, 1981.
+
 \bibitem[Ket82]{Ketchen1982}
 M.~B. Ketchen and J.~M. Jaycox,
 \newblock {Ultra‐low‐noise tunnel junction dc SQUID with a tightly coupled
@@ -193,7 +198,7 @@ Roger~H. Koch, David~P. DiVincenzo, and John Clarke,
 \newblock {\em Phys. Rev. Lett.}, {\bf 98}, 267003, 2007.
 
 \bibitem[Kra23]{Kraemer2023}
-F.~Kraemer,
+Fabian Kraemer,
 \newblock {\em {Development and characterization of an integrated two-stage
   dc-SQUID for the read-out of metallic magnetic calorimeters}},
 \newblock Bachelor thesis, Kirchhoff-Institut f{\"{u}}r Physik,
@@ -216,6 +221,12 @@ Federica Mantegazzini,
   magnetic calorimeter arrays for the ECHo neutrino mass experiment}},
 \newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
   Heidelberg, 2021.
+
+\bibitem[Maz24]{Mazibrada2024}
+David Mazibrada,
+\newblock {\em {Title}},
+\newblock Master thesis, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2024.
 
 \bibitem[{McC}68]{Cumber1968}
 D.~E. {McCumber},

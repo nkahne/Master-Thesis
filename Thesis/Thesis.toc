@@ -20,16 +20,16 @@
 \contentsline {subsection}{\numberline {2.3.1}Extrinsic Energy Sensitivity}{33}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}dc-SQUID Design}{35}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}dc-SQUID with a Two-Turn Input Coil}{35}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Integrated Two-Stage Chip}{35}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Damping Methods}{36}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Lossy Input Coil}{36}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Inductive Damping}{36}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Experimental Results}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Characteristic dc-SQUID Parameters}{37}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Input Coil Inductance}{37}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Resonance Behavior}{37}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Noise Performance}{37}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Lumped Element Two-Stage Setup}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Integrated Two-Stage Setup}{38}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Summary}{39}{chapter.4}%
-\contentsline {chapter}{{Bibliography}}{41}{chapter.5}%
+\contentsline {subsection}{\numberline {2.4.2}Integrated Two-Stage Chip}{37}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Damping Methods}{37}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Lossy Input Coil}{37}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Inductive Damping}{37}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Experimental Results}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Characteristic dc-SQUID Parameters}{39}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Input Coil Inductance}{39}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Resonance Behavior}{39}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Noise Performance}{39}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Lumped Element Two-Stage Setup}{39}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Integrated Two-Stage Setup}{40}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Summary}{41}{chapter.4}%
+\contentsline {chapter}{{Bibliography}}{43}{chapter.5}%

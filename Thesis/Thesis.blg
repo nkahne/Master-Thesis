@@ -54,45 +54,45 @@ Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1306 of file bibstyle_andi_english.bst
-You've used 43 entries,
+You've used 45 entries,
             2496 wiz_defined-function locations,
-            871 strings with 12674 characters,
-and the built_in function-call counts, 18299 in all, are:
-= -- 1752
-> -- 908
-< -- 46
-+ -- 318
-- -- 316
-* -- 1615
-:= -- 3035
-add.period$ -- 43
-call.type$ -- 43
-change.case$ -- 321
-chr.to.int$ -- 42
-cite$ -- 43
-duplicate$ -- 695
-empty$ -- 1252
-format.name$ -- 402
-if$ -- 3585
+            882 strings with 12820 characters,
+and the built_in function-call counts, 18904 in all, are:
+= -- 1814
+> -- 922
+< -- 48
++ -- 322
+- -- 320
+* -- 1661
+:= -- 3137
+add.period$ -- 45
+call.type$ -- 45
+change.case$ -- 331
+chr.to.int$ -- 44
+cite$ -- 45
+duplicate$ -- 724
+empty$ -- 1300
+format.name$ -- 410
+if$ -- 3705
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 41
-newline$ -- 218
-num.names$ -- 134
-pop$ -- 283
+missing$ -- 42
+newline$ -- 228
+num.names$ -- 140
+pop$ -- 291
 preamble$ -- 1
-purify$ -- 372
+purify$ -- 384
 quote$ -- 0
-skip$ -- 487
+skip$ -- 507
 stack$ -- 0
-substring$ -- 1090
-swap$ -- 90
-text.length$ -- 46
-text.prefix$ -- 43
+substring$ -- 1125
+swap$ -- 93
+text.length$ -- 48
+text.prefix$ -- 45
 top$ -- 0
-type$ -- 328
+type$ -- 344
 warning$ -- 0
-while$ -- 142
-width$ -- 46
-write$ -- 560
+while$ -- 147
+width$ -- 48
+write$ -- 586
 (There were 14 error messages)
