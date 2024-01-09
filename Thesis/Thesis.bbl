@@ -31,6 +31,12 @@ J.~Clarke and R.~Koch,
 \newblock {The Impact of High Temperature Superconductivity on SQUIDs},
 \newblock {\em Science}, {\bf 242}, 217--223, 1988.
 
+\bibitem[Cla96]{Clarke1996}
+John Clarke,
+\newblock Squid fundamentals,
+\newblock in H.~Weinstock (Ed.), {\em {SQUID Sensors: Fundamentals, Fabrication
+  and Applications}},  4--5, Kluwer Academic, Dordrecht, 1996.
+
 \bibitem[Cla04]{Clarke2004}
 J.~Clarke and A.~I. Braginski (Ed.),
 \newblock {\em {The SQUID Handbook: Vol. 1, Fundamentals and Technology of
@@ -218,6 +224,12 @@ L.D. Landau, L.P. Bell, E.M. Lifshitz, and J.B. Sykes,
 K.~K. Likharev,
 \newblock {\em {Dynamics of Josephson Junctions and Circuits}},
 \newblock Gordon and Breach, New York, 1986.
+
+\bibitem[Mae95]{Maezawa1995}
+M.~Maezawa, M.~Aoyagi, H.~Nakagawa, I.~Kurosawa, and S.~Takada,
+\newblock {Specific capacitance of Nb/AlO$_x$/Nb Josephson junctions with
+  critical current densities in the range of $0.1-18\,\mathrm{kA/cm^2}$},
+\newblock {\em Applied Physics Letters}, {\bf 66}(16), 2134--2136, 1995.
 
 \bibitem[Man21]{Mantegazzini2021}
 Federica Mantegazzini,
