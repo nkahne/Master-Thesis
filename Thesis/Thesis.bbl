@@ -47,6 +47,11 @@ R.~Cantor, T.~Ryhänen, D.~Drung, H.~Koch, and H.~Sepp\"{a},
   four-level process},
 \newblock {\em IEEE Transactions on Magnetics}, {\bf 2}(2), 2927--2931, 1991.
 
+\bibitem[Cha79]{Chang1979}
+W.~H. Chang,
+\newblock {The inductance of a superconducting strip transmission line},
+\newblock {\em Journal of Applied Physics}, {\bf 50}(12), 8129--8134, 1979.
+
 \bibitem[Cla88]{Clarke1988}
 J.~Clarke and R.~Koch,
 \newblock {The Impact of High Temperature Superconductivity on SQUIDs},
@@ -115,6 +120,13 @@ K.~Enpuku, K.~Yoshida, and S.~Kohjiro,
 \newblock {Noise characteristics of a dc SQUID with a resistively shunted
   inductance. II. Optimum damping},
 \newblock {\em Journal of Applied Physics}, {\bf 60}(12), 4218--4223, 1986.
+
+\bibitem[Fer15]{Ferring2015}
+A.~Ferring,
+\newblock {\em {Entwicklung von dc-SQUIDs zur Auslesung von metallischen
+  magnetischen Kalorimetern}},
+\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2015.
 
 \bibitem[Fog93]{Foglietti1993}
 V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,

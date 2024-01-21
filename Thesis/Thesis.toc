@@ -27,9 +27,9 @@
 \contentsline {chapter}{\numberline {4}Experimental Results}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Characteristic dc-SQUID Parameters}{45}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Input Coil Inductance}{48}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Resonance Behavior}{48}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Noise Performance}{49}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Lumped Element Two-Stage Setup}{49}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Integrated Two-Stage Setup}{49}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Summary}{51}{chapter.5}%
-\contentsline {chapter}{{Bibliography}}{53}{chapter.6}%
+\contentsline {section}{\numberline {4.2}Resonance Behavior}{50}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Noise Performance}{51}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Lumped Element Two-Stage Setup}{51}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Integrated Two-Stage Setup}{51}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Summary}{53}{chapter.5}%
+\contentsline {chapter}{{Bibliography}}{55}{chapter.6}%

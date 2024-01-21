@@ -1,0 +1,41 @@
+reset
+echo off
+
+x all2.mac
+
+lw 3
+
+dec filename 'Tesche_Clarke'
+alias bb hcopy on hcopy dev epscolor '%filename%.eps'
+alias loglog cull k x 1e-19 1e19 cull k y 1e-19 1e19 let x log(x) let y y
+
+/* ***************************************************
+
+
+
+/* ***************************************************
+
+log l on
+axctrl l -speclog
+
+subticks on
+
+reg b 0 1
+reg l -2 3
+
+label l '  {\beta = L(2I_{0}/{\Phi}_{0} )}'
+label b 'Modulation {\Delta I_{c}/2I_{0}}'
+
+
+
+/* ***************************************************
+
+read 'Tesche_Clarke_Plot2.csv' /* -col 2 3
+arch curve 
+loglog
+exchange
+pl -lt 1 -col 1 -lw 4
+
+/* ***************************************************
+
+fit spline
