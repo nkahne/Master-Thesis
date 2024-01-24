@@ -115,6 +115,12 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
   Temperatures},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
 
+\bibitem[ea17]{Gastaldo2017}
+L.~Gastaldo et~al.,
+\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
+\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
+  1623--1694, 2017.
+
 \bibitem[Enp86]{Enpuku1986}
 K.~Enpuku, K.~Yoshida, and S.~Kohjiro,
 \newblock {Noise characteristics of a dc SQUID with a resistively shunted
@@ -132,12 +138,6 @@ A.~Ferring,
 V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
 \newblock {Performance of a flux locked series SQUID array},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
-
-\bibitem[Gas17]{Gastaldo2017}
-L.~Gastaldo et al.,
-\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
-\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
-  1623--1694, 2017.
 
 \bibitem[Gin50]{Ginzburg1950}
 V.~L. Ginzburg and L.~Landau,
