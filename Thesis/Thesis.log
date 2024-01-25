@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  25 JAN 2024 02:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  25 JAN 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,7 +1189,7 @@ LaTeX Warning: Citation `EnpukuI1991' on page 54 undefined on input line 85.
 
 LaTeX Warning: Citation `EnpukuIII1992' on page 54 undefined on input line 85.
 
-<../Figures/all_IV/all_IV_merge.pdf, id=2174, 1351.50919pt x 2589.20326pt>
+<../Figures/all_IV/all_IV_merge.pdf, id=2176, 1351.50919pt x 2589.20326pt>
 File: ../Figures/all_IV/all_IV_merge.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_merge.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_merge.pdf  used on input line
@@ -1220,17 +1220,28 @@ LaTeX Warning: Citation `Cantor1996' on page 55 undefined on input line 119.
 
 LaTeX Warning: Citation `EnpukuI1991' on page 55 undefined on input line 119.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
-[55]) (../Chapter/Summary.tex [56] [57 <../Figures/all_IV/all_IV_merge.pdf>]
-[58
 
-]
+LaTeX Warning: Citation `EnpukuIII1992' on page 56 undefined on input line 129.
+
+
+
+LaTeX Warning: Citation `Richter2017' on page 56 undefined on input line 136.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+[56]) (../Chapter/Summary.tex [57] [58 <../Figures/all_IV/all_IV_merge.pdf>]
 Chapter 5.
-) (./Thesis.bbl [59] [60
+) (./Thesis.bbl [59
+
+] [60
 
 ] [61] [62] [63]
 Underfull \hbox (badness 1796) in paragraph at lines 281--286
@@ -1249,10 +1260,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: C1C941F8100016170EE4272AE4E1B909;5200.
  ) 
 Here is how much of TeX's memory you used:
- 19403 strings out of 477932
- 385047 string characters out of 5837865
- 1865388 words of memory out of 5000000
- 39007 multiletter control sequences out of 15000+600000
+ 19405 strings out of 477932
+ 385076 string characters out of 5837865
+ 1866388 words of memory out of 5000000
+ 39009 multiletter control sequences out of 15000+600000
  540672 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,13n,91p,3623b,1119s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1279,10 +1290,10 @@ dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type
 1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis.pdf (67 pages, 5786957 bytes).
+Output written on Thesis.pdf (67 pages, 5792422 bytes).
 PDF statistics:
- 2444 PDF objects out of 2487 (max. 8388607)
- 1503 compressed objects within 16 object streams
+ 2452 PDF objects out of 2487 (max. 8388607)
+ 1511 compressed objects within 16 object streams
  265 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
