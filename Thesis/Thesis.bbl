@@ -47,6 +47,12 @@ R.~Cantor, T.~Ryhänen, D.~Drung, H.~Koch, and H.~Sepp\"{a},
   four-level process},
 \newblock {\em IEEE Transactions on Magnetics}, {\bf 2}(2), 2927--2931, 1991.
 
+\bibitem[Can96]{Cantor1996}
+Robin Cantor,
+\newblock {\em Dc Squids: Design, Optimization and Practical Applications},
+  179--233,
+\newblock Springer Netherlands, Dordrecht, 1996.
+
 \bibitem[Cha79]{Chang1979}
 W.~H. Chang,
 \newblock {The inductance of a superconducting strip transmission line},
@@ -126,6 +132,18 @@ K.~Enpuku, K.~Yoshida, and S.~Kohjiro,
 \newblock {Noise characteristics of a dc SQUID with a resistively shunted
   inductance. II. Optimum damping},
 \newblock {\em Journal of Applied Physics}, {\bf 60}(12), 4218--4223, 1986.
+
+\bibitem[Enp91]{EnpukuI1991}
+K.~Enpuku and K.~Yoshida,
+\newblock {{Modeling the dc superconducting quantum interference device coupled
+  to the multiturn input coil}},
+\newblock {\em J. Appl. Phys.}, {\bf 69}(10), 7295--7300, 1991.
+
+\bibitem[Enp92]{EnpukuIII1992}
+K.~Enpuku, R.~Cantor, and H.~Koch,
+\newblock {{Modeling the dc superconducting quantum interference device coupled
+  to the multiturn input coil. III}},
+\newblock {\em J. Appl. Phys.}, {\bf 72}(3), 1000--1006, 1992.
 
 \bibitem[Fer15]{Ferring2015}
 A.~Ferring,
@@ -306,6 +324,12 @@ R.~H. Ono, J.~A. Koch, A.~Steinbach, M.~E. Huber, and M.~W. Cromar,
 \newblock {Tightly coupled dc SQUIDs with resonance damping},
 \newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 7}(2),
   2538--2541, 1997.
+
+\bibitem[Ric17]{Richter2017}
+D.~Richter,
+\newblock {\em {Auslesung von SQUIDs mittels Flussrampenmodulation}},
+\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2017.
 
 \bibitem[Ryh92]{Ryh1992}
 Tapani Ryhänen, Heikki Seppä, and Robin Cantor,
