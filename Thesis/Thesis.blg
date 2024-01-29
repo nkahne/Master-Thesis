@@ -54,6 +54,7 @@ Repeated entry---line 6263 of file library.bib
  : @article{Maezawa1995
  :                     ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
@@ -62,45 +63,45 @@ Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1306 of file bibstyle_andi_english.bst
-You've used 62 entries,
+You've used 63 entries,
             2496 wiz_defined-function locations,
-            990 strings with 14929 characters,
-and the built_in function-call counts, 24350 in all, are:
-= -- 2397
-> -- 969
-< -- 67
-+ -- 323
-- -- 321
-* -- 2060
-:= -- 3971
-add.period$ -- 62
-call.type$ -- 62
-change.case$ -- 398
-chr.to.int$ -- 61
-cite$ -- 62
-duplicate$ -- 1000
-empty$ -- 1811
-format.name$ -- 444
-if$ -- 4856
+            995 strings with 15149 characters,
+and the built_in function-call counts, 24605 in all, are:
+= -- 2424
+> -- 976
+< -- 68
++ -- 325
+- -- 323
+* -- 2076
+:= -- 4018
+add.period$ -- 63
+call.type$ -- 63
+change.case$ -- 403
+chr.to.int$ -- 62
+cite$ -- 63
+duplicate$ -- 1013
+empty$ -- 1828
+format.name$ -- 448
+if$ -- 4904
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 56
-newline$ -- 312
-num.names$ -- 193
-pop$ -- 349
+newline$ -- 317
+num.names$ -- 196
+pop$ -- 354
 preamble$ -- 1
-purify$ -- 469
+purify$ -- 475
 quote$ -- 0
-skip$ -- 706
+skip$ -- 715
 stack$ -- 0
-substring$ -- 1584
-swap$ -- 135
-text.length$ -- 67
-text.prefix$ -- 61
+substring$ -- 1591
+swap$ -- 136
+text.length$ -- 68
+text.prefix$ -- 62
 top$ -- 0
-type$ -- 476
+type$ -- 484
 warning$ -- 0
-while$ -- 203
-width$ -- 66
-write$ -- 806
+while$ -- 205
+width$ -- 67
+write$ -- 819
 (There were 16 error messages)
