@@ -25,9 +25,9 @@
 \contentsline {subsection}{\numberline {3.2.2}Inductive Damping}{43}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Experimental Results}{47}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Characteristic dc-SQUID Parameters}{47}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Input Coil Inductance}{51}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Resonance Behavior}{53}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Noise Performance}{58}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Energy Sensitivity}{62}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Input Coil Inductance}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Resonance Behavior}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Noise Performance}{58}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Energy Sensitivity}{62}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Summary}{65}{chapter.5}%
 \contentsline {chapter}{{Bibliography}}{67}{chapter.6}%

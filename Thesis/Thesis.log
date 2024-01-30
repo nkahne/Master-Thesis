@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  30 JAN 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.8.31)  30 JAN 2024 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,18 +718,6 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `@cref' multiply defined.
 
 
-LaTeX Warning: Label `extr_energy_sens' multiply defined.
-
-
-LaTeX Warning: Label `extr_energy_sens@cref' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-
 LaTeX Warning: Label `' multiply defined.
 
 
@@ -1182,10 +1170,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ../Figures/VPhi_3c16_ch2.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Reference `ftf_Lp' on page 49 undefined on input line 28.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
@@ -1194,7 +1178,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
  [50]
-<../Figures/Li_meas.pdf, id=2107, 682.86618pt x 682.86618pt>
+<../Figures/Li_meas.pdf, id=2106, 682.86618pt x 682.86618pt>
 File: ../Figures/Li_meas.pdf Graphic file (type pdf)
 <use ../Figures/Li_meas.pdf>
 Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 48.
@@ -1206,45 +1190,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
  []
 
 [52 <../Figures/Li_meas.pdf>]
-<../Figures/all_IV/all_IV_mergeV2.pdf, id=2161, 1251.91714pt x 2247.76776pt>
-File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
-<use ../Figures/all_IV/all_IV_mergeV2.pdf>
-Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
-ne 90.
-(pdftex.def)             Requested size: 320.88702pt x 576.16438pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[53] [54 <../Figures/all_IV/all_IV_mergeV2.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+<../Figures/all_IV/all_IV_mergeV2.pdf, id=2170, 1251.91714pt x 2247.76776pt>
+File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
+<use ../Figures/all_IV/all_IV_mergeV2.pdf>
+Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
+ne 91.
+(pdftex.def)             Requested size: 320.88702pt x 576.16438pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+ [54]
+[55 <../Figures/all_IV/all_IV_mergeV2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-
-Underfull \vbox (badness 4995) has occurred while \output is active []
-
- [55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
-
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
-[57]
-<../Figures/3a13_noise.pdf, id=2256, 722.7pt x 722.7pt>
+<../Figures/3a13_noise.pdf, id=2253, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
 Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 165.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/2a16_noise.pdf, id=2257, 722.7pt x 722.7pt>
+<../Figures/2a16_noise.pdf, id=2254, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
 Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 165.
@@ -1257,11 +1246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--167
 [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ../Figures/2a16_noise.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]
+ [59]
 
 LaTeX Warning: Reference `abb:noise meas' on page 60 undefined on input line 16
 8.
@@ -1272,9 +1257,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [60]
+ [60 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../Figures/2a16_noise.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
 
 LaTeX Warning: Citation `' on page 61 undefined on input line 171.
 
@@ -1284,14 +1273,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--172
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
 [62]) (../Chapter/Summary.tex [63] [64
 
 ]
@@ -1324,13 +1312,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CC16325D07ED31C3FB24D5DD7C0525FF;4929.
+(rerunfilecheck)             Checksum: 0CACA9A74ABD0073BE58C5E9130BEEEC;4922.
  ) 
 Here is how much of TeX's memory you used:
- 20014 strings out of 477932
- 403394 string characters out of 5837865
- 1868388 words of memory out of 5000000
- 39583 multiletter control sequences out of 15000+600000
+ 20016 strings out of 477932
+ 403441 string characters out of 5837865
+ 1870388 words of memory out of 5000000
+ 39586 multiletter control sequences out of 15000+600000
  540337 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,13n,91p,3920b,1119s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1355,10 +1343,10 @@ uper/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
 fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/font
 s/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis.pdf (74 pages, 5900625 bytes).
+Output written on Thesis.pdf (74 pages, 5900439 bytes).
 PDF statistics:
- 2651 PDF objects out of 2984 (max. 8388607)
- 1599 compressed objects within 16 object streams
- 278 named destinations out of 1000 (max. 500000)
+ 2649 PDF objects out of 2984 (max. 8388607)
+ 1597 compressed objects within 16 object streams
+ 277 named destinations out of 1000 (max. 500000)
  402 words of extra memory for PDF output out of 10000 (max. 10000000)
 

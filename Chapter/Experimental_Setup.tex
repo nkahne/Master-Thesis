@@ -177,13 +177,13 @@ In this regard it is reasonable to discuss the noise behavior for this readout s
 
 \gl{
 \epsilon_{\rm p} = \frac{S_{\rm \Phi_s,p}}{2L_{\rm p}} \ \ .
-}{extr_energy_sens}
+}{extr_energy_sens_simple}
 
 Here, it is necessary to point out that the choice of a single coil with inductance $L_{\rm p}$ adds a factor of 2 to equations \ref{meander_deltaI} and \ref{meander_ftf}, such that the flux-to-flux coupling reads
 
 \gl{
 \frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}} = \frac{M_{\rm is}}{L_{\rm p} +  L_{\rm i} + L_{\rm par}} \ \ .
-}{}
+}{ftf_Lp}
 
 %\gl{
 %I_{\rm in} = \frac{\Delta\Phi_{\rm p}}{L_{\rm i} + L_{\rm par} + L_{\rm p}}
@@ -195,7 +195,7 @@ This advantage in coupling, however, does not outweigh the above-mentioned benef
 L_{\rm s}' = L_{\rm s}(1-k_{\rm is}^2s_{\rm i}) \ \ ,
 }{eff_Ls}
 
-where $s_{\rm in}=\frac{L_{\rm i}}{L_{\rm i} + L_{\rm p} + L_{\rm par}}$ denotes the screening factor \cite{Clarke2004}, which reaches the value of 0.5 for the condition $L_{\rm i}=L_{\rm p}+L_{\rm par}$ that maximizes the flux-to-flux coupling. By now using the relation $\frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}}=\frac{\sqrt{S_{\rm \Phi_s}}}{\sqrt{S_{\rm \Phi_s,p}}}$, we finally obtain with equation \ref{extr_energy_sens} to \ref{eff_Ls} the extrinsic energy sensitivity \cite{Knuutila1988}
+where $s_{\rm in}=\frac{L_{\rm i}}{L_{\rm i} + L_{\rm p} + L_{\rm par}}$ denotes the screening factor \cite{Clarke2004}, which reaches the value of 0.5 for the condition $L_{\rm i}=L_{\rm p}+L_{\rm par}$ that maximizes the flux-to-flux coupling. By now using the relation $\frac{\Delta\Phi_{\rm s}}{\Delta\Phi_{\rm p}}=\frac{\sqrt{S_{\rm \Phi_s}}}{\sqrt{S_{\rm \Phi_s,p}}}$, we finally obtain with equation \ref{extr_energy_sens_simple} to \ref{eff_Ls} the extrinsic energy sensitivity \cite{Knuutila1988}
 
 \gl{
 \epsilon_{\rm p} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm p})^{2}}{2L_{\rm p}M_{\rm is}^{2}} = \frac{S_{\rm \Phi_s}(L_{\rm i} + L_{\rm par} + L_{\rm m}/2)}{L_{\rm s}k_{\rm is}^{2}s_{\rm i}L_{\rm m}/2} \ \ .
