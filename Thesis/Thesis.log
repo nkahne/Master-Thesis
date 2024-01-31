@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  31 JAN 2024 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  31 JAN 2024 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,12 +880,12 @@ LaTeX Warning: Citation `Gamer2919' on page 1 undefined on input line 3.
 ]
 Chapter 2.
 [3]
-<../Figures/jj_schematic.pdf, id=220, 569.055pt x 184.94295pt>
+<../Figures/jj_schematic.pdf, id=221, 569.055pt x 184.94295pt>
 File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
 <use ../Figures/jj_schematic.pdf>
 Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 23.
 (pdftex.def)             Requested size: 429.63678pt x 139.63528pt.
-<../Figures/quantized_flux.pdf, id=224, 426.79147pt x 426.79147pt>
+<../Figures/quantized_flux.pdf, id=225, 426.79147pt x 426.79147pt>
 File: ../Figures/quantized_flux.pdf Graphic file (type pdf)
 <use ../Figures/quantized_flux.pdf>
 Package pdftex.def Info: ../Figures/quantized_flux.pdf  used on input line 40.
@@ -896,7 +896,7 @@ Underfull \hbox (badness 1769) in paragraph at lines 40--40
  []
 
 [4 <../Figures/jj_schematic.pdf>] [5 <../Figures/quantized_flux.pdf>]
-<../Figures/shortjj_mag.pdf, id=354, 590.205pt x 454.69875pt>
+<../Figures/shortjj_mag.pdf, id=355, 590.205pt x 454.69875pt>
 File: ../Figures/shortjj_mag.pdf Graphic file (type pdf)
 <use ../Figures/shortjj_mag.pdf>
 Package pdftex.def Info: ../Figures/shortjj_mag.pdf  used on input line 101.
@@ -1362,7 +1362,7 @@ sfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (76 pages, 6052311 bytes).
+Output written on Thesis.pdf (76 pages, 6053225 bytes).
 PDF statistics:
  3054 PDF objects out of 3580 (max. 8388607)
  281 named destinations out of 1000 (max. 500000)
