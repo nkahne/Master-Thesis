@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  31 JAN 2024 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  31 JAN 2024 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -873,13 +873,22 @@ Chapter 1.
 
 LaTeX Warning: Citation `Gamer2919' on page 1 undefined on input line 3.
 
-) (../Chapter/Theory.tex [1
 
-] [2
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+])
+(../Chapter/Theory.tex [2]
+Chapter 2.
+[3
 
 ]
-Chapter 2.
-[3]
 <../Figures/jj_schematic.pdf, id=221, 569.055pt x 184.94295pt>
 File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
 <use ../Figures/jj_schematic.pdf>
@@ -1362,7 +1371,7 @@ sfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (76 pages, 6053225 bytes).
+Output written on Thesis.pdf (76 pages, 6053979 bytes).
 PDF statistics:
  3054 PDF objects out of 3580 (max. 8388607)
  281 named destinations out of 1000 (max. 500000)
