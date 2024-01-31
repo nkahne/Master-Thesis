@@ -1,0 +1,106 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+The style file: bibstyle_andi_english.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: library.bib
+Repeated entry---line 1081 of file library.bib
+ : @article{Stewart1968
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1735 of file library.bib
+ : @article{Kempf2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1761 of file library.bib
+ : @article{Tesche1977
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2197 of file library.bib
+ : @article{Jaycox1981
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2261 of file library.bib
+ : @article{Knuutila1987
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3085 of file library.bib
+ : @article{Josephson1962
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3505 of file library.bib
+ : @book{Clarke2004
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4369 of file library.bib
+ : @article{Meissner1933
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5699 of file library.bib
+ : 
+ : pages = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 5751 of file library.bib
+ : @article{Meissner1933
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6079 of file library.bib
+ : @article{Stawiasz1993
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6263 of file library.bib
+ : @article{Maezawa1995
+ :                     ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1306 of file bibstyle_andi_english.bst
+You've used 65 entries,
+            2496 wiz_defined-function locations,
+            1005 strings with 15369 characters,
+and the built_in function-call counts, 25132 in all, are:
+= -- 2474
+> -- 991
+< -- 70
++ -- 329
+- -- 327
+* -- 2108
+:= -- 4111
+add.period$ -- 65
+call.type$ -- 65
+change.case$ -- 411
+chr.to.int$ -- 64
+cite$ -- 65
+duplicate$ -- 1043
+empty$ -- 1872
+format.name$ -- 456
+if$ -- 5008
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 57
+newline$ -- 327
+num.names$ -- 203
+pop$ -- 366
+preamble$ -- 1
+purify$ -- 487
+quote$ -- 0
+skip$ -- 735
+stack$ -- 0
+substring$ -- 1605
+swap$ -- 138
+text.length$ -- 70
+text.prefix$ -- 64
+top$ -- 0
+type$ -- 496
+warning$ -- 0
+while$ -- 209
+width$ -- 69
+write$ -- 844
+(There were 16 error messages)
