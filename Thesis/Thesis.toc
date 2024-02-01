@@ -30,5 +30,5 @@
 \contentsline {section}{\numberline {5.3}Resonance Behavior}{56}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Noise Performance}{61}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Energy Sensitivity}{64}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Summary}{67}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{67}{chapter.6}%
 \contentsline {chapter}{{Bibliography}}{69}{chapter.7}%

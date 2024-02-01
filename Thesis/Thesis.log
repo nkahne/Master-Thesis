@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  1 FEB 2024 00:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  1 FEB 2024 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,7 +1332,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B7CE0A4A73AA0DC54B1D9453E8E35107;5026.
+(rerunfilecheck)             Checksum: 922D472128EA5A672037539F9C54A0C4;5092.
  ) 
 Here is how much of TeX's memory you used:
  20121 strings out of 474541
@@ -1371,9 +1371,9 @@ sfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (76 pages, 6056137 bytes).
+Output written on Thesis.pdf (76 pages, 6057765 bytes).
 PDF statistics:
- 3055 PDF objects out of 3580 (max. 8388607)
+ 3058 PDF objects out of 3580 (max. 8388607)
  281 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
