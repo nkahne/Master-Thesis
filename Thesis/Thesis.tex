@@ -57,20 +57,6 @@
 
 %\newfontfamily\arial{Arial}
 
-\usepackage{xfrac}
-
-% Redefine \frac to use \sfrac only in text mode
-\makeatletter
-\let\oldfrac\frac
-\def\frac#1#2{%
-  \ifmmode
-    \oldfrac{#1}{#2}
-  \else
-    \sfrac{#1}{#2}
-  \fi
-}
-\makeatother
-
 % für SIUNITX
 %\DeclareSIUnit\ph0{\text{\Phi$_{0}$}}
 \DeclareSIUnit\percent{\text{\%}}
