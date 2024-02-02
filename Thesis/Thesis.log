@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  2 FEB 2024 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  2 FEB 2024 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,131 +1183,164 @@ Underfull \hbox (badness 2080) in paragraph at lines 70--70
 
 ]
 Chapter 5.
-<../Figures/IV_3c16_ch2.pdf, id=2024, 722.7pt x 722.7pt>
+<../Figures/IV_3c16_ch2.pdf, id=2023, 722.7pt x 722.7pt>
 File: ../Figures/IV_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/IV_3c16_ch2.pdf>
-Package pdftex.def Info: ../Figures/IV_3c16_ch2.pdf  used on input line 20.
+Package pdftex.def Info: ../Figures/IV_3c16_ch2.pdf  used on input line 25.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/VPhi_3c16_ch2.pdf, id=2025, 722.7pt x 722.7pt>
+<../Figures/VPhi_3c16_ch2.pdf, id=2024, 722.7pt x 722.7pt>
 File: ../Figures/VPhi_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/VPhi_3c16_ch2.pdf>
-Package pdftex.def Info: ../Figures/VPhi_3c16_ch2.pdf  used on input line 20.
+Package pdftex.def Info: ../Figures/VPhi_3c16_ch2.pdf  used on input line 25.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[52 <../Figures/IV_3c16_ch2.pdf> <../Figures/VPhi_3c16_ch2.pdf
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52 <../Figures/IV_3c16_ch2.pdf> <../Figures/VPhi_3c16_ch2.pdf
 
 pdfTeX warning: pdflatex.exe (file ../Figures/VPhi_3c16_ch2.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \vbox (badness 1496) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-[54]
-<../Figures/Li_meas.pdf, id=2157, 682.86618pt x 682.86618pt>
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+[55]
+<../Figures/Li_meas.pdf, id=2158, 682.86618pt x 682.86618pt>
 File: ../Figures/Li_meas.pdf Graphic file (type pdf)
 <use ../Figures/Li_meas.pdf>
-Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 50.
+Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.0748pt x 256.07419pt.
- [55 <../Figures/Li_meas.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ [56 <../Figures/Li_meas.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
+ [57]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[57]
-<../Figures/all_IV/all_IV_mergeV2.pdf, id=2220, 1294.5966pt x 2247.76776pt>
+[58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+<../Figures/all_IV/all_IV_mergeV2.pdf, id=2227, 1294.5966pt x 2247.76776pt>
 File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_mergeV2.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
-ne 93.
+ne 106.
 (pdftex.def)             Requested size: 331.82648pt x 576.16438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-[58] [59 <../Figures/all_IV/all_IV_mergeV2.pdf>]
+[60] [61 <../Figures/all_IV/all_IV_mergeV2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+ [62]
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-[61]
-<../Figures/3a13_noise.pdf, id=2302, 722.7pt x 722.7pt>
+[64]
+<../Figures/3a13_noise.pdf, id=2314, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
-Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 169.
+Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 182.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/2a16_noise.pdf, id=2303, 722.7pt x 722.7pt>
+<../Figures/2a16_noise.pdf, id=2315, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
-Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 169.
+Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 182.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--171
+Overfull \hbox (58.49939pt too wide) in paragraph at lines 172--184
+\T1/cmr/m/n/14.4 the cor-re-spond-ing fit for 2A16 pro-vided $[] \OT1/cmr/m/n/1
+4.4 = 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 57 []\OML/cmm/m/it/14.4 =[]$\T1/cm
+r/m/n/14.4 , $[]\OT1/cmr/m/n/14.4 (1 []) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--184
 
  []
 
-[62]
+[65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
+ [66]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+[67 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
 
 pdfTeX warning: pdflatex.exe (file ../Figures/2a16_noise.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-
+ [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-[66]) (../Chapter/Summary.tex [67] [68
+ [69]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
-]
+ []
+
+[70]) (../Chapter/Summary.tex [71] [72]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1327,7 +1360,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [73
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1340,28 +1375,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70])
-(Thesis.bbl [71] [72
+ [74])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [73] [74]
-Underfull \hbox (badness 1286) in paragraph at lines 217--223
-[]\T1/cmr/m/n/12 Fabian Kaap,  \T1/cmr/m/it/12 Un-ter-suchung des Ein-flusses v
-on Kern-spins und in
+ [75]
+(Thesis.bbl [76]
+Underfull \hbox (badness 6220) in paragraph at lines 9--15
+[]\T1/cmr/m/n/14.4 F. Bauer,  \T1/cmr/m/it/14.4 Op-ti-mierung von gekop-pel-ten
+ dc-SQUIDs
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 217--223
-\T1/cmr/m/it/12 Niob gespe-ichertem Wasser-stoff auf das nieder-fre-quente mag-
-netis-che
+Underfull \hbox (badness 1412) in paragraph at lines 9--15
+\T1/cmr/m/it/14.4 durch die Un-ter-drück-ung par-a-sitärer Res-o-nanzen und die
+
  []
 
-[75] [76]
-Underfull \hbox (badness 1796) in paragraph at lines 319--324
-[]\T1/cmr/m/n/12 Federica Man-tegazz-ini,  \T1/cmr/m/it/12 De-vel-op-ment and c
-har-ac-ter-i-sa-tion of high-
+
+Underfull \hbox (badness 1688) in paragraph at lines 9--15
+\T1/cmr/m/it/14.4 Etablierung eines neuen Her-stel-lungsprozesses für Nb/Al-
  []
 
-[77]) [78] (Thesis.aux (kipcover.aux) (title.aux) (abstract.aux))
+
+Underfull \hbox (badness 5817) in paragraph at lines 9--15
+\T1/cmr/m/it/14.4 AlOx/Nb-Josephson-Kontakte\T1/cmr/m/n/14.4 ,  Mas-ter-ar-beit
+, Kirchhoff-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 37--43
+[]\T1/cmr/m/n/14.4 Andreas Burck,  \T1/cmr/m/it/14.4 En-twick-lung groÿflächige
+r mag-netis-cher
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 37--43
+\T1/cmr/m/it/14.4 quan-ten und hoch-en-er-getis-chen Teilchen\T1/cmr/m/n/14.4 ,
+  Diplo-mar-beit,
+ []
+
+[77
+
+] [78]
+Underfull \hbox (badness 1242) in paragraph at lines 154--159
+[]\T1/cmr/m/n/14.4 A. Fer-ring,  \T1/cmr/m/it/14.4 En-twick-lung von dc-SQUIDs 
+zur Ausle-sung
+ []
+
+[79]
+Underfull \hbox (badness 6758) in paragraph at lines 184--189
+[]\T1/cmr/m/n/14.4 Matthew Herbst,  \T1/cmr/m/it/14.4 High Res-o-lu-tion Mag-ne
+tic Micro-
+ []
+
+[80] [81] [82] [83]) [84] (Thesis.aux (kipcover.aux) (title.aux) (abstract.aux)
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1377,52 +1445,58 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F2F7C8B7B9B903C0E7811AAB56D86715;5102.
  ) 
 Here is how much of TeX's memory you used:
- 19797 strings out of 474541
- 399466 string characters out of 5745841
- 1941978 words of memory out of 5000000
- 41399 multiletter control sequences out of 15000+600000
- 590377 words of font info for 115 fonts, out of 8000000 for 9000
+ 19818 strings out of 474541
+ 399723 string characters out of 5745841
+ 1938978 words of memory out of 5000000
+ 41412 multiletter control sequences out of 15000+600000
+ 594544 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,90p,3809b,1209s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm080
-0.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm0700.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0800.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx0800.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbi1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljf
-our/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\PC\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\PC\AppData\Local\M
-iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk><C:/Users/PC/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/PC/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/PC
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6
-.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmib10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (86 pages, 6143075 bytes).
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm100
+0.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecrm0700.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm0800.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx0800.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecbi1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\PC\AppData\Local\M
+iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\PC\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\PC\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk><C:/Users/PC/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/PC
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Us
+ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmib10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PC/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/PC/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PC/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PC/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/PC/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
+s/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.p
+fb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on Thesis.pdf (92 pages, 6220355 bytes).
 PDF statistics:
- 3247 PDF objects out of 3580 (max. 8388607)
- 286 named destinations out of 1000 (max. 500000)
+ 3375 PDF objects out of 3580 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

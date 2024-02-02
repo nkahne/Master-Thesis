@@ -30,9 +30,9 @@
 \contentsline {subsection}{\numberline {4.2.2}Inductive Damping}{47}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Experimental Results}{51}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Characteristic dc-SQUID Parameters}{51}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Input Coil Inductance}{54}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Resonance Behavior}{57}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Noise Performance}{62}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Energy Sensitivity}{66}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{69}{chapter.6}%
-\contentsline {chapter}{{Bibliography}}{73}{chapter.7}%
+\contentsline {section}{\numberline {5.2}Input Coil Inductance}{55}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Resonance Behavior}{58}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Noise Performance}{65}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Energy Sensitivity}{70}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{73}{chapter.6}%
+\contentsline {chapter}{{Bibliography}}{77}{chapter.7}%
