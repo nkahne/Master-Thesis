@@ -19,9 +19,9 @@
 \contentsline {section}{\numberline {3.1}Practical dc-SQUIDs}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Gradiometer}{29}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}Operation of a dc-SQUID}{30}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Flux-Locked Loop}{30}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Two-Stage Configuration}{32}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Metallic Magnetic Calorimeters}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.1}Flux-Locked Loop}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Two-Stage Configuration}{33}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Metallic Magnetic Calorimeters}{36}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Extrinsic Energy Sensitivity}{38}{subsection.3.3.1}%
 \contentsline {chapter}{\numberline {4}dc-SQUID Design}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}dc-SQUID with a Two-Turn Input Coil}{41}{section.4.1}%
@@ -30,9 +30,9 @@
 \contentsline {subsection}{\numberline {4.2.2}Inductive Damping}{47}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Experimental Results}{51}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Characteristic dc-SQUID Parameters}{51}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Input Coil Inductance}{55}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Resonance Behavior}{58}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Noise Performance}{63}{section.5.4}%
+\contentsline {section}{\numberline {5.2}Input Coil Inductance}{54}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Resonance Behavior}{57}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Noise Performance}{62}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Energy Sensitivity}{66}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{69}{chapter.6}%
 \contentsline {chapter}{{Bibliography}}{73}{chapter.7}%
