@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  2 FEB 2024 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  2 FEB 2024 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,7 +878,7 @@ Chapter 1.
 LaTeX Warning: Citation `Gamer2919' on page 1 undefined on input line 3.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
@@ -888,17 +888,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ])
-(../Chapter/Theory.tex [2]
-Chapter 2.
-[3
+(../Chapter/Theory.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3] [4
 
 ]
-<../Figures/jj_schematic.pdf, id=256, 569.055pt x 184.94295pt>
+Chapter 2.
+[5]
+<../Figures/jj_schematic.pdf, id=265, 569.055pt x 184.94295pt>
 File: ../Figures/jj_schematic.pdf Graphic file (type pdf)
 <use ../Figures/jj_schematic.pdf>
 Package pdftex.def Info: ../Figures/jj_schematic.pdf  used on input line 23.
 (pdftex.def)             Requested size: 429.63678pt x 139.63528pt.
-<../Figures/quantized_flux.pdf, id=260, 426.79147pt x 426.79147pt>
+<../Figures/quantized_flux.pdf, id=269, 426.79147pt x 426.79147pt>
 File: ../Figures/quantized_flux.pdf Graphic file (type pdf)
 <use ../Figures/quantized_flux.pdf>
 Package pdftex.def Info: ../Figures/quantized_flux.pdf  used on input line 40.
@@ -908,8 +912,8 @@ Underfull \hbox (badness 1769) in paragraph at lines 40--40
 []\T1/cmr/m/n/12 Figure 2.2: []Superconducting ring-shaped
  []
 
-[4 <../Figures/jj_schematic.pdf>] [5 <../Figures/quantized_flux.pdf>]
-<../Figures/shortjj_mag.pdf, id=388, 590.205pt x 454.69875pt>
+[6 <../Figures/jj_schematic.pdf>] [7 <../Figures/quantized_flux.pdf>]
+<../Figures/shortjj_mag.pdf, id=396, 590.205pt x 454.69875pt>
 File: ../Figures/shortjj_mag.pdf Graphic file (type pdf)
 <use ../Figures/shortjj_mag.pdf>
 Package pdftex.def Info: ../Figures/shortjj_mag.pdf  used on input line 101.
@@ -917,9 +921,9 @@ Package pdftex.def Info: ../Figures/shortjj_mag.pdf  used on input line 101.
 
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
- [6]
-[7 <../Figures/shortjj_mag.pdf>] [8]
-<../Figures/fraunhofer.pdf, id=486, 722.7pt x 722.7pt>
+ [8]
+[9 <../Figures/shortjj_mag.pdf>] [10]
+<../Figures/fraunhofer.pdf, id=494, 722.7pt x 722.7pt>
 File: ../Figures/fraunhofer.pdf Graphic file (type pdf)
 <use ../Figures/fraunhofer.pdf>
 Package pdftex.def Info: ../Figures/fraunhofer.pdf  used on input line 144.
@@ -939,14 +943,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-[9 <../Figures/fraunhofer.pdf>]
-<../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf, id=535, 722.7pt x 722.7pt>
+[11 <../Figures/fraunhofer.pdf>]
+<../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf, id=544, 722.7pt x 722.7pt>
 File: ../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf Graphic file (type pdf)
 <use ../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf>
 Package pdftex.def Info: ../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf  used on i
 nput line 166.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/JJoverdamped.pdf, id=536, 722.7pt x 722.7pt>
+<../Figures/JJoverdamped.pdf, id=545, 722.7pt x 722.7pt>
 File: ../Figures/JJoverdamped.pdf Graphic file (type pdf)
 <use ../Figures/JJoverdamped.pdf>
 Package pdftex.def Info: ../Figures/JJoverdamped.pdf  used on input line 166.
@@ -954,18 +958,18 @@ Package pdftex.def Info: ../Figures/JJoverdamped.pdf  used on input line 166.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf> <../Figures/JJoverdamped.pdf
+ [12 <../Figures/HDSQ15w1_2A19_9_windowJJ_IVC.pdf> <../Figures/JJoverdamped.pdf
 
 
 pdfTeX warning: pdflatex.exe (file ../Figures/JJoverdamped.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<../Figures/RCSJ-Modell.pdf, id=635, 845.0471pt x 597.51233pt>
+<../Figures/RCSJ-Modell.pdf, id=644, 845.0471pt x 597.51233pt>
 File: ../Figures/RCSJ-Modell.pdf Graphic file (type pdf)
 <use ../Figures/RCSJ-Modell.pdf>
 Package pdftex.def Info: ../Figures/RCSJ-Modell.pdf  used on input line 188.
 (pdftex.def)             Requested size: 206.22382pt x 145.81285pt.
-<../Figures/washboard.pdf, id=636, 722.7pt x 722.7pt>
+<../Figures/washboard.pdf, id=645, 722.7pt x 722.7pt>
 File: ../Figures/washboard.pdf Graphic file (type pdf)
 <use ../Figures/washboard.pdf>
 Package pdftex.def Info: ../Figures/washboard.pdf  used on input line 188.
@@ -975,19 +979,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
-[11 <../Figures/RCSJ-Modell.pdf> <../Figures/washboard.pdf>] [12]
-<../Figures/dc-SQUID.pdf, id=739, 241.84856pt x 200.75pt>
+[13 <../Figures/RCSJ-Modell.pdf> <../Figures/washboard.pdf>] [14]
+<../Figures/dc-SQUID.pdf, id=747, 241.84856pt x 200.75pt>
 File: ../Figures/dc-SQUID.pdf Graphic file (type pdf)
 <use ../Figures/dc-SQUID.pdf>
 Package pdftex.def Info: ../Figures/dc-SQUID.pdf  used on input line 232.
 (pdftex.def)             Requested size: 256.0748pt x 212.56117pt.
- [13] [14 <../Figures/dc-SQUID.pdf>]
-<../Figures/Phi_betaL.pdf, id=794, 722.7pt x 722.7pt>
+ [15] [16 <../Figures/dc-SQUID.pdf>]
+<../Figures/Phi_betaL.pdf, id=802, 722.7pt x 722.7pt>
 File: ../Figures/Phi_betaL.pdf Graphic file (type pdf)
 <use ../Figures/Phi_betaL.pdf>
 Package pdftex.def Info: ../Figures/Phi_betaL.pdf  used on input line 273.
 (pdftex.def)             Requested size: 256.0748pt x 256.06956pt.
- [15 <../Figures/Phi_betaL.pdf>]
+ [17 <../Figures/Phi_betaL.pdf>]
 Overfull \hbox (2.48279pt too wide) in paragraph at lines 303--304
 []\T1/cmr/m/n/12 This equiv-a-lence of a dc-SQUID and a sin-gle junc-tion stems
  from the above-mentioned
@@ -996,17 +1000,17 @@ Overfull \hbox (2.48279pt too wide) in paragraph at lines 303--304
 
 Underfull \vbox (badness 1194) has occurred while \output is active []
 
- [16]
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
-<../Figures/IV.pdf, id=860, 722.7pt x 722.7pt>
+<../Figures/IV.pdf, id=869, 722.7pt x 722.7pt>
 File: ../Figures/IV.pdf Graphic file (type pdf)
 <use ../Figures/IV.pdf>
 Package pdftex.def Info: ../Figures/IV.pdf  used on input line 317.
 (pdftex.def)             Requested size: 210.52437pt x 210.52599pt.
-<../Figures/VPhi.pdf, id=861, 722.7pt x 722.7pt>
+<../Figures/VPhi.pdf, id=870, 722.7pt x 722.7pt>
 File: ../Figures/VPhi.pdf Graphic file (type pdf)
 <use ../Figures/VPhi.pdf>
 Package pdftex.def Info: ../Figures/VPhi.pdf  used on input line 317.
@@ -1016,21 +1020,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-[17 <../Figures/IV.pdf> <../Figures/VPhi.pdf
+[19 <../Figures/IV.pdf> <../Figures/VPhi.pdf
 
 pdfTeX warning: pdflatex.exe (file ../Figures/VPhi.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] [18] [19]
+>] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-[20]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 406--408
 
  []
 
-<../Figures/IV_3d13_ch1.pdf, id=1006, 722.7pt x 722.7pt>
+<../Figures/IV_3d13_ch1.pdf, id=1014, 722.7pt x 722.7pt>
 File: ../Figures/IV_3d13_ch1.pdf Graphic file (type pdf)
 <use ../Figures/IV_3d13_ch1.pdf>
 Package pdftex.def Info: ../Figures/IV_3d13_ch1.pdf  used on input line 415.
@@ -1055,47 +1059,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
-[21 <../Figures/IV_3d13_ch1.pdf>]) (../Chapter/Experimental_Setup.tex [22]
-[23] [24
+[23 <../Figures/IV_3d13_ch1.pdf>]) (../Chapter/Experimental_Setup.tex [24]
+[25] [26
 
 ]
 Chapter 3.
-[25]
-<../Figures/Washergeometrie.pdf, id=1082, 483.6971pt x 241.84352pt>
+[27]
+<../Figures/Washergeometrie.pdf, id=1090, 483.6971pt x 241.84352pt>
 File: ../Figures/Washergeometrie.pdf Graphic file (type pdf)
 <use ../Figures/Washergeometrie.pdf>
 Package pdftex.def Info: ../Figures/Washergeometrie.pdf  used on input line 26.
 
 (pdftex.def)             Requested size: 429.63678pt x 214.81567pt.
- [26 <../Figures/Washergeometrie.pdf>]
-<../Figures/Gradiometer.pdf, id=1157, 483.6971pt x 209.78375pt>
+ [28 <../Figures/Washergeometrie.pdf>]
+<../Figures/Gradiometer.pdf, id=1165, 483.6971pt x 209.78375pt>
 File: ../Figures/Gradiometer.pdf Graphic file (type pdf)
 <use ../Figures/Gradiometer.pdf>
 Package pdftex.def Info: ../Figures/Gradiometer.pdf  used on input line 57.
 (pdftex.def)             Requested size: 429.63678pt x 186.3388pt.
- [27] [28 <../Figures/Gradiometer.pdf>]
-<../Figures/FLL.pdf, id=1204, 483.6971pt x 270.30083pt>
+ [29] [30 <../Figures/Gradiometer.pdf>]
+<../Figures/FLL.pdf, id=1213, 483.6971pt x 270.30083pt>
 File: ../Figures/FLL.pdf Graphic file (type pdf)
 <use ../Figures/FLL.pdf>
 Package pdftex.def Info: ../Figures/FLL.pdf  used on input line 76.
 (pdftex.def)             Requested size: 429.63678pt x 240.09265pt.
- [29 <../Figures/FLL.pdf>] [30]
+ [31 <../Figures/FLL.pdf>] [32]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<../Figures/2stage.pdf, id=1301, 483.6971pt x 241.84856pt>
+<../Figures/2stage.pdf, id=1309, 483.6971pt x 241.84856pt>
 File: ../Figures/2stage.pdf Graphic file (type pdf)
 <use ../Figures/2stage.pdf>
 Package pdftex.def Info: ../Figures/2stage.pdf  used on input line 102.
 (pdftex.def)             Requested size: 429.63678pt x 214.82014pt.
-[31]
+[33] [34 <../Figures/2stage.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[32 <../Figures/2stage.pdf>] [33]
-<../Figures/Detektorgeometrie.pdf, id=1413, 483.6971pt x 241.84856pt>
+[35]
+<../Figures/Detektorgeometrie.pdf, id=1421, 483.6971pt x 241.84856pt>
 File: ../Figures/Detektorgeometrie.pdf Graphic file (type pdf)
 <use ../Figures/Detektorgeometrie.pdf>
 Package pdftex.def Info: ../Figures/Detektorgeometrie.pdf  used on input line 1
@@ -1106,11 +1110,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[34 <../Figures/Detektorgeometrie.pdf>]
-Underfull \vbox (badness 5203) has occurred while \output is active []
-
- [35])
-(../Chapter/Design.tex [36] [37] [38
+[36 <../Figures/Detektorgeometrie.pdf>] [37]) (../Chapter/Design.tex [38]
+[39] [40
 
 ]
 Chapter 4.
@@ -1119,8 +1120,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-[39]
-<../Figures/FE_NL_design.pdf, id=1639, 1138.11195pt x 853.58296pt>
+[41]
+<../Figures/FE_NL_design.pdf, id=1648, 1138.11195pt x 853.58296pt>
 File: ../Figures/FE_NL_design.pdf Graphic file (type pdf)
 <use ../Figures/FE_NL_design.pdf>
 Package pdftex.def Info: ../Figures/FE_NL_design.pdf  used on input line 15.
@@ -1133,33 +1134,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [42]
 Underfull \vbox (badness 1502) has occurred while \output is active []
 
- [41 <../Figures/FE_NL_design.pdf>] [42]
+ [43 <../Figures/FE_NL_design.pdf>] [44]
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [43]
-<../Figures/gekoppeltes_SQUID.pdf, id=1776, 241.84856pt x 181.56433pt>
+ [45]
+<../Figures/gekoppeltes_SQUID.pdf, id=1784, 241.84856pt x 181.56433pt>
 File: ../Figures/gekoppeltes_SQUID.pdf Graphic file (type pdf)
 <use ../Figures/gekoppeltes_SQUID.pdf>
 Package pdftex.def Info: ../Figures/gekoppeltes_SQUID.pdf  used on input line 4
 5.
 (pdftex.def)             Requested size: 206.22382pt x 154.82076pt.
-<../Figures/FE_RxCx.pdf, id=1777, 384.11205pt x 327.20645pt>
+<../Figures/FE_RxCx.pdf, id=1785, 384.11205pt x 327.20645pt>
 File: ../Figures/FE_RxCx.pdf Graphic file (type pdf)
 <use ../Figures/FE_RxCx.pdf>
 Package pdftex.def Info: ../Figures/FE_RxCx.pdf  used on input line 45.
 (pdftex.def)             Requested size: 206.22382pt x 175.67032pt.
 
-[44 <../Figures/gekoppeltes_SQUID.pdf> <../Figures/FE_RxCx.pdf>]
-<../Figures/FE_L_design.pdf, id=1853, 1129.57004pt x 768.22408pt>
+[46 <../Figures/gekoppeltes_SQUID.pdf> <../Figures/FE_RxCx.pdf>]
+<../Figures/FE_L_design.pdf, id=1861, 1129.57004pt x 768.22408pt>
 File: ../Figures/FE_L_design.pdf Graphic file (type pdf)
 <use ../Figures/FE_L_design.pdf>
 Package pdftex.def Info: ../Figures/FE_L_design.pdf  used on input line 58.
 (pdftex.def)             Requested size: 429.63678pt x 292.19778pt.
- [45] [46 <../Figures/FE_L_design.pdf>]
-<../Figures/damped_chip.pdf, id=1931, 1223.4709pt x 1223.4709pt>
+ [47] [48 <../Figures/FE_L_design.pdf>]
+<../Figures/damped_chip.pdf, id=1940, 1223.4709pt x 1223.4709pt>
 File: ../Figures/damped_chip.pdf Graphic file (type pdf)
 <use ../Figures/damped_chip.pdf>
 Package pdftex.def Info: ../Figures/damped_chip.pdf  used on input line 70.
@@ -1169,18 +1170,18 @@ Underfull \hbox (badness 2080) in paragraph at lines 70--70
 \T1/cmr/m/n/12 Chan-nel 2: Non-lossy SQUID
  []
 
-) (../Chapter/Experimental_Results.tex [47 <../Figures/damped_chip.pdf>]
-[48
+) (../Chapter/Experimental_Results.tex [49 <../Figures/damped_chip.pdf>]
+[50
 
 ]
 Chapter 5.
-[49]
-<../Figures/IV_3c16_ch2.pdf, id=2017, 722.7pt x 722.7pt>
+[51]
+<../Figures/IV_3c16_ch2.pdf, id=2027, 722.7pt x 722.7pt>
 File: ../Figures/IV_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/IV_3c16_ch2.pdf>
 Package pdftex.def Info: ../Figures/IV_3c16_ch2.pdf  used on input line 18.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/VPhi_3c16_ch2.pdf, id=2018, 722.7pt x 722.7pt>
+<../Figures/VPhi_3c16_ch2.pdf, id=2028, 722.7pt x 722.7pt>
 File: ../Figures/VPhi_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/VPhi_3c16_ch2.pdf>
 Package pdftex.def Info: ../Figures/VPhi_3c16_ch2.pdf  used on input line 18.
@@ -1190,10 +1191,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50 <../Figures/IV_3c16_ch2.pdf> <../Figures/VPhi_3c16_ch2.pdf
+[52 <../Figures/IV_3c16_ch2.pdf> <../Figures/VPhi_3c16_ch2.pdf
 
 pdfTeX warning: pdflatex.exe (file ../Figures/VPhi_3c16_ch2.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -1202,22 +1200,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[51]
+[53]
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
- [52]
-<../Figures/Li_meas.pdf, id=2143, 682.86618pt x 682.86618pt>
+ [54]
+<../Figures/Li_meas.pdf, id=2154, 682.86618pt x 682.86618pt>
 File: ../Figures/Li_meas.pdf Graphic file (type pdf)
 <use ../Figures/Li_meas.pdf>
 Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 48.
 (pdftex.def)             Requested size: 256.0748pt x 256.07419pt.
 
-[53]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[54 <../Figures/Li_meas.pdf>]
+[56 <../Figures/Li_meas.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
@@ -1225,8 +1223,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-<../Figures/all_IV/all_IV_mergeV2.pdf, id=2207, 1294.5966pt x 2247.76776pt>
+ [57]
+<../Figures/all_IV/all_IV_mergeV2.pdf, id=2217, 1294.5966pt x 2247.76776pt>
 File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_mergeV2.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
@@ -1240,28 +1238,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
 Underfull \vbox (badness 4660) has occurred while \output is active []
 
- [56]
-[57 <../Figures/all_IV/all_IV_mergeV2.pdf>]
+ [58]
+[59 <../Figures/all_IV/all_IV_mergeV2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-[58]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
-[59]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
-<../Figures/3a13_noise.pdf, id=2289, 722.7pt x 722.7pt>
+<../Figures/3a13_noise.pdf, id=2299, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
 Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 167.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/2a16_noise.pdf, id=2290, 722.7pt x 722.7pt>
+<../Figures/2a16_noise.pdf, id=2300, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
 Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 167.
@@ -1271,10 +1269,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--169
 
  []
 
-[60]
+[62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [63]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -1282,7 +1280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [62 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
+ [64 <../Figures/3a13_noise.pdf> <../Figures/2a16_noise.pdf
 
 pdfTeX warning: pdflatex.exe (file ../Figures/2a16_noise.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -1294,12 +1292,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [65]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[64]) (../Chapter/Summary.tex [65] [66
+[66]) (../Chapter/Summary.tex [67] [68
 
 ]
 Chapter 6.
@@ -1321,7 +1319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [69]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1334,10 +1332,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68])
-(Thesis.bbl [69] [70
+ [70])
+(Thesis.bbl [71] [72
 
-] [71] [72]
+] [73] [74]
 Underfull \hbox (badness 1286) in paragraph at lines 217--223
 []\T1/cmr/m/n/12 Fabian Kaap,  \T1/cmr/m/it/12 Un-ter-suchung des Ein-flusses v
 on Kern-spins und in
@@ -1349,13 +1347,13 @@ Underfull \hbox (badness 2351) in paragraph at lines 217--223
 netis-che
  []
 
-[73] [74]
+[75] [76]
 Underfull \hbox (badness 1796) in paragraph at lines 319--324
 []\T1/cmr/m/n/12 Federica Man-tegazz-ini,  \T1/cmr/m/it/12 De-vel-op-ment and c
 har-ac-ter-i-sa-tion of high-
  []
 
-[75]) [76] (Thesis.aux (kipcover.aux) (title.aux) (abstract.aux))
+[77]) [78] (Thesis.aux (kipcover.aux) (title.aux) (abstract.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1371,8 +1369,8 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F2F7C8B7B9B903C0E7811AAB56D86715;5102.
  ) 
 Here is how much of TeX's memory you used:
- 19794 strings out of 474541
- 399441 string characters out of 5745841
+ 19797 strings out of 474541
+ 399466 string characters out of 5745841
  1944978 words of memory out of 5000000
  41399 multiletter control sequences out of 15000+600000
  590377 words of font info for 115 fonts, out of 8000000 for 9000
@@ -1414,9 +1412,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (84 pages, 6139352 bytes).
+Output written on Thesis.pdf (86 pages, 6142246 bytes).
 PDF statistics:
- 3231 PDF objects out of 3580 (max. 8388607)
- 283 named destinations out of 1000 (max. 500000)
+ 3245 PDF objects out of 3580 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

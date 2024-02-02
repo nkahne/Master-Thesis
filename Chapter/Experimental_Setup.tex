@@ -4,7 +4,7 @@ So far we discussed general aspects of dc-SQUIDs and how their working principle
 
 \section{Practical dc-SQUIDs}\label{sec_practical_SQUID}
 
-The SQUIDs developed in this working group are used as current sensors for the MMC readout by sending the detected signals from the \textit{pickup coil} of the MMC to the input coil of the SQUID. The requirement of the latter entails a parasitic capacitance resulting in numerous resonances, as discussed in subsection \ref{subsec_para_res}. To achieve high inductive coupling between input coil and SQUID loop, it is necessary to fabricate them closely on top of each other, only separated by a thin insulating layer. The coupling strength is given by the dimensionless parameter 
+The SQUIDs developed in this working group are primarily used as current sensors for the MMC readout by coupling the detected signals from the \textit{pickup coil} of the MMC to the parallel input coil of the SQUID. The need for this input coil entails a parasitic capacitance resulting in several resonances, as discussed in subsection \ref{subsec_para_res}. To achieve high inductive coupling between input coil and SQUID loop with inductances $L_{\rm i}$ and $L_{\rm s}$, respectively, it is necessary to fabricate them closely on top of each other, only separated by a thin insulating layer. The coupling strength is given by the dimensionless parameter 
 
 \gl{
 k_{\rm is} = \frac{M_{\rm is}}{\sqrt{L_{\rm i}L_{\rm s}}} \ \ , 
@@ -25,7 +25,7 @@ This expression refers to the apparent current noise $S_{I\rm ,i}=S_{\rm \Phi_s}
 {Schematic drawing of a typical planar thin-film dc-SQUID. The SQUID loop is realized as a square washer-geometry interrupted by a narrow slit, only connected at the junction area. A thin insulating layer separates the washer from the planar multi-turn input coil above. Left: View from the top. Right: Cross section marked by the dashed line.}
 {washer}
 
-Here, the SQUID loop is represented by the washer, whereas each turn of the input coil is symmetrically located on top of it to maximize the coupling between each system. A cross section of this setup is depicted in figure \ref{abb:washer} (right), showing the insulating dielectric layer separating each coil. The washer is intersected by a slit, which starts at the square hole in the middle and ends at the remotely situated junction area that connects each side of the loop. The total inductance of the SQUID loop can be calculated by adding the dominating washer hole inductance $L_{\rm h}$, the slit inductance $L_{\rm sl}\approx \qty{0.3}{\pH\per\um}$ and the much smaller parasitic inductance $L_{\rm j}$ associated with the junction area, giving \cite{Ketchen1991}
+Here, the SQUID loop is represented by the washer, whereas each turn of the input coil is located on top of it to maximize the coupling between both coils. A cross section of this setup is depicted in figure \ref{abb:washer} (right), showing the insulating dielectric layer separating each coil. The washer is intersected by a slit, which starts at the square hole in the middle and ends at the remotely situated junction area that connects each side of the loop. The total inductance of the SQUID loop can be calculated by adding the dominating washer hole inductance $L_{\rm h}$, the slit inductance $L_{\rm sl}\approx \qty{0.3}{\pH\per\um}$ given for small slit dimensions and the much smaller parasitic inductance $L_{\rm j}$ associated with the junction area, giving \cite{Ketchen1991}
 
 \gl{
 L_{\rm s} = L_{\rm h} + L_{\rm sl} + L_{\rm j} \ \ .
