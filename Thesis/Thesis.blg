@@ -1,6 +1,12 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: kipcover.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: title.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 The style file: bibstyle_andi_english.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
@@ -54,6 +60,7 @@ Repeated entry---line 6263 of file library.bib
  : @article{Maezawa1995
  :                     ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Gamer2919"
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
@@ -62,45 +69,45 @@ Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1306 of file bibstyle_andi_english.bst
-You've used 65 entries,
+You've used 66 entries,
             2496 wiz_defined-function locations,
-            1005 strings with 15369 characters,
-and the built_in function-call counts, 25132 in all, are:
-= -- 2474
-> -- 991
-< -- 70
-+ -- 329
-- -- 327
-* -- 2108
-:= -- 4111
-add.period$ -- 65
-call.type$ -- 65
-change.case$ -- 411
-chr.to.int$ -- 64
-cite$ -- 65
-duplicate$ -- 1043
-empty$ -- 1872
-format.name$ -- 456
-if$ -- 5008
+            1016 strings with 15621 characters,
+and the built_in function-call counts, 25475 in all, are:
+= -- 2506
+> -- 1009
+< -- 71
++ -- 335
+- -- 333
+* -- 2138
+:= -- 4170
+add.period$ -- 66
+call.type$ -- 66
+change.case$ -- 418
+chr.to.int$ -- 65
+cite$ -- 66
+duplicate$ -- 1058
+empty$ -- 1894
+format.name$ -- 464
+if$ -- 5074
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 57
-newline$ -- 327
-num.names$ -- 203
-pop$ -- 366
+missing$ -- 58
+newline$ -- 332
+num.names$ -- 206
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 487
+purify$ -- 495
 quote$ -- 0
-skip$ -- 735
+skip$ -- 747
 stack$ -- 0
-substring$ -- 1605
-swap$ -- 138
-text.length$ -- 70
-text.prefix$ -- 64
+substring$ -- 1612
+swap$ -- 140
+text.length$ -- 71
+text.prefix$ -- 65
 top$ -- 0
-type$ -- 496
+type$ -- 504
 warning$ -- 0
-while$ -- 209
-width$ -- 69
-write$ -- 844
+while$ -- 211
+width$ -- 70
+write$ -- 857
 (There were 16 error messages)

@@ -3,6 +3,17 @@
 \@nameuse{bbl@beforestart}
 \catcode `"\active 
 \providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \@input{kipcover.aux}
@@ -431,23 +442,24 @@
 \newlabel{@cref}{{[equation][7][5]5.7}{[1][60][]61}}
 \newlabel{}{{5.8}{61}{Resonance Behavior}{equation.5.8}{}}
 \newlabel{@cref}{{[equation][8][5]5.8}{[1][61][]61}}
-\citation{Bauer2022}
-\citation{Bauer2022}
 \@writefile{toc}{\contentsline {section}{\numberline {5.4}Noise Performance}{62}{section.5.4}\protected@file@percent }
 \newlabel{sec_noise_results}{{5.4}{62}{Noise Performance}{section.5.4}{}}
 \newlabel{sec_noise_results@cref}{{[section][4][5]5.4}{[1][62][]62}}
 \citation{Kaap2020}
 \citation{Drung2006}
 \citation{Ferring2015}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Overview of the determined noise and energy sensitivities of the SQUIDs described in this section. The acronyms stand for lossy (L), lossy and inductively damped (LD), non-lossy (NL), and cross-type Josephson junctions (CJJ). The latter represents the \qty {6}{\nH } double flux transformer SQUIDs measured in \cite  {Bauer2022}.}}{63}{table.5.2}\protected@file@percent }
-\newlabel{tab:noise}{{5.2}{63}{Overview of the determined noise and energy sensitivities of the SQUIDs described in this section. The acronyms stand for lossy (L), lossy and inductively damped (LD), non-lossy (NL), and cross-type Josephson junctions (CJJ). The latter represents the \qty {6}{\nH } double flux transformer SQUIDs measured in \cite {Bauer2022}}{table.5.2}{}}
-\newlabel{tab:noise@cref}{{[table][2][5]5.2}{[1][62][]63}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Overview of the determined noise contributions of the two-stage measurements with 3A13 and 2A16.}}{63}{table.5.2}\protected@file@percent }
+\newlabel{tab:noise2}{{5.2}{63}{Overview of the determined noise contributions of the two-stage measurements with 3A13 and 2A16}{table.5.2}{}}
+\newlabel{tab:noise2@cref}{{[table][2][5]5.2}{[1][62][]63}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Measured noise spectra at $T=\qty {10}{\milli \kelvin }$ using a two-stage setup, where the low temperature amplifier is provided by a separate SQUID array chip. The blue curve represents the numerical fit of the measured total noise, whereas the remaining curves are the individual contributions of the first- and second-stage SQUID as well as the SQUID electronics consisting of the room temperature amplifier and the current source. Left: Lossy variant with ${\rm  SiO_2}$ from the chip 3A13. Right: Lossy variant with ${\rm  SiO_2}$, including inductively damped feed lines (2A16).}}{64}{figure.5.4}\protected@file@percent }
 \newlabel{abb:noise_meas}{{5.4}{64}{Measured noise spectra at $T=\qty {10}{\milli \kelvin }$ using a two-stage setup, where the low temperature amplifier is provided by a separate SQUID array chip. The blue curve represents the numerical fit of the measured total noise, whereas the remaining curves are the individual contributions of the first- and second-stage SQUID as well as the SQUID electronics consisting of the room temperature amplifier and the current source. Left: Lossy variant with ${\rm SiO_2}$ from the chip 3A13. Right: Lossy variant with ${\rm SiO_2}$, including inductively damped feed lines (2A16)}{figure.5.4}{}}
-\newlabel{abb:noise_meas@cref}{{[figure][4][5]5.4}{[1][62][]64}}
+\newlabel{abb:noise_meas@cref}{{[figure][4][5]5.4}{[1][63][]64}}
 \citation{Kraemer2023}
 \citation{Mazibrada2024}
 \citation{Herbst2023}
+\citation{Kempf2015}
+\citation{Kempf2015}
+\citation{Kempf2016}
 \citation{Bauer2022}
 \citation{Bauer2022}
 \@writefile{toc}{\contentsline {section}{\numberline {5.5}Energy Sensitivity}{66}{section.5.5}\protected@file@percent }
@@ -490,7 +502,7 @@
 \bibcite{Drung2006}{Dru06}
 \bibcite{Drung2007}{Dru07}
 \bibcite{Drung2011}{Dru11}
-\bibcite{Gastaldo2017}{Gas17}
+\bibcite{Gastaldo2017}{ea17}
 \bibcite{Enpuku1986}{Enp86}
 \bibcite{EnpukuI1991}{Enp91}
 \bibcite{EnpukuIII1992}{Enp92}
@@ -508,6 +520,7 @@
 \bibcite{Josephson1965}{Jos65}
 \bibcite{Kaap2020}{Kaa20}
 \bibcite{Kempf2015}{Kem15}
+\bibcite{Kempf2016}{Kem16}
 \bibcite{Kempf2018}{Kem18}
 \bibcite{Ketchen1978}{Ket78}
 \bibcite{Ketchen1981}{Ket81}
@@ -535,4 +548,4 @@
 \bibcite{Tesche1977}{Tes77}
 \bibcite{CODATA2018}{Tie21}
 \bibcite{Welty1993}{Wel93}
-\gdef \@abspage@last{86}
+\gdef \@abspage@last{87}

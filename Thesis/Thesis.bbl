@@ -121,7 +121,7 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
   Temperatures},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
 
-\bibitem[Gas17]{Gastaldo2017}
+\bibitem[ea17]{Gastaldo2017}
 L.~Gastaldo et~al.,
 \newblock The electron capture in 163ho experiment {\textendash} {ECHo},
 \newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
@@ -227,6 +227,12 @@ S.~Kempf, A.~Ferring, A.~Fleischmann, and C.~Enss,
   readout of metallic magnetic calorimeters},
 \newblock {\em Superconductor Science and Technology}, {\bf 28}(4), 45008,
   2015.
+
+\bibitem[Kem16]{Kempf2016}
+Sebastian Kempf, Anna Ferring, and Christian Enss,
+\newblock Towards noise engineering: Recent insights in low-frequency excess
+  flux noise of superconducting quantum devices,
+\newblock {\em Applied Physics Letters}, {\bf 109}(16), 2016.
 
 \bibitem[Kem18]{Kempf2018}
 S.~Kempf, A.~Fleischmann, L.~Gastaldo, and C.~Enss,
