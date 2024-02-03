@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  3 FEB 2024 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  3 FEB 2024 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,19 +1233,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[54]
-<../Figures/Li_meas.pdf, id=2155, 682.86618pt x 682.86618pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+<../Figures/Li_meas.pdf, id=2157, 682.86618pt x 682.86618pt>
 File: ../Figures/Li_meas.pdf Graphic file (type pdf)
 <use ../Figures/Li_meas.pdf>
-Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 73.
+Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 75.
 (pdftex.def)             Requested size: 256.0748pt x 256.07419pt.
- [55 <../Figures/Li_meas.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
+Underfull \hbox (badness 1472) in paragraph at lines 75--75
+\T1/cmr/m/n/12 com-po-nent by a nu-mer-i-cal fit.
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <../Figures/Li_meas.pdf>] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
@@ -1254,28 +1260,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_mergeV2.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
-ne 116.
+ne 124.
 (pdftex.def)             Requested size: 331.82648pt x 576.16438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
-[58] [59 <../Figures/all_IV/all_IV_mergeV2.pdf>]
-Underfull \vbox (badness 1859) has occurred while \output is active []
-
- [60]
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+[58] [59 <../Figures/all_IV/all_IV_mergeV2.pdf>] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
@@ -1283,15 +1286,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 <../Figures/3a13_noise.pdf, id=2300, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
-Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 192.
+Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 200.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
 <../Figures/2a16_noise.pdf, id=2301, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
-Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 192.
+Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 200.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--194
+Underfull \hbox (badness 10000) in paragraph at lines 190--202
 
  []
 
@@ -1303,12 +1306,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ../Figures/2a16_noise.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
@@ -1316,7 +1319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--199
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
@@ -1435,7 +1438,7 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (86 pages, 6138223 bytes).
+Output written on Thesis.pdf (86 pages, 6137866 bytes).
 PDF statistics:
  3234 PDF objects out of 3580 (max. 8388607)
  284 named destinations out of 1000 (max. 500000)
