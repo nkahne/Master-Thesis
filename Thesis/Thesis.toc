@@ -33,6 +33,6 @@
 \contentsline {section}{\numberline {5.2}Input Coil Inductance}{55}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Resonance Behavior}{57}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Noise Performance}{62}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Energy Sensitivity}{65}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Energy Sensitivity}{66}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{69}{chapter.6}%
 \contentsline {chapter}{{Bibliography}}{73}{chapter.7}%
