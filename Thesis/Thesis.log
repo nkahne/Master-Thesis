@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  4 FEB 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  4 FEB 2024 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,29 +1240,19 @@ Underfull \hbox (badness 1472) in paragraph at lines 80--80
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <../Figures/Li_meas.pdf>] [56]
-<../Figures/all_IV/all_IV_mergeV2.pdf, id=2222, 1294.5966pt x 2247.76776pt>
+<../Figures/all_IV/all_IV_mergeV2.pdf, id=2223, 1294.5966pt x 2247.76776pt>
 File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_mergeV2.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
-ne 130.
+ne 131.
 (pdftex.def)             Requested size: 331.82648pt x 576.16438pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-[57] [58 <../Figures/all_IV/all_IV_mergeV2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+ [57]
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
+[58] [59 <../Figures/all_IV/all_IV_mergeV2.pdf>] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
 
  []
 
@@ -1270,19 +1260,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Figures/3a13_noise.pdf, id=2316, 722.7pt x 722.7pt>
+[62]
+<../Figures/3a13_noise.pdf, id=2323, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
-Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 230.
+Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 236.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/2a16_noise.pdf, id=2317, 722.7pt x 722.7pt>
+<../Figures/2a16_noise.pdf, id=2324, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
-Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 230.
+Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 236.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-[62]
-Underfull \vbox (badness 6078) has occurred while \output is active []
-
  [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1291,7 +1279,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ../Figures/2a16_noise.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
@@ -1299,12 +1287,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--235
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 [66]
-Overfull \hbox (1.27957pt too wide) in paragraph at lines 248--261
+Overfull \hbox (1.27957pt too wide) in paragraph at lines 254--267
  [][] 
  []
 
@@ -1352,9 +1340,9 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F2F7C8B7B9B903C0E7811AAB56D86715;5102.
  ) 
 Here is how much of TeX's memory you used:
- 19811 strings out of 474541
- 399678 string characters out of 5745841
- 1945978 words of memory out of 5000000
+ 19812 strings out of 474541
+ 399688 string characters out of 5745841
+ 1942978 words of memory out of 5000000
  41412 multiletter control sequences out of 15000+600000
  592842 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1395,9 +1383,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/PC/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/PC/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (87 pages, 36223185 bytes).
+Output written on Thesis.pdf (87 pages, 36223333 bytes).
 PDF statistics:
- 3262 PDF objects out of 3580 (max. 8388607)
- 287 named destinations out of 1000 (max. 500000)
+ 3263 PDF objects out of 3580 (max. 8388607)
+ 288 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
