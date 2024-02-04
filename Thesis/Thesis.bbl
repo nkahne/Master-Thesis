@@ -1,5 +1,11 @@
 \begin{thebibliography}{{McC}68}
 
+\bibitem[All24]{Allgeier2024}
+Steffen Allgeier,
+\newblock {\em {To be published}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2024.
+
 \bibitem[Bar57]{Bardeen1957}
 J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer,
 \newblock {Theory of Superconductivity},
@@ -121,12 +127,6 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
   Temperatures},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
 
-\bibitem[ea17]{Gastaldo2017}
-L.~Gastaldo et~al.,
-\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
-\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
-  1623--1694, 2017.
-
 \bibitem[Enp86]{Enpuku1986}
 K.~Enpuku, K.~Yoshida, and S.~Kohjiro,
 \newblock {Noise characteristics of a dc SQUID with a resistively shunted
@@ -169,6 +169,12 @@ L.~E. Gamer,
   fragments}},
 \newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
   Heidelberg, 2019.
+
+\bibitem[Gas17]{Gastaldo2017}
+L.~Gastaldo,
+\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
+\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
+  1623--1694, 2017.
 
 \bibitem[Gin50]{Ginzburg1950}
 V.~L. Ginzburg and L.~Landau,

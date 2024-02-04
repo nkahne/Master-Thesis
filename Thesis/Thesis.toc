@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {3.2}Operation of a dc-SQUID}{30}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Flux-Locked Loop}{31}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Two-Stage Configuration}{33}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Metallic Magnetic Calorimeters}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Metallic Magnetic Calorimeters}{35}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Extrinsic Energy Sensitivity}{38}{subsection.3.3.1}%
 \contentsline {chapter}{\numberline {4}dc-SQUID Design}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}dc-SQUID with a Two-Turn Input Coil}{41}{section.4.1}%
