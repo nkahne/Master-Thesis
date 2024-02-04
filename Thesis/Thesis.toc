@@ -30,10 +30,14 @@
 \contentsline {subsection}{\numberline {4.2.2}Inductive Damping}{47}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Experimental Results}{51}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Characteristic dc-SQUID Parameters}{51}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Input Coil Inductance}{55}{section.5.2}%
+\contentsline {paragraph}{Screening parameter \bm {$\beta _{\rm L}$}}{53}{section*.2}%
+\contentsline {paragraph}{SQUID loop inductance \bm {$L_{\rm s}$}}{53}{section*.3}%
+\contentsline {paragraph}{Mutual inductances}{54}{section*.4}%
+\contentsline {section}{\numberline {5.2}Input Coil Inductance}{54}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Resonance Behavior}{57}{section.5.3}%
-\contentsline {paragraph}{Cp-related resonances}{58}{section*.2}%
+\contentsline {paragraph}{\bm {$C_{\rm p}$}-related resonances}{59}{section*.5}%
+\contentsline {paragraph}{Microstrip line resonances}{61}{section*.6}%
 \contentsline {section}{\numberline {5.4}Noise Performance}{62}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Energy Sensitivity}{66}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Energy Sensitivity}{65}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{69}{chapter.6}%
 \contentsline {chapter}{{Bibliography}}{73}{chapter.7}%
