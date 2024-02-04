@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.1}dc-SQUID with a Two-Turn Input Coil}{41}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Damping Methods}{45}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Lossy Input Coil}{46}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Inductive Damping}{47}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Inductive Damping}{48}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Experimental Results}{51}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Characteristic dc-SQUID Parameters}{51}{section.5.1}%
 \contentsline {paragraph}{Screening parameter \bm {$\beta _{\rm L}$}}{53}{section*.2}%

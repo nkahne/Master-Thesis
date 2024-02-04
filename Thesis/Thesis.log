@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  4 FEB 2024 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  4 FEB 2024 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,26 +1138,26 @@ File: ../Figures/FE_RxCx.pdf Graphic file (type pdf)
 <use ../Figures/FE_RxCx.pdf>
 Package pdftex.def Info: ../Figures/FE_RxCx.pdf  used on input line 48.
 (pdftex.def)             Requested size: 206.22382pt x 175.67032pt.
-
-[46 <../Figures/gekoppeltes_SQUID.pdf> <../Figures/FE_RxCx.pdf>]
-<../Figures/FE_L_design.pdf, id=1879, 1129.57004pt x 768.22408pt>
+<../Figures/FE_L_design.pdf, id=1806, 1129.57004pt x 768.22408pt>
 File: ../Figures/FE_L_design.pdf Graphic file (type pdf)
 <use ../Figures/FE_L_design.pdf>
-Package pdftex.def Info: ../Figures/FE_L_design.pdf  used on input line 61.
+Package pdftex.def Info: ../Figures/FE_L_design.pdf  used on input line 59.
 (pdftex.def)             Requested size: 429.63678pt x 292.19778pt.
- [47] [48 <../Figures/FE_L_design.pdf>]
-<../Figures/damped_chip.pdf, id=1958, 1223.4709pt x 1223.4709pt>
+
+[46 <../Figures/gekoppeltes_SQUID.pdf> <../Figures/FE_RxCx.pdf>] [47 <../Figure
+s/FE_L_design.pdf>] [48]
+<../Figures/damped_chip.pdf, id=1960, 1223.4709pt x 1223.4709pt>
 File: ../Figures/damped_chip.pdf Graphic file (type pdf)
 <use ../Figures/damped_chip.pdf>
-Package pdftex.def Info: ../Figures/damped_chip.pdf  used on input line 73.
+Package pdftex.def Info: ../Figures/damped_chip.pdf  used on input line 75.
 (pdftex.def)             Requested size: 256.0748pt x 256.07771pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 73--73
+Underfull \hbox (badness 1009) in paragraph at lines 75--75
 \T1/cmr/m/n/12 chip of the type 4x100i6 v1.4.
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 73--73
+Underfull \hbox (badness 1052) in paragraph at lines 75--75
 \T1/cmr/m/n/12 Chan-nel 4: Lossy de-sign with
  []
 
@@ -1166,12 +1166,12 @@ Underfull \hbox (badness 1052) in paragraph at lines 73--73
 
 ]
 Chapter 5.
-<../Figures/IV_3c16_ch2.pdf, id=2033, 722.7pt x 722.7pt>
+<../Figures/IV_3c16_ch2.pdf, id=2035, 722.7pt x 722.7pt>
 File: ../Figures/IV_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/IV_3c16_ch2.pdf>
 Package pdftex.def Info: ../Figures/IV_3c16_ch2.pdf  used on input line 25.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/VPhi_3c16_ch2.pdf, id=2034, 722.7pt x 722.7pt>
+<../Figures/VPhi_3c16_ch2.pdf, id=2036, 722.7pt x 722.7pt>
 File: ../Figures/VPhi_3c16_ch2.pdf Graphic file (type pdf)
 <use ../Figures/VPhi_3c16_ch2.pdf>
 Package pdftex.def Info: ../Figures/VPhi_3c16_ch2.pdf  used on input line 25.
@@ -1184,7 +1184,7 @@ Underfull \vbox (badness 2547) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ../Figures/VPhi_3c16_ch2.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >] [53] [54]
-<../Figures/Li_meas.pdf, id=2171, 682.86618pt x 682.86618pt>
+<../Figures/Li_meas.pdf, id=2173, 682.86618pt x 682.86618pt>
 File: ../Figures/Li_meas.pdf Graphic file (type pdf)
 <use ../Figures/Li_meas.pdf>
 Package pdftex.def Info: ../Figures/Li_meas.pdf  used on input line 78.
@@ -1195,19 +1195,19 @@ Underfull \hbox (badness 1472) in paragraph at lines 78--78
  []
 
 [55 <../Figures/Li_meas.pdf>] [56]
-<../Figures/all_IV/all_IV_mergeV2.pdf, id=2227, 1294.5966pt x 2247.76776pt>
+<../Figures/all_IV/all_IV_mergeV2.pdf, id=2229, 1294.5966pt x 2247.76776pt>
 File: ../Figures/all_IV/all_IV_mergeV2.pdf Graphic file (type pdf)
 <use ../Figures/all_IV/all_IV_mergeV2.pdf>
 Package pdftex.def Info: ../Figures/all_IV/all_IV_mergeV2.pdf  used on input li
 ne 129.
 (pdftex.def)             Requested size: 331.82648pt x 576.16438pt.
  [57] [58 <../Figures/all_IV/all_IV_mergeV2.pdf>] [59] [60] [61] [62]
-<../Figures/3a13_noise.pdf, id=2326, 722.7pt x 722.7pt>
+<../Figures/3a13_noise.pdf, id=2328, 722.7pt x 722.7pt>
 File: ../Figures/3a13_noise.pdf Graphic file (type pdf)
 <use ../Figures/3a13_noise.pdf>
 Package pdftex.def Info: ../Figures/3a13_noise.pdf  used on input line 242.
 (pdftex.def)             Requested size: 206.22382pt x 206.22527pt.
-<../Figures/2a16_noise.pdf, id=2327, 722.7pt x 722.7pt>
+<../Figures/2a16_noise.pdf, id=2329, 722.7pt x 722.7pt>
 File: ../Figures/2a16_noise.pdf Graphic file (type pdf)
 <use ../Figures/2a16_noise.pdf>
 Package pdftex.def Info: ../Figures/2a16_noise.pdf  used on input line 242.
@@ -1276,10 +1276,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F2F7C8B7B9B903C0E7811AAB56D86715;5102.
  ) 
 Here is how much of TeX's memory you used:
- 19881 strings out of 476410
- 398921 string characters out of 5797990
+ 19883 strings out of 476410
+ 398946 string characters out of 5797990
  1868845 words of memory out of 5000000
- 39568 multiletter control sequences out of 15000+600000
+ 39569 multiletter control sequences out of 15000+600000
  544595 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,91p,3681b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1316,9 +1316,9 @@ ram Files/MikTeK20/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
 MikTeK20/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTeK20/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MikTeK20/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (87 pages, 36215573 bytes).
+Output written on Thesis.pdf (87 pages, 36217957 bytes).
 PDF statistics:
- 3264 PDF objects out of 3580 (max. 8388607)
- 292 named destinations out of 1000 (max. 500000)
+ 3268 PDF objects out of 3580 (max. 8388607)
+ 293 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
