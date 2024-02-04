@@ -121,8 +121,8 @@ D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
   Temperatures},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
 
-\bibitem[ea17]{Gastaldo2017}
-L.~Gastaldo et~al.,
+\bibitem[Gas17]{Gastaldo2017}
+L.~Gastaldo, et~al.,
 \newblock The electron capture in 163ho experiment {\textendash} {ECHo},
 \newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
   1623--1694, 2017.
@@ -161,6 +161,14 @@ A.~Ferring,
 V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
 \newblock {Performance of a flux locked series SQUID array},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
+
+\bibitem[Gam19]{Gamer2019}
+L.~E. Gamer,
+\newblock {\em {Development and characterization of the 4k-pixel detector array
+  MOCCA for the energy- and spatially resolved detection of neutral molecule
+  fragments}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2019.
 
 \bibitem[Gin50]{Ginzburg1950}
 V.~L. Ginzburg and L.~Landau,
