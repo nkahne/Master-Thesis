@@ -91,6 +91,11 @@ B.~S. Deaver and W.~M. Fairbank,
 R.~Dengler,
 \newblock Self inductance of a wire loop as a curve integral, 2016.
 
+\bibitem[dG64]{deGennes1964}
+P.~G. de~Gennes,
+\newblock {Boundary Effects in Superconductors},
+\newblock {\em Rev. Mod. Phys.}, {\bf 36}, 225--237, 1964.
+
 \bibitem[Dru96a]{Drung1996a}
 D.~Drung,
 \newblock {Advanced SQUID read-out electronics},
@@ -162,6 +167,13 @@ V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
 \newblock {Performance of a flux locked series SQUID array},
 \newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
 
+\bibitem[FS24]{Ferring-Siebert2024}
+Anna Ferring-Siebert,
+\newblock {\em {to be published: Untersuchung des niederfrequenten
+  Flussrauschens in dc-SQUIDs bei Temperaturen unter 1K}},
+\newblock Dissertation, Kirchhoff-Institut für Physik, Universität
+  Heidelberg, 2024.
+
 \bibitem[Gam19]{Gamer2019}
 L.~E. Gamer,
 \newblock {\em {Development and characterization of the 4k-pixel detector array
@@ -175,11 +187,6 @@ L.~Gastaldo,
 \newblock The electron capture in 163ho experiment {\textendash} {ECHo},
 \newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
   1623--1694, 2017.
-
-\bibitem[Gin50]{Ginzburg1950}
-V.~L. Ginzburg and L.~Landau,
-\newblock {On the theory of superconductivity},
-\newblock {\em Zh. {\`E}ksper. Teoret. Fiz.}, {\bf 20}, 1064--1082, 1950.
 
 \bibitem[Gro16]{Gross2016}
 R.~Gross, A.~Marx, and F.~Deppe,
@@ -407,6 +414,11 @@ Eite Tiesinga, Peter~J. Mohr, David~B. Newell, and Barry~N. Taylor,
 \newblock Codata recommended values of the fundamental physical constants:
   2018,
 \newblock {\em Rev. Mod. Phys.}, {\bf 93}, 025010, 2021.
+
+\bibitem[Wei69]{Weihnacht1969}
+M.~Weihnacht,
+\newblock {Influence of Film Thickness on D. C. Josephson Current},
+\newblock {\em Phys. Stat. Sol. B}, {\bf 32}(2), K169--K172, 1969.
 
 \bibitem[Wel93]{Welty1993}
 R.P. Welty and J.M. Martinis,

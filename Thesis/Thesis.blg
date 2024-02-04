@@ -60,6 +60,10 @@ Repeated entry---line 6263 of file library.bib
  : @article{Maezawa1995
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6515 of file library.bib
+ : @book{deGennes1964
+ :                   ,
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
@@ -68,45 +72,45 @@ Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1306 of file bibstyle_andi_english.bst
-You've used 70 entries,
+You've used 72 entries,
             2496 wiz_defined-function locations,
-            1034 strings with 16013 characters,
-and the built_in function-call counts, 26691 in all, are:
-= -- 2628
-> -- 1048
-< -- 75
-+ -- 347
-- -- 345
-* -- 2224
-:= -- 4379
-add.period$ -- 70
-call.type$ -- 70
-change.case$ -- 437
-chr.to.int$ -- 69
-cite$ -- 70
-duplicate$ -- 1116
-empty$ -- 1985
-format.name$ -- 485
-if$ -- 5311
+            1046 strings with 16318 characters,
+and the built_in function-call counts, 27245 in all, are:
+= -- 2684
+> -- 1056
+< -- 77
++ -- 349
+- -- 347
+* -- 2265
+:= -- 4474
+add.period$ -- 72
+call.type$ -- 72
+change.case$ -- 445
+chr.to.int$ -- 71
+cite$ -- 72
+duplicate$ -- 1145
+empty$ -- 2033
+format.name$ -- 489
+if$ -- 5424
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 61
-newline$ -- 352
-num.names$ -- 218
-pop$ -- 394
+missing$ -- 62
+newline$ -- 362
+num.names$ -- 224
+pop$ -- 398
 preamble$ -- 1
-purify$ -- 521
+purify$ -- 532
 quote$ -- 0
-skip$ -- 787
+skip$ -- 809
 stack$ -- 0
-substring$ -- 1671
-swap$ -- 145
-text.length$ -- 75
+substring$ -- 1702
+swap$ -- 148
+text.length$ -- 77
 text.prefix$ -- 70
 top$ -- 0
-type$ -- 532
+type$ -- 548
 warning$ -- 0
-while$ -- 221
-width$ -- 74
-write$ -- 908
-(There were 16 error messages)
+while$ -- 225
+width$ -- 76
+write$ -- 934
+(There were 17 error messages)
