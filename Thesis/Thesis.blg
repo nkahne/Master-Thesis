@@ -35,6 +35,10 @@ Repeated entry---line 3085 of file library.bib
  : @article{Josephson1962
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3141 of file library.bib
+ : @inbook{Fleischmann2005
+ :                        ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3505 of file library.bib
  : @book{Clarke2004
  :                 ,
@@ -64,53 +68,56 @@ Repeated entry---line 6515 of file library.bib
  : @book{deGennes1964
  :                   ,
 I'm skipping whatever remains of this entry
+Warning--string name "aipcp" is undefined
+--line 6553 of file library.bib
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1241 of file bibstyle_andi_english.bst
+Warning--empty journal in Fle09
 Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
 while executing---line 1306 of file bibstyle_andi_english.bst
-You've used 72 entries,
+You've used 74 entries,
             2496 wiz_defined-function locations,
-            1046 strings with 16318 characters,
-and the built_in function-call counts, 27245 in all, are:
-= -- 2684
-> -- 1056
-< -- 77
-+ -- 349
-- -- 347
-* -- 2265
-:= -- 4474
-add.period$ -- 72
-call.type$ -- 72
-change.case$ -- 445
-chr.to.int$ -- 71
-cite$ -- 72
-duplicate$ -- 1145
-empty$ -- 2033
-format.name$ -- 489
-if$ -- 5424
+            1060 strings with 16706 characters,
+and the built_in function-call counts, 28518 in all, are:
+= -- 2796
+> -- 1142
+< -- 82
++ -- 381
+- -- 379
+* -- 2387
+:= -- 4675
+add.period$ -- 74
+call.type$ -- 74
+change.case$ -- 468
+chr.to.int$ -- 73
+cite$ -- 75
+duplicate$ -- 1189
+empty$ -- 2107
+format.name$ -- 525
+if$ -- 5678
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 62
-newline$ -- 362
-num.names$ -- 224
-pop$ -- 398
+missing$ -- 65
+newline$ -- 372
+num.names$ -- 230
+pop$ -- 427
 preamble$ -- 1
-purify$ -- 532
+purify$ -- 558
 quote$ -- 0
-skip$ -- 809
+skip$ -- 841
 stack$ -- 0
-substring$ -- 1702
-swap$ -- 148
-text.length$ -- 77
-text.prefix$ -- 70
+substring$ -- 1769
+swap$ -- 162
+text.length$ -- 82
+text.prefix$ -- 72
 top$ -- 0
-type$ -- 548
-warning$ -- 0
-while$ -- 225
-width$ -- 76
-write$ -- 934
-(There were 17 error messages)
+type$ -- 560
+warning$ -- 1
+while$ -- 233
+width$ -- 78
+write$ -- 960
+(There were 18 error messages)

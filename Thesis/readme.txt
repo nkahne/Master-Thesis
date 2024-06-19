@@ -1,0 +1,1 @@
+Equation 3.11: k_{i,cell} should be squared
