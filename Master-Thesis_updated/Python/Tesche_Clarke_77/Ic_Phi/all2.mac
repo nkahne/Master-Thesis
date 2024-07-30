@@ -1,0 +1,191 @@
+echo off
+
+alias q quit
+alias z echo .
+alias run dev x call %makro%.mac
+alias lj dev hp300 run dev vga
+alias bild flipxy yes dev hprel run dev vga flipxy no
+alias konvert dos c:\emtex\pcltomsp -op bild.plt %pfad%%datei%
+alias bi bild dos call makepcx %datei%
+alias ma dos call makepcx %datei%
+alias ps dev psfcol call %makro%.mac run dos mv outfile.ps "%makro%.eps" # 
+alias pps ps dos call makeps %datei%
+alias bq flipxy yes dev hprel run quit
+
+
+
+dec epsilon '^0G^1'
+z
+z
+z
+z
+
+
+/* -------------------------------------------------
+z
+/*  Gesamtgroesse  und  Shrink-faktor
+z
+/* -------------------------------------------------
+
+/* setv shrf 0.9 
+   setv	shrf	2.54
+ setv	shrf	1.27
+
+
+setv		shrf_scale_L		1 /* 1/sqrt(shrf)
+setv		shrf_scale_F		1/shrf^2
+
+
+setv label_platz_x  1.5			/* [cm]
+setv label_platz_y  1.1				/* [cm]
+
+setv xsize	6.4 							/* [cm]
+setv ysize 	4.2								/* [cm]
+
+margins 0 0
+
+setv ofx label_platz_x
+setv ofy label_platz_y
+
+size 		xsize ysize
+offset 	ofx 	ofy
+
+shr 		shrf 										 
+
+/* -------------------------------------------------
+z
+/*  Achsen, Ticks, ...
+z
+/* -------------------------------------------------
+		setv		AchsenSchrift	0.26
+		sgraph 	tsize 			AchsenSchrift			/* Achsenbeschriftung --- Groesse 
+		setv		SchriftDicke	0.3	
+		sgraph 	axwidth(4) 	SchriftDicke			/* Title - Character
+	
+		sgraph 	csmin 			0.24							/* Zahlen an Achse --- minimal erlaubte Groesse
+		sgraph 	csmax 			0.24							/* Zahlen an Achse --- minimal erlaubte Groesse
+		sgraph 	axwidth(3)  1      						/* Zahlen an Achse --- Dicke 
+	
+		setv		AchsenDicke	1.5
+		sgraph 	axwidth(0) 	AchsenDicke				/* Achsen --- Dicke 
+
+		sgraph 	tick 				0.13							/* Laenge der grossen Tick marks
+		sgraph	axwidth(1)  0.7*AchsenDicke		/* Dicke  der grossen Tick marks
+	
+		sgraph 	tick2 			0.07        			/* Laenge der kleinen Tick marks
+		sgraph 	axwidth(2)  0.5*AchsenDicke		/* Dicke  der kleinen Tick marks
+
+/*	sgraph 	axwidth(5)  0.5								/* any tertiary tick marks (log scales)
+
+		
+		subticks off
+
+/* -------------------------------------------------
+z
+/*  Schrift, ...
+z
+/* -------------------------------------------------
+
+		sgraph 	susiz 	0.75 												/* Groesse der Super/Subskripts 
+																								/*            (relativ zu normalem Text)
+
+		setv		LabelNormal							AchsenSchrift
+		setv		LabelGross			sqrt(2)*AchsenSchrift
+		setv		LabelKlein	(1/sqrt(2))*AchsenSchrift
+		
+		setv		LabelWieZahlen					$csmin					
+
+		setv 		LabelDickeNormal				SchriftDicke
+
+		
+/* -------------------------------------------------
+z
+/*  Linien, ...
+z
+/* -------------------------------------------------
+
+		setv 		AchsenDicke	  			AchsenDicke											/*	Achsen
+		setv 		PunktLinien   		1.1*AchsenDicke  										/*  Punkte
+		setv 		LinienDicke   	0.8*AchsenDicke  										/*  Linien
+		setv 		DuenneLinien 		0.6*AchsenDicke											/*  dÅnne Linien
+
+/*		setv lwt   1.2*shrf_scale_L  /*  Texte
+	
+		linewidth 		LinienDicke
+		
+		setv 		PfeilLaenge					0.08
+		
+
+/* -------------------------------------------------
+z
+/*  Symbole, Identifiers, ...
+z
+/* -------------------------------------------------
+
+		setv			Symbole_Gr_4_9		0.23*shrf_scale_L  
+		setv			Symbole_Gr_1_3		0.20*shrf_scale_L
+
+		symsize 	Symbole_Gr_1_3
+
+		sgraph 		idsize 						0.15*shrf_scale_L   						/* Identifier   Groesse
+		sgraph 		idspac 						2.1*shrf_scale_L    						/*              Zeilenabstand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dec $idg$      'setv nwg 0'
+dec $alias$idg 'setv nwg 1'
+
+idg
+
+if nwg.eq.0 goto oldgenplot
+if nwg.eq.1 goto newgenplot
+
+/* *****************************************************************************
+:oldgenplot
+
+goto allgenplot
+
+
+/* *****************************************************************************
+:newgenplot
+
+
+font 			 Helvetica    /* 	Times   
+orientation landscape
+
+symbolmap 8 filledcircle 1.36 \
+          7 filledsquare 1.1 \
+          9 triangle     1.2 \
+          1 opencircle   0.8 \
+          2 opentriangle 0.9 \
+          5 opendiamond  0.8 \
+          6 openstar     0.9 \
+         -1
+
+setv			VolleKreise 		8
+setv			OffeneKreise		1
+setv			VolleQuadrate		7
+setv			OffeneRauten		5
+setv			VolleDreiecke		9
+setv 			OffeneDreiecke	2
+setv			OffeneSterne		6
+
+
+/* *****************************************************************************
+:allgenplot
+
+force yes
+
+
+

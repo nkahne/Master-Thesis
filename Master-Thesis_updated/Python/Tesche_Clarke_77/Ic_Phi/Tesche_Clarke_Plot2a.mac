@@ -1,0 +1,83 @@
+reset
+echo off
+
+x all_for_SQUIDs.mac
+
+lw 3
+
+dec filename 'Tesche_Clarke77_Plot2a'
+alias bb hcopy on hcopy dev epscolor '%filename%.eps'
+alias loglog cull k x 1e-19 1e19 cull k y 1e-19 1e19 let x log(x) let y y
+alias Karl cur setv a xcur setv b ycur cur setv c xcur setv d ycur (d-b)/(c-a)
+alias Heinz cull k cur fit lin cf$(1) retr curve pl retr curve4 ov retr curve6 ov retr curve8 ov
+
+
+/* ***************************************************
+
+
+
+/* ***************************************************
+
+/* log l on 
+log b on
+
+/* axctrl l -speclog
+axctrl b -speclog
+/* axctrl l -dx2 -3
+axctrl b -dx2 10
+
+subticks on
+
+reg l 1 2.2
+reg b 0 1
+
+label b '  {applied flux {{\it \Phi}_{a}}'
+label l 'critical current {{\it i}_{c}}'
+
+sgraph idsize 0.25
+sgraph idspac 1.5
+sgraph idlskp 4.5
+sgraph idtskp 3.8
+
+axis
+
+
+/* ***************************************************
+
+read 'Ic_Phi_alpha0.txt' /* -col 2 3
+arch curve 
+pl -lt 1 -col 1 -lw 6 -ident '\alpha = 0'
+
+/* ***************************************************
+
+
+/* ***************************************************
+
+read 'Ic_Phi_alpha0p4_only.txt' /* -col 2 3
+arch curve4
+ov -lt 1 -col 2 -lw 6 -ident '\alpha = 0.4'
+
+/* ***************************************************
+
+
+
+/* ***************************************************
+
+read 'Ic_Phi_alpha0p6_only.txt' /* -col 2 3
+arch curve6
+ov -lt 1 -col 3 -lw 6 -ident '\alpha = 0.6'
+
+/* ***************************************************
+
+
+
+/* ***************************************************
+
+read 'Ic_Phi_alpha0p8_only.txt' /* -col 2 3
+arch curve8 
+ov -lt 1 -col 4 -lw 6 -ident '\alpha = 0.8'
+
+/* ***************************************************
+
+
+

@@ -1,0 +1,155 @@
+
+
+x all.mac
+
+/* -------------------------- some constants
+
+setv Phi0	2.07e-15				
+setv kb		1.38e-23
+
+ setv input_sens 3.47e-6		/* input sensitivity of HDSQ
+/* setv input_sens 5.5e-6		/* input sensitivity of small PTB SQUID
+/* setv input_sens 5.58e-6		/* input sensitivity of VC1A
+setv Mis_calc=1/(input_sens)*Phi0
+setv U_Phi0	30e3*42.94e-6
+
+/* -------------------------- start parameters, labels and raw data path
+
+
+setv R		3e-3           /* resistance of bonding wires in squid-input-circuit
+setv L		4e-9
+setv SQUID_white	5e-6    /* White SQUID noise in micro Phi_0
+setv T		4.2
+setv fLP	100.0e6		/* second LP		
+
+dec detector	"-"
+dec SQUID	"HDSQ16w1 2C14"
+dec date	"17.02.2023"
+
+/**
+ dec data_path_hf   "Achtung_altePAQSversion_2C14_GBP4ghz_Rf30kohm_uhf.dat"
+ dec data_path_lf   "Achtung_altePAQSversion_2C14_GBP4ghz_Rf30kohm_mf.dat"
+**/
+
+ dec data_path_hf   "2C14_GBP4ghz_Rf30kohm_uhf.dat"
+ dec data_path_lf   "2C14_GBP4ghz_Rf30kohm_mf.dat"
+
+
+/* -------------------------- get the data and fit it
+
+
+
+/* def noise(T,R,L,f) sqrt((Mis_calc/Phi0)^2*((4*kb*T/R)/(1+(f/(R/(2*pi*L)))^2))*1/(1+(f/fLP)^2)+SQUID_white^2)
+
+
+def noise(f) sqrt((Mis_calc/Phi0)^2*((4*kb*T/R)/(1+(f/(R/(2*pi*L)))^2))+SQUID_white^2)*1/(1+(f/fLP)^2)*1e6
+
+ /* def noise(f) sqrt((Mis_calc/Phi0)^2*((4*kb*T/R)/(1+(f/(R/(2*pi*L)))^2))+SQUID_white^2)*1e6
+
+read %data_path_lf%
+cull k x 1 10^(4.0)
+setv lmaxf @max(x)
+arch lowF
+
+read %data_path_hf%
+cull k x 1 10^(7)
+arch highF
+cull k x lmaxf 1e7
+retr lowF -append
+sort
+let y y/U_Phi0*1e6
+arch hf
+
+
+
+
+ 
+
+retr hf
+cull k x 1*10^(2) 2*10^(6)
+fit nlsfit
+	reset
+	maxiter 200
+  	accuracy 1e-7
+ 	function noise								/* fitfunction that is used
+	vary L /
+  	vary R /
+  vary SQUID_white /
+  	/* vary fLP /
+
+ fit
+
+ret
+
+
+/* -------------------------- plotting
+
+reg l 0 3
+reg b 2 7
+
+log x on
+log y on
+
+label l 'Noise density \sqrt{\it S_{\Phi}}_{s} [\mu\Phi_{0}/\sqrt Hz]'
+label b 'Frequency {\it f} [Hz]'
+
+lt 1
+
+retr hf 
+cull k x 3*10^(0) 5*10^(6)
+let y log(y)
+let x log(x)
+pl
+
+/* ov -fit -col red
+/* ov  -col red
+
+/* create fit(x) -from 0.1 -to 3e7 -points 5000
+create noise(x) -from 0.1 -to 3e7 -points 5000
+arch noise_nonlog
+let x log(x)
+let y log(y)
+arch noise_theory
+
+ov noise_theory -col red
+
+
+retr highF
+let y y/U_Phi0*1e6
+
+let y log(y)
+let x log(x)
+
+/* ov -col 3
+
+
+
+
+sprintf s_R "%2.2f" abs(R*1e3)  
+sprintf s_L "%2.2f" abs(L*1e9)
+sprintf s_T "%2.1f" T
+sprintf s_L_meander "%2.2f" (abs(L)-1.74e-9-0.046e-9-abs(R)*0.14*1e-9/1e-3)*2e9 /* 0.1 nH/mOhm /* 0.046nH für Stripline von 5.3nH berechnet nach Ahrens16
+sprintf s_fLP "%2.2f" fLP*1e-6
+
+ann
+
+	col black
+
+	/* size 0.8*labelsize
+	label 0.15 1.1 %SQUID%
+	
+	col 2 
+	
+	label 0.15 0.70 'Resistance {\it R} = %s_R% m\Omega'
+	label 0.15 0.40 'Total inductance {\it L} = %s_L% nH'
+	/* label 0.15 0.25 'Meander inductance {\it L}_{m} = %s_L_meander% nH'
+	col 1
+
+
+ret
+
+title 'Neue PAQS-Version'
+hcopy dev epscolor Noise4K_neu.eps
+
+retr noise_nonlog 
+write text.dat

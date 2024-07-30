@@ -1,0 +1,447 @@
+\begin{thebibliography}{{McC}68}
+
+\bibitem[All24]{Allgeier2024}
+Steffen Allgeier,
+\newblock {\em {To be published}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2024.
+
+\bibitem[Bar57]{Bardeen1957}
+J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer,
+\newblock {Theory of Superconductivity},
+\newblock {\em Phys. Rev.}, {\bf 108}(5), 1175--1204, 1957.
+
+\bibitem[Bau18]{Bauer2018}
+F.~Bauer,
+\newblock {\em {Optimierung von gekoppelten dc-SQUIDs durch die Unterdrückung
+  parasitärer Resonanzen und die Etablierung eines neuen Herstellungsprozesses
+  für Nb/Al-AlOx/Nb-Josephson-Kontakte}},
+\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2018.
+
+\bibitem[Bau22]{Bauer2022}
+Fabienne Bauer,
+\newblock {\em {Rauscharme Stromsensor-dc-SQUIDs mit Impedanzanpassung für
+  metallische magnetische Kalorimeter}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2022.
+
+\bibitem[Boy22]{Boyd2022}
+STP Boyd, G-B Kim, and S~Friedrich,
+\newblock Radio-frequency resonances and damping in metallic magnetic
+  calorimeter sensors,
+\newblock {\em Journal of Low Temperature Physics}, {\bf 209}(3-4), 534--539,
+  2022.
+
+\bibitem[Bru82]{Bruines1982}
+J.~J.~P. Bruines, V.~J. de~Waal, and J.~E. Mooij,
+\newblock {Comment on: “DC SQUID: Noise and optimization” by Tesche and
+  Clarke},
+\newblock {\em J. Low Temp. Phys.}, {\bf 46}, 383--386, 1982.
+
+\bibitem[Bur04]{Burck2004}
+Andreas Burck,
+\newblock {\em {Entwicklung gro{\ss}fl{\"a}chiger magnetischer Kalorimeter zur
+  energieaufgel{\"o}sten Detektion von R{\"o}ntgenquanten und hochenergetischen
+  Teilchen}},
+\newblock Diplomarbeit, Kirchhoff-Institut f{\"u}r Physik, Universit{\"a}t
+  Heidelberg, 2004.
+
+\bibitem[Can91]{Can1991}
+R.~Cantor, T.~Ryhänen, D.~Drung, H.~Koch, and H.~Sepp\"{a},
+\newblock {Design and optimization of DC SQUIDs fabricated using a simplified
+  four-level process},
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 2}(2), 2927--2931, 1991.
+
+\bibitem[Can96]{Cantor1996}
+Robin Cantor,
+\newblock {\em Dc Squids: Design, Optimization and Practical Applications},
+  179--233,
+\newblock Springer Netherlands, Dordrecht, 1996.
+
+\bibitem[Cha79]{Chang1979}
+W.~H. Chang,
+\newblock {The inductance of a superconducting strip transmission line},
+\newblock {\em Journal of Applied Physics}, {\bf 50}(12), 8129--8134, 1979.
+
+\bibitem[Cla88]{Clarke1988}
+J.~Clarke and R.~Koch,
+\newblock {The Impact of High Temperature Superconductivity on SQUIDs},
+\newblock {\em Science}, {\bf 242}, 217--223, 1988.
+
+\bibitem[Cla96]{Clarke1996}
+John Clarke,
+\newblock Squid fundamentals,
+\newblock in H.~Weinstock (Ed.), {\em {SQUID Sensors: Fundamentals, Fabrication
+  and Applications}},  4--5, Kluwer Academic, Dordrecht, 1996.
+
+\bibitem[Cla04]{Clarke2004}
+J.~Clarke and A.~I. Braginski (Ed.),
+\newblock {\em {The SQUID Handbook: Vol. 1, Fundamentals and Technology of
+  SQUIDs and SQUID Systems}},
+\newblock Wiley-VCH, 2004.
+
+\bibitem[Dea61]{Deaver1961}
+B.~S. Deaver and W.~M. Fairbank,
+\newblock {Experimental Evidence for Quantized Flux in Superconducting
+  Cylinders},
+\newblock {\em Phys. Rev. Lett.}, {\bf 7}, 43--46, 1961.
+
+\bibitem[Den16]{Dengler2016}
+R.~Dengler,
+\newblock Self inductance of a wire loop as a curve integral, 2016.
+
+\bibitem[dG64]{deGennes1964}
+P.~G. de~Gennes,
+\newblock {Boundary Effects in Superconductors},
+\newblock {\em Rev. Mod. Phys.}, {\bf 36}, 225--237, 1964.
+
+\bibitem[Dru96a]{Drung1996a}
+D.~Drung,
+\newblock {Advanced SQUID read-out electronics},
+\newblock in H.~Weinstock (Ed.), {\em {SQUID sensors: Fundamentals, Fabrication
+  and Application}}, NATO ASI Series E329. Dordrecht: Kluwer, 1996.
+
+\bibitem[Dru96b]{Drung1996}
+D.~Drung, F.~Ludwig, W.~M\"uller, U.~Steinhoff, L.~Trahms, H.~Koch, Y.~Q. Shen,
+  M.~B. Jensen, P.~Vase, T.~Holst, T.~Freltoft, and G.~Curio,
+\newblock {Integrated
+  $\mathrm{YBa}_{2}\mathrm{Cu}_{3}\mathrm{O}_{7-{\mathrm{x}}}$ magnetometer for
+  biomagnetic measurements},
+\newblock {\em Appl. Phys. Lett.}, {\bf 68}, 1421--1423, 1996.
+
+\bibitem[Dru02]{Drung2002}
+D.~Drung,
+\newblock {High-performance DC SQUID read-out electronics},
+\newblock {\em Physica C: Superconductivity}, {\bf 368}(1-4), 134--140, 2002.
+
+\bibitem[Dru06]{Drung2006}
+D.~Drung, C.~Hinnrichs, and H.-J. Barthelmess,
+\newblock {Low-noise ultra-high-speed dc SQUID readout electronics},
+\newblock {\em Supercond. Sci. Tech.}, {\bf 19}(5), S235, 2006.
+
+\bibitem[Dru07]{Drung2007}
+D.~Drung, C.~Abmann, J.~Beyer, A.~Kirste, M.~Peters, F.~Ruede, and Th. Schurig,
+\newblock Highly sensitive and easy-to-use squid sensors,
+\newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 17}(2),
+  699--704, 2007.
+
+\bibitem[Dru11]{Drung2011}
+D.~Drung, J.~Beyer, J.-H. Storm, M.~Peters, and T.~Schurig,
+\newblock {Investigation of Low-Frequency Excess Flux Noise in DC SQUIDs at mK
+  Temperatures},
+\newblock {\em IEEE T. Appl. Supercon.}, {\bf 21}, 340--344, 2011.
+
+\bibitem[Enp86]{Enpuku1986}
+K.~Enpuku, K.~Yoshida, and S.~Kohjiro,
+\newblock {Noise characteristics of a dc SQUID with a resistively shunted
+  inductance. II. Optimum damping},
+\newblock {\em Journal of Applied Physics}, {\bf 60}(12), 4218--4223, 1986.
+
+\bibitem[Enp91]{EnpukuI1991}
+K.~Enpuku and K.~Yoshida,
+\newblock {{Modeling the dc superconducting quantum interference device coupled
+  to the multiturn input coil}},
+\newblock {\em J. Appl. Phys.}, {\bf 69}(10), 7295--7300, 1991.
+
+\bibitem[Enp92]{EnpukuIII1992}
+K.~Enpuku, R.~Cantor, and H.~Koch,
+\newblock {{Modeling the dc superconducting quantum interference device coupled
+  to the multiturn input coil. III}},
+\newblock {\em J. Appl. Phys.}, {\bf 72}(3), 1000--1006, 1992.
+
+\bibitem[Ens05]{Enss2005a}
+C.~Enss (Ed.),
+\newblock {\em {Cryogenic Particle Detection}},
+\newblock Springer-Verlag Berlin Heidelberg, 2005.
+
+\bibitem[Fer15]{Ferring2015}
+A.~Ferring,
+\newblock {\em {Entwicklung von dc-SQUIDs zur Auslesung von metallischen
+  magnetischen Kalorimetern}},
+\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2015.
+
+\bibitem[Fle05]{Fleischmann2005}
+A.~Fleischmann, C.~Enss, and G.~Seidel,
+\newblock {\em {Cryogenic Particle Detection}}, Volumen~99 in {\em Topics in
+  applied physics}, Kapitel {Metallic Magnetic Calorimeters},  149--215,
+\newblock Springer-Verlag Berlin Heidelberg, 2005.
+
+\bibitem[Fle09]{Fle09}
+A.~Fleischmann, L.~Gastaldo, S.~Kempf, A.~Kirsch, A.~Pabinger, C.~Pies, J.-P.
+  Porst, P.~Ranitzsch, S.~Schäfer, F.~v.~Seggern, T.~Wolf, C.~Enss, and G.~M.
+  Seidel,
+\newblock Metallic magnetic calorimeters,
+\newblock {\bf 1185}, 571--578, 2009.
+
+\bibitem[Fog93]{Foglietti1993}
+V.~Foglietti, K.G. Stawiasz, M.B. Ketchen, and R.H. Koch,
+\newblock {Performance of a flux locked series SQUID array},
+\newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}(4), 3061--3065, 1993.
+
+\bibitem[FS24]{Ferring-Siebert2024}
+Anna Ferring-Siebert,
+\newblock {\em {to be published: Untersuchung des niederfrequenten
+  Flussrauschens in dc-SQUIDs bei Temperaturen unter 1K}},
+\newblock Dissertation, Kirchhoff-Institut für Physik, Universität
+  Heidelberg, 2024.
+
+\bibitem[Gam19]{Gamer2019}
+L.~E. Gamer,
+\newblock {\em {Development and characterization of the 4k-pixel detector array
+  MOCCA for the energy- and spatially resolved detection of neutral molecule
+  fragments}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2019.
+
+\bibitem[Gas17]{Gastaldo2017}
+L.~Gastaldo,
+\newblock The electron capture in 163ho experiment {\textendash} {ECHo},
+\newblock {\em The European Physical Journal Special Topics}, {\bf 226}(8),
+  1623--1694, 2017.
+
+\bibitem[Gro16]{Gross2016}
+R.~Gross, A.~Marx, and F.~Deppe,
+\newblock {\em Applied Superconductivity: Josephson Effect and Superconducting
+  Electronics},
+\newblock De Gruyter Textbook Series, Walter De Gruyter Incorporated, 2016.
+
+\bibitem[Hen17]{Hengstler2017}
+Daniel Hengstler,
+\newblock {\em {Development and characterization of two-dimensional metallic
+  magnetic calorimeter arrays for the high-resolution X-ray spectroscopy}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2017.
+
+\bibitem[Her23]{Herbst2023}
+Matthew Herbst,
+\newblock {\em {High Resolution Magnetic Micro-calorimeters: Thermodynamics,
+  Cooling Requirements, and Noise}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2023.
+
+\bibitem[Ina80]{Inaba_1980}
+Akira Inaba,
+\newblock Superconductive transition point of tantalum and niobium as a
+  reference temperature,
+\newblock {\em Japanese Journal of Applied Physics}, {\bf 19}(8), 1553, 1980.
+
+\bibitem[Iva68]{Ivanchenko1968}
+Yu.~M. Ivanchenko and L.~A. Zil'berman,
+\newblock {Destruction of Josephson Current by Fluctuations},
+\newblock {\em ZhETF}, {\bf 8}, 113--115, 1968.
+
+\bibitem[Jay81]{Jaycox1981}
+J.~M. Jaycox and M.~B. Ketchen,
+\newblock {Planar coupling scheme for ultra low noise dc SQUIDs},
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 17}(1), 400--403, 1981.
+
+\bibitem[Jos62]{Josephson1962}
+B.~D. Josephson,
+\newblock {Possible new effects in superconductive tunnelling},
+\newblock {\em Physics Letters}, {\bf 1}(7), 251--253, 1962.
+
+\bibitem[Jos65]{Josephson1965}
+B.~D. Josephson,
+\newblock {Supercurrents through barriers},
+\newblock {\em Advances in Physics}, {\bf 14}(56), 419--451, 1965.
+
+\bibitem[Kaa20]{Kaap2020}
+Fabian Kaap,
+\newblock {\em {Untersuchung des Einflusses von Kernspins und in Niob
+  gespeichertem Wasserstoff auf das niederfrequente magnetische Flussrauschen
+  in supraleitenden Quanteninterferenzdetektoren}},
+\newblock Master thesis, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2020.
+
+\bibitem[Kem15]{Kempf2015}
+S.~Kempf, A.~Ferring, A.~Fleischmann, and C.~Enss,
+\newblock {Direct-current superconducting quantum interference devices for the
+  readout of metallic magnetic calorimeters},
+\newblock {\em Superconductor Science and Technology}, {\bf 28}(4), 45008,
+  2015.
+
+\bibitem[Kem16]{Kempf2016}
+Sebastian Kempf, Anna Ferring, and Christian Enss,
+\newblock Towards noise engineering: Recent insights in low-frequency excess
+  flux noise of superconducting quantum devices,
+\newblock {\em Applied Physics Letters}, {\bf 109}(16), 2016.
+
+\bibitem[Kem18]{Kempf2018}
+S.~Kempf, A.~Fleischmann, L.~Gastaldo, and C.~Enss,
+\newblock {Physics and Applications of Metallic Magnetic Calorimeters},
+\newblock {\em Journal of Low Temperature Physics},  1--15, 2018.
+
+\bibitem[Ket78]{Ketchen1978}
+M.~B. Ketchen, W.~M. Goubau, J.~Clarke, and G.~B. Donaldson,
+\newblock {Superconducting thinfilm gradiometer},
+\newblock {\em J. Appl. Phys.}, {\bf 49}, 4111--4116, 1978.
+
+\bibitem[Ket81]{Ketchen1981}
+M.~Ketchen,
+\newblock Dc squids 1980: The state of the art,
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 17}(1), 387--394, 1981.
+
+\bibitem[Ket82]{Ketchen1982}
+M.~B. Ketchen and J.~M. Jaycox,
+\newblock {Ultra‐low‐noise tunnel junction dc SQUID with a tightly coupled
+  planar input coil},
+\newblock {\em Applied Physics Letters}, {\bf 40}(8), 736--738, 1982.
+
+\bibitem[Ket85]{Ketchen1985}
+A.~W. Kleinsasser et~al. Ketchen, W. J.~Gallagher,
+\newblock Dc squid flux focuser,
+\newblock in H.~D.~Hahlbohm und H.~Lübbig~(Ed.) (Ed.), {\em SQUID'85
+  Superconducting Quantum Interference Devices and their Applications:
+  Proceedings of the Third International Conference on Superconducting Quantum
+  Devices, Berlin (West), June 25-28, 1985},  865--871, Walter de Gruyter,
+  1985.
+
+\bibitem[Ket91]{Ketchen1991}
+M.B. Ketchen,
+\newblock {Design considerations for DC SQUIDs fabricated in deep sub-micron
+  technology},
+\newblock {\em IEEE T. Magn.}, {\bf 27}, 2916--2919, 1991.
+
+\bibitem[Knu87]{Knuutila1987}
+J.~Knuutila, A.~Ahonen, and C.~D. Tesche,
+\newblock {Effects on DC SQUID characteristics of damping of input coil
+  resonances},
+\newblock {\em Journal of Low Temperature Physics}, {\bf 68}(3-4), 269--284,
+  1987.
+
+\bibitem[Knu88]{Knuutila1988}
+J.~Knuutila, M.~Kajola, H.~Sepp{\"{a}}, R.~Mutikainen, and J.~Salmi,
+\newblock {Design, Optimization, and Construction of a DC SQUID with Complete
+  Flux Transformer Circuits},
+\newblock {\em Journal of Low Temperature Physics}, {\bf 71}(5-6), 369--392,
+  1988.
+
+\bibitem[Koc07]{Koch2007}
+Roger~H. Koch, David~P. DiVincenzo, and John Clarke,
+\newblock Model for $1/f$ flux noise in squids and qubits,
+\newblock {\em Phys. Rev. Lett.}, {\bf 98}, 267003, 2007.
+
+\bibitem[Kra23]{Kraemer2023}
+Fabian Kraemer,
+\newblock {\em {Development and characterization of an integrated two-stage
+  dc-SQUID for the read-out of metallic magnetic calorimeters}},
+\newblock Bachelor thesis, Kirchhoff-Institut f{\"{u}}r Physik,
+  Universit{\"{a}}t Heidelberg, 2023.
+
+\bibitem[Kui08]{Kuit2008}
+K.~H. Kuit, J.~R. Kirtley, W.~van~der Veur, C.~G. Molenaar, F.~J.~G. Roesthuis,
+  A.~G.~P. Troeman, J.~R. Clem, H.~Hilgenkamp, H.~Rogalla, and J.~Flokstra,
+\newblock Vortex trapping and expulsion in thin-film
+  ${\text{yba}}_{2}{\text{cu}}_{3}{\text{o}}_{7\ensuremath{-}\ensuremath{\delta}}$
+  strips,
+\newblock {\em Phys. Rev. B}, {\bf 77}, 134504, 2008.
+
+\bibitem[Lan60]{Landau1960}
+L.D. Landau, L.P. Bell, E.M. Lifshitz, and J.B. Sykes,
+\newblock {\em Electrodynamics of Continuous Media}, Volumen~8 in {\em Course
+  of Theoretical Physics},
+\newblock Ney York: Pergamon Press, 1960.
+
+\bibitem[Lik86]{Likharev1986}
+K.~K. Likharev,
+\newblock {\em {Dynamics of Josephson Junctions and Circuits}},
+\newblock Gordon and Breach, New York, 1986.
+
+\bibitem[Mae95]{Maezawa1995}
+M.~Maezawa, M.~Aoyagi, H.~Nakagawa, I.~Kurosawa, and S.~Takada,
+\newblock {Specific capacitance of Nb/AlO$_x$/Nb Josephson junctions with
+  critical current densities in the range of $0.1-18\,\mathrm{kA/cm^2}$},
+\newblock {\em Applied Physics Letters}, {\bf 66}(16), 2134--2136, 1995.
+
+\bibitem[Man21]{Mantegazzini2021}
+Federica Mantegazzini,
+\newblock {\em {Development and characterisation of high-resolution metallic
+  magnetic calorimeter arrays for the ECHo neutrino mass experiment}},
+\newblock Dissertation, Kirchhoff-Institut f\"ur Physik, Universit\"at
+  Heidelberg, 2021.
+
+\bibitem[Maz24]{Mazibrada2024}
+David Mazibrada,
+\newblock {\em {To be published}},
+\newblock Master thesis, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2024.
+
+\bibitem[{McC}68]{Cumber1968}
+D.~E. {McCumber},
+\newblock {Effect of ac Impedance on dc Voltage-Current Characteristics of
+  Superconductor Weak-Link Junctions},
+\newblock {\em Journal of Applied Physics}, {\bf 39}(7), 3113--3118, 1968.
+
+\bibitem[Mei33]{Meissner1933}
+W.~Meissner and R.~Ochsenfeld,
+\newblock {Ein neuer Effekt bei Eintritt der Supraleitf\"ahigkeit},
+\newblock {\em Naturwissenschaften}, {\bf 21}(44), 787--788, 1933.
+
+\bibitem[Ono97]{Ono1997}
+R.~H. Ono, J.~A. Koch, A.~Steinbach, M.~E. Huber, and M.~W. Cromar,
+\newblock {Tightly coupled dc SQUIDs with resonance damping},
+\newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 7}(2),
+  2538--2541, 1997.
+
+\bibitem[Poz11]{Pozar2011}
+David~M Pozar,
+\newblock {\em Microwave engineering},
+\newblock John wiley \& sons, 2011.
+
+\bibitem[Ric17]{Richter2017}
+D.~Richter,
+\newblock {\em {Auslesung von SQUIDs mittels Flussrampenmodulation}},
+\newblock Masterarbeit, Kirchhoff-Institut f{\"{u}}r Physik, Universit{\"{a}}t
+  Heidelberg, 2017.
+
+\bibitem[Ryh92]{Ryh1992}
+Tapani Ryhänen, Heikki Seppä, and Robin Cantor,
+\newblock Effect of parasitic capacitance and inductance on the dynamics and
+  noise of dc superconducting quantum interference devices,
+\newblock {\em Journal of Applied Physics}, {\bf 71}(12), 6150--6166, 1992.
+
+\bibitem[Sep87]{Sepp1987}
+H~Sepp{\"{a}} and T~Ryh{\"{a}}nen,
+\newblock {Influence of the signal coil on DC-squid dynamics},
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 23}(2), 1083--1086, 1987.
+
+\bibitem[Sta93]{Stawiasz1993}
+K.~G. Stawiasz and M.~B. Ketchen,
+\newblock {Noise Measurements of Series SQUID Arrays},
+\newblock {\em IEEE T. Appl. Supercon.}, {\bf 3}, 1808--1811, 1993.
+
+\bibitem[Ste68]{Stewart1968}
+W.~C. Stewart,
+\newblock {Current-Voltage Characteristics of Josephson Junctions},
+\newblock {\em Applied Physics Letters}, {\bf 12}(8), 277--280, 1968.
+
+\bibitem[Tes77]{Tesche1977}
+C.~D. Tesche and J.~Clarke,
+\newblock {dc SQUID: Noise and Optimization},
+\newblock {\em Journal of Low Temperature Physics}, {\bf 294}(3), 1--9, 1977.
+
+\bibitem[Tie21]{CODATA2018}
+Eite Tiesinga, Peter~J. Mohr, David~B. Newell, and Barry~N. Taylor,
+\newblock Codata recommended values of the fundamental physical constants:
+  2018,
+\newblock {\em Rev. Mod. Phys.}, {\bf 93}, 025010, 2021.
+
+\bibitem[Wei69]{Weihnacht1969}
+M.~Weihnacht,
+\newblock {Influence of Film Thickness on D. C. Josephson Current},
+\newblock {\em Phys. Stat. Sol. B}, {\bf 32}(2), K169--K172, 1969.
+
+\bibitem[Wel93]{Welty1993}
+R.P. Welty and J.M. Martinis,
+\newblock Two-stage integrated squid amplifier with series array output,
+\newblock {\em IEEE Transactions on Applied Superconductivity}, {\bf 3}(1),
+  2605--2608, 1993.
+
+\bibitem[Wel94]{Wellstood1994}
+F.~C. Wellstood, C.~Urbina, and John Clarke,
+\newblock {Hot-electron effects in metals},
+\newblock {\em Phys. Rev. B}, {\bf 49}, 5942--5955, 1994.
+
+\end{thebibliography}

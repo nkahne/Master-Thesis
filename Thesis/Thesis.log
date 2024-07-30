@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.30)  16 FEB 2024 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2024.3.4)  25 JUL 2024 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,7 +1258,7 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19903 strings out of 476410
- 399359 string characters out of 5797990
+ 399359 string characters out of 5797991
  1868845 words of memory out of 5000000
  39581 multiletter control sequences out of 15000+600000
  544595 words of font info for 111 fonts, out of 8000000 for 9000

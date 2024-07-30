@@ -1,0 +1,368 @@
+\def\ia{i.{}Allg.{}}
+\def\ihbar{{\it\hbar}}
+\def\e{{\rm e}}
+\def\d{{\mbox d}}
+\def\k{k_{\rm B}}
+\def\en{\epsilon_0}
+\def\im{\rm i}
+\def\del{\partial}
+\def\indu#1#2{{#1}_{\mathrm{#2}}}
+\def\hed{$^3\rm He$\ }
+\def\hev{$^4\rm He$\ }
+\def\hedv{$^3He/^4He$\ }
+\def\erb{$Er^{3+}$\ }
+\def\AuEr{\underline{Au}:Er}
+\newcommand{\gl}[2]{ 
+       % \par
+                \begin{equation}
+        #1
+        \label{#2}
+        \end{equation}
+}
+
+
+\def\taumin{\tau_{\rm min}}
+\def\taumax{\tau_{\rm max}}
+\def\etal{{\it et al}.}
+
+\def\Pbar{\overline{P}}
+\def\Jbar{\overline{J}}
+\def\const.{{\rm const.}}
+
+\def\vr{v_{_{\rm R}}}
+\def\vl{v_{\rm \ell}}
+\def\vt{v_{\rm t}}
+\def\vs{v_{_{\rm S}}}
+
+\def\Td{T_{_{\rm D}}}
+\def\Ts{T_{_{\rm S}}}
+
+\def\Ed{E_{\rm d}}
+\def\Es{E_{\rm s}}
+\def\Eef{E_{\rm EF}}
+
+\def\vld{{\hat v}_{\rm \ell}}
+\def\vtd{{\hat v}_{\rm t}}
+\def\rd{\hat{\rho}{}}
+
+\def\Dn{\Delta_0}
+\def\Dnmin{\Delta_{0,\rm{min}}}
+\def\Dnstar{\Delta_{0}^*}
+
+\def\wme#1#2{\mbox{{#1}\,{#2}}}
+
+%--------------------------------------------------------
+
+\setlength{\textheight}{22.5cm} % Texthöhe diss Markus 23.5cm, Jan 22cm
+\setlength{\footskip}{1cm}
+\setlength{\topmargin}{-3mm}
+\setlength{\headheight}{5mm}
+\setlength{\headsep}{5mm}
+\setlength{\textwidth}{15.1cm} %Textbreite diss Markus 16.1cm, Jan 14cm
+\setlength{\evensidemargin}{-0.15cm}
+\setlength{\oddsidemargin}{0.10cm}
+\setlength{\parskip}{6pt}
+
+\renewcommand{\baselinestretch}{1.09}
+\parindent = 15pt
+
+%--------------------------------------------------------
+
+\if@twoside
+  \def\ps@headings{%
+      \let\@oddfoot\@empty\let\@evenfoot\@empty 
+      \def\@evenhead{\vbox{\hsize=\textwidth \hbox to \textwidth{\raisebox{-2pt}{}\thepage\hfill\small\slshape\leftmark\hfill} \vskip 3pt \hrule}}%
+      \def\@oddhead{\vbox{\hsize=\textwidth \hbox to \textwidth{\raisebox{-2pt}{}\hfill{\small\slshape\rightmark}\hfill\thepage} \vskip 3pt \hrule}}%
+      \let\@mkboth\markboth
+    \def\chaptermark##1{%
+      \markboth {
+        \ifnum \c@secnumdepth >\m@ne
+          \if@mainmatter
+            \rm\thechapter. \ %
+          \fi
+        \fi
+        ##1}{}}%
+    \def\sectionmark##1{%
+      \markright {
+        \ifnum \c@secnumdepth >\z@
+          \rm\thesection. \ %
+        \fi
+        ##1}}}
+\else
+  \def\ps@headings{%
+    \let\@oddfoot\@empty
+    \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+    \let\@mkboth\markboth
+    \def\chaptermark##1{%
+      \markright {
+        \ifnum \c@secnumdepth >\m@ne
+          \if@mainmatter
+            \rm\thechapter. \ %
+          \fi
+        \fi
+        ##1}}}
+\fi
+
+
+\def\@makechapterhead#1{%
+  \vspace*{0\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \Large\bfseries \thechapter.\quad#1
+        \par\nobreak
+        \vskip 20\p@
+      \fi
+    \fi
+    
+  }}
+  
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {3.25ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+                                       {3.25ex \@plus1ex \@minus .2ex}%
+                                       {-1em}%
+                                      {\normalfont\normalsize\bfseries}}
+                                      
+                                      
+%-------------------------------------------------------
+
+\setcounter{tocdepth}{2}
+
+\renewcommand*\l@section{\@dottedtocline{1}{0.5em}{2.3em}}        % Standard:{1.5em}{2.3em}
+\renewcommand*\l@subsection{\@dottedtocline{2}{1.25em}{3.2em}}    % Standard:{3.8em}{3.2em} 
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{4.45em}{4.1em}} % Standard:{7.0em}{4.1em}
+\renewcommand*\l@paragraph{\@dottedtocline{4}{4.45em}{5em}}       % Standard:{10em}{5em}
+\renewcommand*\l@subparagraph{\@dottedtocline{5}{4.45em}{6em}}    % Standard:{12em}{6em}
+
+\renewcommand\contentsname{Inhaltsverzeichnis}
+
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\vspace{-2.5cm}{\Large\bfseries\contentsname}
+        \@mkboth{%
+           \normalfont\normalsize\contentsname}{\normalfont\normalsize\contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+
+%-------------------------------------------------------
+    
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\vspace{-2.05cm}{\Large\bfseries\bibname}
+        \@mkboth{\normalfont\normalsize\bibname}{\normalfont\normalsize\bibname}}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \refstepcounter{chapter}
+      \addcontentsline{toc}{chapter}{\protect{\bibname}}
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+      
+%-------------------------------------------------------
+
+\newcommand\dankename{Danksagung}
+
+\newenvironment{danke}
+     {\chapter*{\vspace{-1.05cm}{\Large\bfseries\dankename}
+        \@mkboth{\normalfont\normalsize\dankename}{\normalfont\normalsize\dankename}}%
+      \refstepcounter{chapter}
+      \addcontentsline{toc}{chapter}{\protect{\dankename}}
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `danke' environment}}%
+      \endlist}
+ 
+%-------------------------------------------------------
+
+\renewcommand\listoffigures{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\vspace{-2.05cm}{\Large\bfseries\listfigurename}
+      \@mkboth{\normalfont\normalsize\listfigurename}%
+              {\normalfont\normalsize\listfigurename}}%
+    \@starttoc{lof}%
+    \if@restonecol\twocolumn\fi
+    }
+    
+%-------------------------------------------------------
+
+\renewcommand\listoftables{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\vspace{-2.05cm}{\Large\bfseries\listtablename}
+      \@mkboth{%
+          \normalfont\normalsize\listtablename}{\normalfont\normalsize\listtablename}}%
+    \@starttoc{lot}%
+    \if@restonecol\twocolumn\fi
+    }
+
+%-------------------------------------------------------
+
+\renewenvironment{theindex}
+               {\if@twocolumn
+                  \@restonecolfalse
+                \else
+                  \@restonecoltrue
+                \fi
+                \columnseprule \z@
+                \columnsep 35\p@
+                \twocolumn[\@makeschapterhead{\vspace{-0.9cm}\Large\bfseries\indexname}]%
+                \@mkboth{\normalfont\normalsize\indexname}%
+                        {\normalfont\normalsize\indexname}%
+                \thispagestyle{plain}\parindent\z@
+                \parskip\z@ \@plus .3\p@\relax
+                \let\item\@idxitem}
+               {\if@restonecol\onecolumn\else\clearpage\fi}
+
+%-------------------------------------------------------
+
+\renewcommand{\tablename}{Tab.}
+
+
+\newlength{\bildbreite}
+\newlength{\captionbreite}
+
+\renewcommand{\figurename}{Abb.}
+
+\newcommand{\figureleft}[7]
+{\begin{figure}[#1]
+        \setlength{\bildbreite}{#4}
+        \setlength{\captionbreite}{\textwidth}
+        \addtolength{\captionbreite}{-\bildbreite}
+        \begin{minipage}[b]{\bildbreite}
+                \raggedright
+                \includegraphics[#2]{#3}
+        \end{minipage}%
+        \begin{minipage}[b]{\captionbreite}
+                \raggedleft
+                \caption{#6}
+                \label{abb:#7}
+                \par\vspace{#5}
+        \end{minipage}
+\end{figure}
+}
+
+\newcommand{\figurecenter}[6]
+{\begin{figure}[#1]
+        \begin{minipage}[b]{\textwidth}
+                \center
+                \includegraphics[#2]{#3}
+                \par\vspace{#4}
+                \caption{#5}
+                \label{abb:#6}
+        \end{minipage}
+\end{figure}
+}
+
+\newcommand{\twofigurescenter}[9]
+{\begin{figure}[#1]
+        \begin{minipage}[b]{\textwidth}
+                \center
+                \includegraphics[#2]{#3}
+                \hspace{#4}
+                \includegraphics[#5]{#6}
+                \par\vspace{#7}
+                \caption{#8}
+                \label{abb:#9}
+        \end{minipage}
+\end{figure}
+}
+
+\newcommand{\twofiguresmargin}[8]
+{\begin{figure}[#1]
+        \begin{minipage}[b]{\textwidth}
+                \includegraphics[#2]{#3}
+                \hfill
+                \includegraphics[#4]{#5}
+                \par\vspace{#6}
+                \caption{#7}
+                \label{abb:#8}
+        \end{minipage}
+\end{figure}
+}
+
+\newcommand{\doublefigure}[9]
+{
+\begin{figure}[#1]
+        \begin{minipage}[t]{7.5cm}
+                \center
+                \includegraphics[#2]{#3}
+                \caption{#4}
+                \label{abb:#5}
+        \end{minipage}\hfill
+        \begin{minipage}[t]{7.5cm}
+                \center
+                \includegraphics[#6]{#7}
+                \caption{#8}
+                \label{abb:#9}
+        \end{minipage}
+\end{figure}
+}
+
+%----- Umgebung für Bildunterschriften
+\newenvironment{narrow}[2]{
+\begin{list}{}{
+    \setlength{\topsep}{0pt}            
+    \setlength{\leftmargin}{#1}
+    \setlength{\rightmargin}{#2}
+    \setlength{\listparindent}{\parindent}
+    \setlength{\itemindent}{\parindent}
+    \setlength{\parsep}{\parskip}}
+ \item[]}
+{\end{list}}
+
+
+
+\newcommand{\figurecenterhuge}[6]{
+\begin{figure}[#1]
+       \begin{minipage}[b]{\textwidth}
+                \center
+                \includegraphics[#2]{#3}
+                \par\vspace{#4}
+        \begin{narrow}{1cm}{1cm}
+                \caption{\small{#5}}
+        \end{narrow}
+                \label{abb:#6}
+       \end{minipage}
+\end{figure}
+}

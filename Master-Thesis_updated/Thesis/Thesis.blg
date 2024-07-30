@@ -1,0 +1,123 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: kipcover.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: title.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+The style file: bibstyle_andi_english.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: library.bib
+Repeated entry---line 1081 of file library.bib
+ : @article{Stewart1968
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1735 of file library.bib
+ : @article{Kempf2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1761 of file library.bib
+ : @article{Tesche1977
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2197 of file library.bib
+ : @article{Jaycox1981
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2261 of file library.bib
+ : @article{Knuutila1987
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3085 of file library.bib
+ : @article{Josephson1962
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3141 of file library.bib
+ : @inbook{Fleischmann2005
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3505 of file library.bib
+ : @book{Clarke2004
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4369 of file library.bib
+ : @article{Meissner1933
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5699 of file library.bib
+ : 
+ : pages = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 5751 of file library.bib
+ : @article{Meissner1933
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6079 of file library.bib
+ : @article{Stawiasz1993
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6263 of file library.bib
+ : @article{Maezawa1995
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6515 of file library.bib
+ : @book{deGennes1964
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--string name "aipcp" is undefined
+--line 6553 of file library.bib
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1241 of file bibstyle_andi_english.bst
+Warning--empty journal in Fle09
+Too many commas in name 1 of "Ketchen, W. J. Gallagher, A. W. Kleinsasser, et al." for entry Ketchen1985
+while executing---line 1306 of file bibstyle_andi_english.bst
+You've used 74 entries,
+            2496 wiz_defined-function locations,
+            1060 strings with 16706 characters,
+and the built_in function-call counts, 28518 in all, are:
+= -- 2796
+> -- 1142
+< -- 82
++ -- 381
+- -- 379
+* -- 2387
+:= -- 4675
+add.period$ -- 74
+call.type$ -- 74
+change.case$ -- 468
+chr.to.int$ -- 73
+cite$ -- 75
+duplicate$ -- 1189
+empty$ -- 2107
+format.name$ -- 525
+if$ -- 5678
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 65
+newline$ -- 372
+num.names$ -- 230
+pop$ -- 427
+preamble$ -- 1
+purify$ -- 558
+quote$ -- 0
+skip$ -- 841
+stack$ -- 0
+substring$ -- 1769
+swap$ -- 162
+text.length$ -- 82
+text.prefix$ -- 72
+top$ -- 0
+type$ -- 560
+warning$ -- 1
+while$ -- 233
+width$ -- 78
+write$ -- 960
+(There were 18 error messages)

@@ -1,0 +1,96 @@
+\chapter{Theoretische Grundlagen}
+
+
+\section{Josephson-Kontakte}
+Die nach \textit{Brain D. Josephson} benannten \textit{Josephson-Kontakte} (engl. \textit{Josephson junctions}) bestehen aus zwei identischen Supraleitern, die schwach miteinander gekoppelt sind. Im Falle der in dieser Arbeitsgruppe hergestellten Kontakte wird eine solche Kopplung durch eine wenige \r{A}ngström dünne Isolationsschicht zwischen den supraleitenden Elektroden realisiert. Aufgrund dessen werden diese auch SIS (Supraleiter-Isolator-Supraleiter) Kontakte genannt. Die so entstehende Dreischichtstruktur besteht typischerweise aus Nb/Al-Al$O_x$/Nb, wobei das Niob für die Supraleiter verwendet wird und die Isoationsschicht durch das Aluminiumoxid gegeben ist. Ein schematischer Aufbau ist in Abb. ? dargestellt. 
+Wird der Kontakt nun bei sehr kalten Temperaturen ($\leq \qty{4}{\kelvin}$) gehalten und an eine Stromquelle angeschlossen, ist entgegen der Erwartungen ein Suprastrom messbar.
+
+%The \textit{Josephson junctions} named after Brain D. Josephson consist of two identical superconductors weakly coupled to each other. In the case of the junctions produced in this working group, such coupling is realized through a few \r{A}ngström thin insulating layer between the superconducting electrodes. Consequently, they are referred to as SIS (Superconductor-Insulator-Superconductor) junctions. The resulting trilayer structure typically consists of Nb/Al-Al$O_x$/Nb, with niobium being used for the superconductors and the insulating layer being provided by the aluminum oxide. A schematic structure is shown in Fig. ?. When the junction is maintained at very cold temperatures ($\leq \qty{4}{\kelvin}$) and connected to a current source, contrary to expectations, a supercurrent is measurable.
+        
+\subsection{Josephson-Effekt}
+
+Der Stromfluss impliziert das Tunneln von Cooper-Paaren, da bei diesen Temperaturen Niob überwiegend supraleitend ist  (${T_\mathrm{c}} = \qty{9.3}{\kelvin}$). Da die Tunnelwahrscheinlichkeit eines einzelnen Elektrons näherungsweise \textit{p} = \num{e-4} beträgt, ist bei einem Cooper-Paar bestehend aus zwei Elektronen von einer wesentlich geringeren Wahrscheinlichkeit auszugehen. Josephson sagte jedoch voraus, dass das Tunnelverhalten von Cooper-Paaren und einzelnen Leitungselektronen das gleiche sein muss. Begründet wird dies über das sogenannte \textit{Makroskopische Quantenmodell}, welches im Jahre 1953 von Fritz London formuliert wurde. \\
+Hierbei liegt das Hauptaugenmerk auf der quantenmechanischen Phase $\theta$. Zum einen sind die Abstände zwischen beiden Elektronen eines Cooper-Paares einige nm und damit erheblich größer als der Abstand der Cooper-Paare untereinander, wodurch die Wellenfunktionen stark überlappen. Zum anderen unterliegen Cooper-Paare aufgrund ihres Gesamtspins von 0 der Bose-Einstein Statistik. Somit teilen sich alle Cooper-Paare den gleichen Grundzustand und als Konsequenz sind auch die Energien bzw. Zeitentwicklungen der Phasen gleich. Diese beiden Effekte führen zu dem sogenannten \textit{phase-lock}. Die Phasen benachbarter Paare gleichen sich derart an, dass diese quantenmechanische Eigenschaft nun auf makroskopischer Skala gilt. Dies hat eine makroskopische Wellenfunktion 
+
+\begin{equation}
+\Psi(\textbf{r},t) = \Psi_0(\textbf{r},t)e^{i\theta(\textbf{r},t)}
+\end{equation}
+
+zur Folge, welche alle Ladungsträger des Supraleiters beschreibt. Beide Elektronen eines Cooper-Paares besitzen folglich aufgrund der geteilten Phase dieselbe Tunnelwahrscheinlichkeit wie ein einzelnes Elektron und der Suprastrom wird ermöglicht. 
+Dieses Kohärenzphänomen wird auch als \textit{Josephson-Effekt} bezeichnet.
+Eine weitere folgenreiche Konsequenz des makroskopischen Quantenmodells ist die Flussquantisierung. Diese stellt zusammen  mit dem Josephson-Effekt die Grundlage für Josephson-Kontakte und deren Anwendungen dar. \\ 
+
+Die Flussquantisierung wird über das Einfangen eines externen magnetischen Flusses in einem supraleitendem Zylinder hergeleitet. Die Wellenfunktion muss hier nach Umrunden des Zylinders aufgrund von $e^{i\theta}=e^{i\theta + 2\pi n}$ unverändert bleiben. Dies hat zur Folge, dass nach Integrieren entlang der stromfreien Mitte der Zylinderwand folgende Gleichung für den eingefangenen Fluss gilt
+
+\begin{equation}
+\Phi = \frac{h}{q_\mathrm{s}}n = \frac{h}{2e}n \equiv \Phi_0n \ \ .
+\end{equation}
+
+Hierbei ist $n\in\mathbb{Z}$ und \unit{\fq} = \qty{2.07d-15}{\tesla\metre\squared} das sogenannte magnetische Flussquant. Der eingefangene Fluss ist damit quantisiert, was allein aus der makroskopischen Natur der Phase resultiert. Diese Größe spielt eine entscheidende Rolle bei der theoretischen Beschreibung von Josephson-Kontakten. \\
+
+Das Strom- und Spannungsverhalten in einem SIS-Kontakt wird über die \textit{Josephson-Gleichungen} beschrieben. Entscheidend ist hierbei ein zum eingespeisten Strom \textit{I} linear proportionaler kritischer Strom \textit{$I_\mathrm{c}$}, welcher den Grenzfall zweier Betriebsmodi bildet. \textit{I} oszilliert zudem aufgrund der makroskopischen Natur der Phase mit der eichinvarianten Phasendifferenz $\varphi$, woraus die \textbf{1. Josephson-Gleichung}
+
+%Ist nämlich der eingespeiste Strom \textit{I} kleiner als \textit{$I_\mathrm{c}$}, so wird der gesamte Strom von Cooper-Paaren getragen und hängt linear von \textit{$I_\mathrm{c}$} ab. Zudem oszilliert aufgrund der makroskopischen Natur der Phase dieser mit der eichinvarianten Phasendifferenz $\varphi$, sodass gilt
+
+ 
+
+\begin{equation}
+\label{1.JE}
+I_\mathrm{s} = I_\mathrm{c}\sin(\varphi)
+\end{equation}
+
+resultiert. $I_\mathrm{c}$ ist dabei proportional zur Kopplungsstärke $\kappa$, welche den Überlapp beider Wellenfunktionen $\Psi_1$ und $\Psi_2$ in der Isolationsschicht beschreibt. Es gilt
+
+\begin{equation}
+I_\mathrm{c} = \frac{4e\kappa V n_\mathrm{s}}{\hbar} \ \ ,
+\end{equation}
+
+wobei \textit{V} das Volumen der Supraleiterelektrode und \textit{e} die Elektronenladung bezeichnet. Es wurde zudem angenommen, dass die Cooper-Paardichte $n_\mathrm{s}$ der beiden Supraleiter $S_1$ und $S_2$ identisch ist, d.h. $n_{\mathrm{s}1} = n_{\mathrm{s}2} = n_\mathrm{s}$. \\
+Die eichinvariante Phasendifferenz bezieht sich auf die Phasen $\theta_1$ und $\theta_2$ der jeweiligen Elektroden an der Grenze zur Isolationsschicht (Position 1 und 2, siehe Abb. ?). Unter Berücksichtigung von möglichen externen elektromagnetischen Feldern innerhalb der Barriere erhält man mit dem Vektorpotential \textbf{A} die allgemeine Form
+
+\begin{equation}
+\label{EichInv_Phase}
+\varphi = \theta_2(\textbf{r},t) - \theta_1(\textbf{r},t) - \frac{2\pi}{\Phi_0}\int_{1}^{2}\textbf{A}(\textbf{r},t)\cdot \mathrm{d}\textbf{l} \ \ .
+\end{equation}
+
+Unter Annahme einer konstanten Dichte des Suprastroms $J_\mathrm{s}$ entlang des Kontakts erhält man durch bilden der zeitlichen Ableitung von Gleichung \eqref{EichInv_Phase} die \textbf{2. Josephson-Gleichung}
+
+\begin{equation}
+\label{2.JE}
+\frac{\partial\varphi}{\partial t} = \frac{2\pi}{\Phi_0}U \ \ .
+\end{equation}
+
+Der erste Betriebsmodus beschreibt den Fall für $I<I_\mathrm{c}$. Hier wird der gesamte eingespeiste Strom von Cooper-Paaren getragen, sodass $I=I_\mathrm{s}=\mathrm{const}$. $\varphi$ ist folglich auch zeitlich konstant, womit gemäß Gleichung \eqref{2.JE} $U=0$ gilt. Dieser spannungsfreie Zustand wird auch als \textit{Josephson-Gleichstromeffekt} bezeichnet. \\
+Für $I>I_\mathrm{c}$ fangen jedoch Cooper-Paare an aufzubrechen und ein Teil des Stroms wird von Quasiteilchen getragen, welcher folglich zu einem Spannungsabfall führt. Laut der 2. Josephson-Gleichung wird die Phase $\varphi$ zeitabhängig, sodass nach Integrieren 
+
+\begin{equation}
+\label{phi(t)}
+\varphi = \frac{2\pi}{\Phi_0}Ut + \varphi_0 = w_\mathrm{J}t + \varphi_0 \ \ \  \mathrm{mit} \ \ \ w_\mathrm{J} = \frac{2\pi}{\Phi_0}U
+\end{equation}
+
+folgt. Demnach oszilliert der Strom $I_\mathrm{s}$ nach Einsetzen von Gleichung \eqref{phi(t)} in Gleichung \eqref{1.JE} mit der \textit{Josephson-Frequenz} $f_\mathrm{J} = \frac{w_\mathrm{J}}{2\pi U} = \frac{1}{\Phi_0} \approx \SI{483.6}{\MHz\per\uV}$. Entsprechend wird dieses Phänomen  \textit{Josephson-Wechselstromeffekt} genannt. 
+
+\subsection{Josephson Kontakte im Magnetfeld}
+
+\Blindtext
+
+\subsection{RCSJ Modell}
+
+\section{dc-SQUIDs}
+
+\blindtext[3]
+
+\subsection{Spannungszustand}
+
+\subsection{Rauschen}
+
+\subsection{Inbetriebnahme eines dc-SQUIDs}
+
+
+\section{Resonanzen eines dc-SQUIDs}
+
+\subsection{Parasitäre Resonanzen}
+
+\subsection{Dämpfungsmethoden}
+
+

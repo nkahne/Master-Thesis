@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdftex 2022.8.24)  20 APR 2023 10:58
+entering extended mode
+**C:/Users/alex/Desktop/Master*thesis/library.bib
+("C:/Users/alex/Desktop/Master thesis/library.bib"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+
+! Undefined control sequence.
+l.322 ...ensities in the range of $0.1-18\,\mathrm
+                                                  {kA/cm^2}$}},
+? 
+! Emergency stop.
+l.322 ...ensities in the range of $0.1-18\,\mathrm
+                                                  {kA/cm^2}$}},
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
